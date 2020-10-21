@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sarvadarsanasamgraha">
-    <teiHeader>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sarit__sarvadarsanasamgraha">
+    <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
                 <title>Title</title>
@@ -13,7 +13,7 @@
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-<text> 
+<text xml:lang="sa-Latn"> 
 <body> 
 <div>
   <pb n="1"/> 
