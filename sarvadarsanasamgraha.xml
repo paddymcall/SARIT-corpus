@@ -1,4 +1,19 @@
-<doc> 
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="sarvadarsanasamgraha">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+<text> 
 <body> 
 <div>
   <pb n="1"/> 
@@ -4108,7 +4123,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb/>bhūditi pratyahaṃ nimittaṃ vinā pravartamāno bhayarūpobhiniveśaḥ pañcamaḥ 
 <lb/>kleśaḥ | mā na bhūvaṃ hi bhūyāsamiti prārthanāyāḥ pratyātmamanubhavasiddha- 
 <pb n="365"/> 
-<lb/>tvāt | tadāha — <b>svarasavāhī</b> viduṣopi tathā rūḍhobhiniveśaḥ (pāta. 
+<lb/>tvāt | tadāha — svarasavāhī viduṣopi tathā rūḍhobhiniveśaḥ (pāta. 
 <lb/>yo. sū. 2 | 9) iti | te cāvidyādayaḥ pañca sāṃsārikavividhaduḥkho- 
 <lb/>pahārahetutvena puruṣaṃ kliśnantīti kleśāḥ prasiddhāḥ |</p> 
 <p>karmāṇi vihitapratiṣiddharūpāṇi jyotiṣṭomabrahmahatyādīni | vipā- 
@@ -5400,4 +5415,5 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>samāptoyaṃ sarvadarśanasaṃgrahaḥ ||</trailer>
 </div>
 </body> 
-</doc> 
+</text> 
+</TEI>
