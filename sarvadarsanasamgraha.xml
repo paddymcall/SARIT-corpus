@@ -2,10 +2,10 @@
 <body> 
 <div>
   <pb n="1"/> 
-<h1>oṃṃtatsadbrahmaṇe namaḥ |</h1> 
-<h1>sarvadarśanasaṃgrahaḥ |</h1>
+<head>oṃṃtatsadbrahmaṇe namaḥ |</head> 
+<head>sarvadarśanasaṃgrahaḥ |</head>
 <div n="1">
-<h1>|| cārvākadarśanam || 1 ||</h1> 
+<head>|| cārvākadarśanam || 1 ||</head> 
 <p><lg><l>nityajñānāśrayaṃ vande niḥśreyasanidhiṃ śivam |</l> 
 <l>yenaiva jātaṃ mahyādi tenaivedaṃ sakartṛkam || 1 ||</l></lg></p> 
 <p><lg><l>pāraṃ gataṃ sakaladarśanasāgarāṇā-</l> 
@@ -157,7 +157,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <br/><trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe cārvākadarśanam ||</trailer>
 </div> 
 <div n="2"><pb n="16"/> 
-<h1>|| atha bauddhadarśanam || 2 ||</h1> 
+<head>|| atha bauddhadarśanam || 2 ||</head> 
 
 <p>atra bauddhairabhidhīyate | yadabhyadhāyi — avinābhāvo durbodha iti 
 <br/>tadasādhīyaḥ | tādātmyatadutpattibhyāmavinābhāvasya sujñānatvāt | 
@@ -568,7 +568,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe bauddhadarśanam ||</trailer>
 </div> 
 <div n="3"><pb n="48"/> 
-<h1>|| athārhatadarśanam || 3 ||</h1> 
+<head>|| athārhatadarśanam || 3 ||</head> 
 
 <p>taditthaṃ muktakacchānāṃ matamasahamānā vivasanāḥ kathaṃcitsthāyitva- 
 <br/>māsthāya kṣaṇikatvapakṣaṃ pratikṣipanti | yadyātmā kaścinnāsthīyeta 
@@ -1049,7 +1049,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgraha ārhatadarśanam |</trailer>
 </div>
 <div n="4"><pb n="89"/> 
-<h1>atha rāmānujadarśanam || 4 ||</h1>
+<head>atha rāmānujadarśanam || 4 ||</head>
 <p>tadetadārhatamataṃ prāmāṇikagarhaṇamarhati | na hyekasminvastuni para- 
 <br/>mārthe sati paramārthasatāṃ yugapatsadasattvādidharmāṇāṃ samāveśaḥ 
 <br/>saṃbhavati | na ca sadasattvayoḥ parasparaviruddhayoḥ samuccayāsaṃbhave 
@@ -1468,7 +1468,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>|| iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe rāmānujadarśanam ||</trailer>
 </div> 
 <div n="5"><pb n="128"/> 
-<h1>|| atha pūrṇaprajñadarśanam || 5 ||</h1>
+<head>|| atha pūrṇaprajñadarśanam || 5 ||</head>
 <p>tadetadrāmānujamataṃ jīvāṇutvadāsatvavedāpauruṣeyatvasiddhārthabodha- 
 <br/>katvasvataḥpramāṇatvapramāṇatritvapañcarātropajīvyatvaprapañcabhedasatyatvā- 
 <br/>disāmyepi parasparaviruddhabhedādipakṣatrayakakṣīkāreṇa kṣapaṇakapakṣa- 
@@ -1800,7 +1800,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe pūrṇaprajñadarśanam ||</trailer>
 </div> 
 <div n="6"><pb n="161"/> 
-<h1>atha nakulīśapāśupatadarśanam || 6 ||</h1>
+<head>atha nakulīśapāśupatadarśanam || 6 ||</head>
 <p>tadetadvaiṣṇavamataṃ dāsatvādipadavedanīyaṃ paratantratvaṃ duḥkhāvahatvānna 
 <br/>duḥkhāntādīpsitāspadamityarocayamānāḥ pāramaiśvaryaṃ kāmayamānāḥ 
 <br/>parābhimatā muktā na bhavanti paratantratvāt pāramaiśvaryarahitatvāda- 
@@ -1957,7 +1957,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <br/><trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe nakulīśapāśupatadarśanam ||</trailer>
 </div>
 <div n="7"><pb n="174"/> 
-<h1>atha śaivadarśanam || 7 ||</h1>
+<head>atha śaivadarśanam || 7 ||</head>
 <p>tamimaṃ parameśvaraḥ karmādinirapekṣaḥ kāraṇamiti pakṣaṃ vaiṣamyanairghṛṇya- 
 <br/>doṣadūṣitatvātpratikṣipantaḥ kecana māheśvarāḥ śaivāgamasiddhāntatattvaṃ 
 <br/>yathāvadīkṣamāṇāḥ karmādisāpekṣaḥ parameśvaraḥ kāraṇamiti pakṣaṃ 
@@ -2185,7 +2185,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe śaivadarśanam ||</trailer>
 </div>
 <div n="8"><pb n="190"/> 
-<h1>atha pratyabhijñādarśanam || 8 ||</h1>
+<head>atha pratyabhijñādarśanam || 8 ||</head>
 <p>atrāpekṣāvihīnānāṃ jaḍānāṃ kāraṇatvaṃ duṣyatītyaparituṣyanto 
 <br/>matāntaramanviṣyantaḥ parameśvarecchāvaśādeva jagannirmāṇaṃ parighuṣyantaḥ 
 <br/>svasaṃvedanopapattyāgamasiddhapratyagātmatādātmye nānāvidhamānameyādi- 
@@ -2349,7 +2349,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe pratyabhijñādarśanam ||</trailer>
 </div> 
 <div n="9"><pb n="202"/> 
-<h1>atha raseśvaradarśanam || 9 ||</h1>
+<head>atha raseśvaradarśanam || 9 ||</head>
 <p>apare māheśvarāḥ parameśvaratādātmyavādinopi piṇḍasthairye sarvā- 
 <br/>bhimatā jīvanmuktiḥ setsyatītyāsthāya piṇḍasthairyopāyaṃ pāradādipa- 
 <br/>davedanīyaṃ rasameva saṃgirante |</p> 
@@ -2491,7 +2491,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe raseśvaradarśanam ||</trailer>
 </div> 
 <div n="10"><pb n="210"/> 
-<h1>athaulūkyadarśanam || 10 ||</h1>
+<head>athaulūkyadarśanam || 10 ||</head>
 <p>iha khalu nikhilaprekṣāvānnisargapratikūlavedanīyatayā nikhilātma- 
 <br/>saṃvedanasiddhaṃ duḥkhaṃ jihāsustaddhānopāyaṃ jijñāsuḥ parameśvarasākṣā- 
 <br/>tkāramupāyamākalayati |</p> 
@@ -2700,7 +2700,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgraha aulūkyadarśanam ||</trailer>
 </div> 
 <div n="11"><pb n="234"/> 
-<h1>athākṣapādadarśanam || 11 ||</h1>
+<head>athākṣapādadarśanam || 11 ||</head>
 <p>tattvajñānādduḥkhātyantocchedalakṣaṇaṃ niḥśreyasaṃ bhavatīti samāna- 
 <br/>tantrepi pratipāditam | tadāha sūtrakāraḥ — pramāṇaprameyetyādi tattvajñā- 
 <br/>nānniḥśreyasādhigama iti | idaṃ nyāyaśāstrasyādimaṃ sūtram | nyāya- 
@@ -2938,7 +2938,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahekṣapādadarśanam ||</trailer>
 </div> 
 <div n="12"><pb n="257"/> 
-<h1>atha jaiminidarśanam || 12 ||</h1>
+<head>atha jaiminidarśanam || 12 ||</head>
 <p>nanu dharmānuṣṭhānavaśādabhimatadharmasiddhiriti jegīyate bhavatā | tatra 
 <br/>dharmaḥ kiṃlakṣaṇakaḥ kiṃpramāṇaka iti cet — ucyate | śrūyatāmavadhānena | 
 <br/>asya praśnasya prativacanaṃ prācyāṃ mīmāṃsāyāṃ prādarśi jaimininā muni- 
@@ -3262,7 +3262,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe jaiminidarśanam ||</trailer>
 </div> 
 <div n="13"><pb n="288"/> 
-<h1>atha pāṇinidarśanam || 13 ||</h1>
+<head>atha pāṇinidarśanam || 13 ||</head>
 <p>nanvayaṃ prakṛtibhāgoyaṃ pratyayabhāga iti prakṛtipratyayavibhāgaḥ katha- 
 <br/>mavagamyata iti cet — pītapātañjalajalānāmetaccodyaṃ camatkāraṃ na 
 <br/>karoti | vyākaraṇaśāstrasya prakṛtipratyayavibhāgapratipādanaparatāyāḥ 
@@ -3569,7 +3569,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe pāṇinidarśanam ||</trailer>
 </div> 
 <div n="14"><pb n="311"/> 
-<h1>atha sāṃkhyadarśanam || 14 ||</h1>
+<head>atha sāṃkhyadarśanam || 14 ||</head>
 <p>atha sāṃkhyairākhyāte pariṇāmavāde paripanthini jāgarūke kathaṃ- 
 <br/>kāraṃ vivartavāda ādaraṇīyo bhavet | eṣa hi teṣāmāghoṣaḥ | saṃkṣe- 
 <br/>peṇa hi sāṃkhyaśāstre catasro vidhāḥ saṃbhāvyante | kaścidarthaḥ prakṛti- 
@@ -3741,7 +3741,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe sāṃkhyadarśanam ||</trailer>
 </div> 
 <div n="15"><pb n="331"/> 
-<h1>atha pātañjaladarśanam || 15 ||</h1>
+<head>atha pātañjaladarśanam || 15 ||</head>
 <p>sāṃprataṃ seśvarasāṃkhyapravartakapatañjaliprabhṛtimunimatamanuvartamānānāṃ 
 <br/>matamupanyasyate |</p> 
 <p>tatra sāṃkhyapravacanāparanāmadheyaṃ yogaśāstraṃ patañjalipraṇītaṃ pādaca- 
@@ -4402,7 +4402,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe pātañjaladarśanam ||</trailer>
 </div> 
 <div n="16"><pb n="389"/> 
-<h1>atha śāṃkaradarśanam || 16 ||</h1>
+<head>atha śāṃkaradarśanam || 16 ||</head>
 <p>soyaṃ pariṇāmavādaḥ prāmāṇikagarhaṇamarhati | na hyacetanaṃ pradhānaṃ 
 <br/>cetanānadhiṣṭhitaṃ pravartate | suvarṇādau rucakādyupādāne hemakārādice- 
 <br/>tanādhiṣṭhānopalambhena nityatvasādhakakṛtakatvavatsukhaduḥkhamohātma- 
