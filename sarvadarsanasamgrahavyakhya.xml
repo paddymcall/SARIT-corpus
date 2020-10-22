@@ -3,15 +3,70 @@
     <teiHeader xml:lang="en">
         <fileDesc>
             <titleStmt>
-                <title>Title</title>
+                <title type="main" subtype="commentary">Sarvadarśanasaṃgrahavyākhyā</title>
+                <author role="commentator">Vasudev Shastri Abhyankar</author>
+                <funder>Deutsche Forschungsgemeinschaft</funder>
+                <funder>Institute for the Cultural and Intellectual History of Asia, Austrian Academy of Sciences</funder>
+                <principal>
+                    <persName>Birgit Kellner</persName>
+                </principal>
+                <respStmt>
+                    <resp>data entry by</resp>
+                    <name key="aurorachana">Aurorachana, Auroville</name>
+                </respStmt>
+                <respStmt>
+                    <resp xml:id="sarit-encoder-sadasa-vyā">prepared for SARIT by</resp>
+                    <persName ref="https://viaf.org/viaf/308710472/">Liudmila Olalde</persName>
+                </respStmt>
             </titleStmt>
+            <editionStmt>
+                <p> </p>
+            </editionStmt>
             <publicationStmt>
-                <p>Publication Information</p>
+                <publisher>SARIT: Search and Retrieval of Indic Texts.</publisher>
+                <availability status="restricted">
+                    <p>Copyright Notice:</p>
+                    <p>Copyright 2020 SARIT</p>
+                    <licence> 
+                        <p>Distributed under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International licence.</ref> Under this licence, you are free to:</p>
+                        <list>
+                            <item>Share — copy and redistribute the material in any medium or format.</item> <item>Adapt — remix, transform, and build upon the material for any purpose, even commercially.</item>
+                        </list>
+                        <p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p>
+                        <p>Under the following terms:</p>
+                        <list>
+                            <item>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</item>
+                            <item>ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</item>
+                        </list>
+                        <p>More information and fuller details of this license are given on the Creative Commons website.</p>
+                    </licence>
+                    <p>SARIT assumes no responsibility for unauthorised use that infringes the rights of any copyright owners, known or unknown.</p>
+                </availability>
+                <date>2020</date>
             </publicationStmt>
             <sourceDesc>
-                <p>Information about the source</p>
+                <bibl xml:id="sadasa-vyā-VasudevShastri-book">
+                    <title level="m" type="main">Sarva-darśana-saṁgraha of Sāyaṇa-Mādhava</title>
+                    <title level="m" type="sub">Edited with an original commentary in Sanskrit by Mahamahopadhyaya Vasudev Shastri Abhyankar, Pandit, Fergusson College, Poona</title>
+                    <author ref="https://lccn.loc.gov/n50016911">Sāyaṇa-Mādhava</author>
+                    <editor xml:id="VasudevShastriAbhyankar">Mahamahopadhyaya Vasudev Shastri Abhyankar</editor>
+                    <publisher>Bhandarkar Oriental Research Institute</publisher>
+                    <pubPlace>Poona</pubPlace>
+                    <date when="1924">1924</date>
+                    <note>Sāyaṇa's Sarvadarśanasaṃgraha is not included in this file.</note>
+                </bibl>
             </sourceDesc>
         </fileDesc>
+        <encodingDesc>
+            <p>
+                <list>
+                    <item>The text is structured in 16 chapters, one for each <foreign xml:lang="sa-Latn">darśana</foreign>. These were encoded as div-elements.</item> 
+                </list>
+            </p>
+        </encodingDesc>
+        <revisionDesc>
+            <change></change>
+        </revisionDesc>
     </teiHeader>
     <text xml:lang="sa-Latn">
 <body>
