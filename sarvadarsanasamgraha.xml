@@ -5,11 +5,7 @@
       <titleStmt>
 	<title type="main" subtype="base-text">Sarvadarśanasaṃgraha</title>
 	<author role="base-author" ref="https://lccn.loc.gov/n50016911">Sāyaṇa</author>
-	<funder>Deutsche Forschungsgemeinschaft</funder>
-	<funder>Institute for the Cultural and Intellectual History of Asia, Austrian Academy of Sciences</funder>
-	<principal>
-	  <persName>Birgit Kellner</persName>
-	</principal>
+	<funder><ref target="https://www.oeaw.ac.at/en/ikga">Institute for the Cultural and Intellectual History of Asia, Austrian Academy of Sciences</ref></funder>
 	<respStmt>
 	  <resp>data entry by</resp>
 	  <name key="aurorachana">Aurorachana, Auroville</name>
