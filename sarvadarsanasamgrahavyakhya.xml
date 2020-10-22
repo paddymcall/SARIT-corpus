@@ -27,7 +27,7 @@
                 <availability status="restricted">
                     <p>Copyright Notice:</p>
                     <p>Copyright 2020 SARIT</p>
-                    <licence> 
+                    <licence>
                         <p>Distributed under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International licence.</ref> Under this licence, you are free to:</p>
                         <list>
                             <item>Share — copy and redistribute the material in any medium or format.</item> <item>Adapt — remix, transform, and build upon the material for any purpose, even commercially.</item>
@@ -61,7 +61,7 @@
         <encodingDesc>
             <p>
                 <list>
-                    <item>The text is structured in 16 chapters, one for each <foreign xml:lang="sa-Latn">darśana</foreign>. These were encoded as div-elements.</item> 
+                    <item>The text is structured in 16 chapters, one for each <foreign xml:lang="sa-Latn">darśana</foreign>. These were encoded as div-elements.</item>
                     <item>The new lines of the original file have been preserved. Line breaks have been encoded as lb-elements (but no lb precedes an l- or lg-element). Hyphens at the end of lines were removed and the attribute break="no" was added to the following lb-element instead. The ed-attribute "vsa" refers to Vasudev Shastri's <ref sameAs="#sadasa-vyā-VasudevShastri-book">1924 edition</ref>.</item>
                 </list>
             </p>
