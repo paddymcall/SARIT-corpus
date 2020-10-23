@@ -60,6 +60,7 @@
           <item>The text is structured in 16 chapters, one for each <foreign xml:lang="sa-Latn">darśana</foreign>. These were encoded as div-elements.</item>
           <item>The new lines of the original file have been preserved. Line breaks have been encoded as lb-elements (but no lb precedes an l- or lg-element). Hyphens at the end of lines were removed and the attribute break="no" was added to the following lb-element instead. The ed-attribute "vsa" refers to Vasudev Shastri's <ref sameAs="#sadasa-vyā-VasudevShastri-book">1924 edition</ref>.</item>
           <item>Brackets enclosing bibliographic references were replaced with ref-elements. All other brackets were encoded as hi-elements with the rend-attribute "brackets".</item>
+	  <item>Accents in quotes from the Ṛgveda have been encoded according to the marking system in Devanāgari script. The vertical stroke used to mark <foreign xml:lang="sa-Latn">svarita</foreign> accent has been encoded as ! (U+0021); the diacritic undescore used to mark the <foreign xml:lang="sa-Latn">anudātta</foreign> has been encoded as ̲ (U+0332), for instance <foreign xml:lang="sa-Latn">sṛ_ṇye!va</foreign>.</item>
         </list>
       </p>
     </encodingDesc>
@@ -6025,7 +6026,7 @@
 <lb ed="vsa"/>karmaṣaṣṭhyantasyāpi gopadasya dohaśabdena saha samāsaḥ syāt | tatra ca pūrva
 <lb ed="vsa" break="no"/>padasya kārakatvādanena sūtreṇa doha ityuttarapadasya prakṛtisvaraḥ syāt | doha
 <lb ed="vsa"/>iti ghañpratyayāntaṃ ñityādirnityam <ref>pā0 sū. 6 | 1 | 197</ref> iti sūtre
-<lb ed="vsa" break="no"/>ṇādyudāttam | gatikārakopapadātkṛditi prakṛtisvareṇa tasyaivāvasthāne go
+<lb ed="vsa" break="no"/>ṇādyudāttam | gatikārakopapadātkṛditi prakṛtisvareṇa tasyaivāvasthāne go̲
 <lb ed="vsa" break="no"/>dohaḥ! iti madhyodāttaṃ samastaṃ padaṃ syāt | tacca neṣyate | ataḥ samāsa
 <lb ed="vsa" break="no"/>niṣedha āvaśyakaḥ | <hi rend="bold">yatheṣṭamiti |</hi> lokairvākyaprayogakāle prāyaḥ svarānādara
 <lb ed="vsa" break="no"/>ṇāt | <hi rend="bold">viśeṣoktiriti |</hi> svaraviśeṣamātroddeśena kṛtāta eva laukikaśabdeṣva
