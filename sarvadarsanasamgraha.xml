@@ -10,8 +10,8 @@
 	  <resp>data entry by</resp>
 	  <name key="aurorachana">Aurorachana, Auroville</name>
 	</respStmt>
-	<respStmt>
-	  <resp xml:id="sarit-encoder-sadasa">prepared for SARIT by</resp>
+	<respStmt xml:id="sarit-encoder-sadasa">
+	  <resp>prepared for SARIT by</resp>
 	  <persName ref="https://viaf.org/viaf/308710472/">Liudmila Olalde</persName>
 	</respStmt>
       </titleStmt>
@@ -58,9 +58,9 @@
       <p>
 	<list>
 	  <item>The text is structured in 16 chapters, one for each <foreign xml:lang="sa-Latn">darśana</foreign>. These were encoded as div-elements.</item>
-	  <item>The new lines of the original file have been preserved. Line breaks have been encoded as lb-elements (but no lb precedes an l- or lg-element). Hyphens at the end of lines were removed and the attribute break="no" was added to the following lb-element instead. The ed-attribute "vsa" refers to Vasudev Shastri's <ref sameAs="#sadasa-VasudevShastri-book">1924 edition</ref>.</item>
+	  <item>The new lines of the original file have been preserved. Line breaks have been encoded as lb-elements (but no lb precedes a p-, l- or lg-element). Hyphens at the end of lines were removed and the attribute break="no" was added to the following lb-element instead. The ed-attribute "vsa" refers to Vasudev Shastri's <ref sameAs="#sadasa-VasudevShastri-book">1924 edition</ref>.</item>
 	  <item>Brackets enclosing bibliographic references were replaced with ref-elements. All other brackets were encoded as hi-elements with the rend-attribute "brackets".</item>
-	  <item>In the print edition, notes were located at the end of each page and numbered by chapter and line within the chapter. In this file notes have been placed after the item they refer to. The n-attribute indicates chapter and line of the print edition.</item>
+	  <item>In the print edition, notes were located at the end of each page and numbered by chapter and line within the chapter. In this file notes have been manually relocated. They are placed after the item they refer to. The n-attribute indicates chapter and line of the print edition.</item>
 	</list>
       </p>
     </encodingDesc>
@@ -691,7 +691,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p>kiṃ ca kṣaṇikatvapakṣe jñānakāle jñeyasyāsattvena jñeyakāle jñānasyā
 <lb ed="vsa" break="no"/>sattvena ca grāhyagrāhakabhāvānupapattau sakalalokayātrāstamiyāt |
 <lb ed="vsa"/>na ca samasamayavartitā śaṅkanīyā | savyetaraviṣāṇavatkāryakāraṇa
-<lb ed="vsa" break="no"/>bhāvāsaṃbhavenāgrāhyasyālambanapratyayatvānupapatteḥ | atha bhinnakāla
+<lb ed="vsa" break="no"/>bhāvāsaṃbhavenāgrāhyasyālambanapratyayatvānupapatteḥ<note n="3.46">grāhyasya <foreign xml:lang="en">for</foreign> agrahyasya. <foreign xml:lang="en">A.</foreign></note> | atha bhinnakāla
 <lb ed="vsa" break="no"/>syāpi tasyākārārpakatvena grāhyatvam — tadapyapeśalam | kṣaṇi
 <lb ed="vsa" break="no"/>kasya jñānasyākārārpakatāśrayatāyā durvacatvena sākārajñānavāda
 <pb n="54"/>
@@ -712,7 +712,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>tāyā grahaṇam | kiṃ naśchinnam | tadagrahaṇepi nīlākāragrahaṇe tayo
 <lb ed="vsa" break="no"/>rbhedonekānto vā bhavet | nīlākāragrahaṇe cāgṛhītā jaḍatā kathaṃ tasya
 <lb ed="vsa"/>svarūpaṃ syāt | aparathā gṛhītasya stambhasyāgṛhītaṃ trailokyamapi rūpaṃ
-<lb ed="vsa"/>bhavet | tadetatprameyajātaṃ prabhācandraprabhṛtibhirarhanmatānusāribhiḥ
+<lb ed="vsa"/>bhavet | tadetatprameyajātaṃ prabhācandraprabhṛtibhirarhanmatānusāribhiḥ<note n="3.65">pratāpa <foreign xml:lang="en">for</foreign> prabhā. <foreign xml:lang="en">A.</foreign></note>
 <lb ed="vsa"/>prameyakamalamārtaṇḍādau <ref>pra. ka. mā. pṛ. 27</ref> prabandhe prapañcitamiti
 <lb ed="vsa"/>granthabhūyastvabhayānnopanyastam |</p>
 <p>tasmātpuruṣārthābhilāṣukaiḥ puruṣaiḥ saugatī gatirnānugantavyā | api
@@ -727,10 +727,11 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p><lg><l>sarvajño dṛśyate tāvannedānīmasmadādibhiḥ |</l>
 <l>dṛṣṭo na caikadeśosti liṅgaṃ vā yonumāpayet || 1 ||</l></lg></p>
 <p><lg><l>na cāgamavidhiḥ kaścinnityasarvajñabodhakaḥ |</l>
-<l>na ca tatrārthavādānāṃ tātparyamapi kalpyate || 2 ||</l></lg></p>
+<l>na ca tatrārthavādānāṃ tātparyamapi kalpyate<note n="3.79">na ca mantrārthavādānāṃ tātparyamavakalpate iti prameyakamalamārtaṇḍe <ref>pṛ. 68</ref>
+<lb ed="vsa"/>syādvādaratnākare <ref>pṛ. 178</ref> ca pāṭho dṛśyate |</note> || 2 ||</l></lg></p>
 <p><lg><l>na cānyārthapradhānaistaistadastitvaṃ vidhīyate |</l>
 <l>na cānuvadituṃ śakyaḥ pūrvamanyairabodhitaḥ || 3 ||</l></lg></p>
-<p><lg><l>anāderāgamasyārtho na ca sarvajña ādimān |</l>
+<p><lg><l>anāderāgamasyārtho<note n="3.82">anādiḥ <foreign xml:lang="en">for</foreign> anādeḥ <foreign xml:lang="en">D.</foreign></note> na ca sarvajña ādimān |</l>
 <l>kṛtrimeṇa tvasatyena sa kathaṃ pratipādyate || 4 ||</l></lg>
 <pb n="57"/></p>
 <p><lg><l>atha tadvacanenaiva sarvajñojñaiḥ pratīyate |</l>
@@ -755,9 +756,9 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <pb n="58"/>
 <lb ed="vsa" break="no"/>sākṣātkārīti | na tāvadaśeṣārthagrahaṇasvabhāvatvamātmanosiddham |
 <lb ed="vsa"/>codanābalānnikhilārthajñānotpattyanyathānupapattyā sarvamanekāntātmakaṃ
-<lb ed="vsa"/>sattvāditi vyāptijñānotpatteśca | codanā hi bhūtaṃ bhavantaṃ bhavi
+<lb ed="vsa"/>sattvāditi<note n="3.105">ityanumānena <foreign xml:lang="en">for</foreign> iti <foreign xml:lang="en">D.</foreign></note> vyāptijñānotpatteśca | codanā hi bhūtaṃ bhavantaṃ bhavi
 <lb ed="vsa" break="no"/>ṣyantaṃ sūkṣmaṃ vyavahitaṃ viprakṛṣṭamityevaṃjātīyakamarthamavagamayatītyevaṃ
-<lb ed="vsa" break="no"/>jātīyakairadhvaramīmāṃsāgurubhirvidhipratiṣedhavicāraṇānibandhanaṃ saka
+<lb ed="vsa" break="no"/>jātīyakairadhvaramīmāṃsāgurubhirvidhipratiṣedhavicāraṇānibandhanaṃ<note n="3.107">jātīyakam <foreign xml:lang="en">for</foreign> jātīyakaiḥ <foreign xml:lang="en">D.</foreign></note> saka
 <lb ed="vsa" break="no"/>lārthaviṣayajñānaṃ pratipadyamānaiḥ sakalārthagrahaṇasvabhāvakatvamātmano
 <lb ed="vsa" break="no"/>bhyupagatam | na cākhilārthapratibandhakāvaraṇaprakṣayānupapattiḥ | samya
 <lb ed="vsa" break="no"/>gdarśanāditrayalakṣaṇasyāvaraṇaprakṣayahetubhūtasya sāmagrīviśeṣasya pratī
@@ -809,7 +810,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>ṅgīkārādityalam |</p>
 <p>ratnatrayapadavedanīyatayā prasiddhaṃ samyagdarśanāditritayamarhatpravacana
 <lb ed="vsa" break="no"/>saṃgrahapare paramāgamasāre prarūpitaṃ samyagdarśanajñānacāritrāṇi mokṣa
-<lb ed="vsa" break="no"/>mārga iti | vivṛtaṃ ca yogadevena | yena rūpeṇa jīvādyartho vyavasthi
+<lb ed="vsa" break="no"/>mārga iti | vivṛtaṃ ca yogadevena | yena rūpeṇa jīvādyartho<note n="3.155">bīja <foreign xml:lang="en">for</foreign> jīva <foreign xml:lang="en">C.</foreign></note> vyavasthi
 <lb ed="vsa" break="no"/>tastena rūpeṇārhatā pratipādite tattvārthe viparītābhiniveśarahitatvā
 <lb ed="vsa" break="no"/>dyaparaparyāyaṃ śraddhānaṃ samyagdarśanam | tathā ca tattvārthasūtraṃ — tattvārthaṃ
 <lb ed="vsa"/>śraddhānaṃ samyagdarśanamiti | anyadapi —</p>
@@ -823,8 +824,8 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p><lg><l>yathāvasthitatattvānāṃ saṃkṣepādvistareṇa vā |</l>
 <l>yovabodhastamatrāhuḥ samyagjñānaṃ manīṣiṇaḥ ||</l></lg> iti |
 <lb ed="vsa"/>tajjñānaṃ pañcavidhaṃ matiśrutāvadhimanaḥparyāyakevalabhedena | taduktam —
-<lb ed="vsa"/>matiśrutāvadhimanaḥparyāyakevalāni jñānamiti | asyārthaḥ — jñānāvara
-<lb ed="vsa" break="no"/>ṇakṣayopaśame satīndriyamanasī puraskṛtya vyāpṛtaḥ sanyathārthaṃ manute
+<lb ed="vsa"/>matiśrutāvadhimanaḥparyāyakevalāni<note n="3.168"> paryaya <foreign xml:lang="en">for</foreign> paryāya <foreign xml:lang="en">C.</foreign></note> jñānamiti | asyārthaḥ — jñānāvara
+<lb ed="vsa" break="no"/>ṇakṣayopaśame<note n="3.169">āvaraṇīya <foreign xml:lang="en">for</foreign> āvaraṇakṣaya <foreign xml:lang="en">C.</foreign></note> satīndriyamanasī puraskṛtya vyāpṛtaḥ sanyathārthaṃ manute
 <lb ed="vsa"/>sā matiḥ | jñānāvaraṇakṣayopaśame sati matijanitaṃ spaṣṭaṃ jñānaṃ
 <lb ed="vsa"/>śrutam | samyagdarśanādiguṇajanitakṣayopaśamanimittamavacchinnaviṣayaṃ
 <pb n="64"/>
@@ -885,7 +886,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <pb n="69"/>
 <lb ed="vsa"/>sahajo bhāvaścetanatvādiḥ pāriṇāmikaḥ | tadetadyathāsaṃbhavaṃ bhavyasyā
 <lb ed="vsa" break="no"/>bhavyasya vā jīvasya svarūpamiti sūtrārthaḥ | taduktaṃ svarūpasaṃbodhane —</p>
-<p><lg><l>jñānādbhinno na nābhinno bhinnābhinnaḥ kathaṃcana |</l>
+<p><lg><l>jñānādbhinno na nābhinno<note n="3.224">na ca <foreign xml:lang="en">for</foreign> na na <foreign xml:lang="en">A.</foreign></note> bhinnābhinnaḥ kathaṃcana |</l>
 <l>jñānaṃ pūrvāparībhūtaṃ soyamātmeti kīrtitaḥ ||</l></lg> iti |
 <lb ed="vsa"/>nanu bhedābhedayoḥ parasparaparihāreṇāvasthānādanyatarasyaiva vāsta
 <lb ed="vsa" break="no"/>vatvādubhayātmakatvamayuktamiti cet — tadayuktam | bādhe pramāṇābhā
@@ -896,7 +897,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>bandhitayāstīti sthitivyapadeśaḥ | anekapradeśatvena śarīravatkāyavya
 <pb n="70"/>
 <lb ed="vsa" break="no"/>padeśaḥ | tatra jīvā dvividhāḥ saṃsāriṇo muktāśca | bhavādbha
-<lb ed="vsa" break="no"/>vāntaraprāptimantaḥ saṃsāriṇaḥ | te ca dvividhāḥ samanaskā ama
+<lb ed="vsa" break="no"/>vāntaraprāptimantaḥ<note n="3.233">bhāvādbhāva <foreign xml:lang="en">for</foreign> bhavādbhava <foreign xml:lang="en">C.</foreign></note> saṃsāriṇaḥ | te ca dvividhāḥ samanaskā ama
 <lb ed="vsa" break="no"/>naskāśca | tatra saṃjñinaḥ samanaskāḥ | śikṣākriyālāpagrahaṇarūpā
 <lb ed="vsa"/>saṃjñā | tadvidhurāstvamanaskāḥ | te cāmanaskā dvividhāḥ, trasa
 <lb ed="vsa" break="no"/>sthāvarabhedāt | tatra dvīndriyādayaḥ śaṅkhagaṇḍolakaprabhṛtayaścaturvi
@@ -905,7 +906,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>gṛhītā sa pṛthivīkāyikaḥ | pṛthivīṃ kāyatvena yo grahīṣyati sa
 <lb ed="vsa"/>pṛthivījīvaḥ | evamabādiṣvapi bhedacatuṣṭayaṃ yojyam | tatra pṛthivyādi
 <lb ed="vsa"/>kāyatvena gṛhītavanto grahīṣyantaśca sthāvarā gṛhyante na pṛthivyādipṛ
-<lb ed="vsa" break="no"/>thivīkāyādayaḥ | teṣāmajīvatvāt | te ca sthāvarāḥ sparśanaikendriyāḥ |
+<lb ed="vsa" break="no"/>thivīkāyādayaḥ | teṣāmajīvatvāt<note n="3.243">jīvatvāt <foreign xml:lang="en">for</foreign> ajīvatvāt <foreign xml:lang="en">A.</foreign></note> | te ca sthāvarāḥ sparśanaikendriyāḥ |
 <pb n="71"/>
 <lb ed="vsa"/>bhavāntaraprāptividhurā muktāḥ | dharmādharmākāśāstikāyāsta ekatvaśā
 <lb ed="vsa" break="no"/>lino niṣkriyāśca dravyasya deśāntaraprāptihetavaḥ | tatra dharmādharmau
@@ -924,7 +925,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>yathā jīvasya jñānatvādidharmarūpāḥ pudgalasya rūpatvādisāmānyasva
 <lb ed="vsa" break="no"/>bhāvāḥ | dharmādharmākāśakālānāṃ yathāsaṃbhavaṃ gatisthityavagāhavartanā
 <pb n="73"/>
-<lb ed="vsa" break="no"/>hetutvādisāmānyāni guṇāḥ | tasya dravyasyoktarūpeṇa bhavanaṃ paryāyaḥ |
+<lb ed="vsa" break="no"/>hetutvādisāmānyāni guṇāḥ | tasya dravyasyoktarūpeṇa<note n="3.259">uttara <foreign xml:lang="en">for</foreign> ukta <foreign xml:lang="en">C.</foreign></note> bhavanaṃ paryāyaḥ |
 <lb ed="vsa"/>utpādastadbhāvaḥ pariṇāmaḥ paryāya iti paryāyāḥ | yathā jīvasya
 <lb ed="vsa"/>ghaṭādijñānasukhakleśādayaḥ | pudgalasya mṛtpiṇḍaghaṭādayaḥ | dharmādīnāṃ
 <lb ed="vsa"/>gatyādiviśeṣāḥ | ata eva ṣaḍdravyāṇīti prasiddhiḥ |</p>
@@ -959,7 +960,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>tattvāśraddhānaṃ naisargikamekam | aparaṃ paropadeśajam | pṛthivyādi
 <pb n="76"/>
 <lb ed="vsa" break="no"/>ṣaṭkopādānaṃ ṣaḍindriyāsaṃyamanaṃ cāviratiḥ | pañcasamititriguptiṣva
-<lb ed="vsa" break="no"/>nutsāhaḥ pramādaḥ | kaṣāyaḥ krodhādiḥ | tatra kaṣāyāntāḥ sthityanu
+<lb ed="vsa" break="no"/>nutsāhaḥ<note n="3.290">guptiprabhṛtiṣu <foreign xml:lang="en">for</foreign> guptiṣu <foreign xml:lang="en">D.</foreign></note> pramādaḥ | kaṣāyaḥ krodhādiḥ | tatra kaṣāyāntāḥ sthityanu
 <lb ed="vsa" break="no"/>bhavabandhahetavaḥ prakṛtipradeśabandhaheturyoga iti vibhāgaḥ | bandhaśca
 <lb ed="vsa" break="no"/>turvidha ityuktaṃ prakṛtisthityanubhavapradeśāstadvidhayaḥ <ref>ta. sū. 8 | 3</ref>
 <lb ed="vsa"/>iti | yathā nimbaguḍādestiktatvamadhuratvādisvabhāva evamāvaraṇī
@@ -993,7 +994,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>ca hemacandrācāryaiḥ —</p>
 <p><lg><l>lokātivāhite mārge cumbite bhāsvadaṃśubhiḥ |</l>
 <l>janturakṣārthamālokya gatirīryā matā satām ||</l></lg></p>
-<p><lg><l>anavadyamṛtaṃ sarvajanīnaṃ mitabhāṣaṇam |</l>
+<p><lg><l>anavadyamṛtaṃ sarvajanīnaṃ mitabhāṣaṇam<note n="3.322">apadyatāṃ gatā sarvajanīnā mitabhāṣaṇā <foreign xml:lang="en">for</foreign> anavadya0 ṇam <foreign xml:lang="en">D.</foreign></note> |</l>
 <l>priyā vācaṃyamānāṃ sā bhāṣāsamitirucyate ||</l></lg></p>
 <p><lg><l>dvicatvāriṃśatā bhikṣādoṣairnityamadūṣitam |</l>
 <l>muniryadannamādatte saiṣaṇāsamitirmatā ||</l></lg></p>
@@ -1064,7 +1065,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>cidastīti syātpadātkathaṃcidityayamartho labhyata iti nānarthakyam |
 <lb ed="vsa"/>tadāha —</p>
 <p><lg><l>syādvādaḥ sarvathaikāntatyāgātkiṃvṛttacidvidheḥ |</l>
-<l>saptabhaṅginayāpekṣo heyādeyaviśeṣakṛt ||</l></lg> iti |
+<l>saptabhaṅginayāpekṣo heyādeyaviśeṣakṛt<note n="3.388">aheya <foreign xml:lang="en">for</foreign> ādeya <foreign xml:lang="en">D.</foreign></note> ||</l></lg> iti |
 <pb n="85"/>
 <lb ed="vsa"/>yadi vastvastyekāntataḥ sarvathā sarvadā sarvatra sarvātmanāstīti no
 <lb ed="vsa" break="no"/>pāditsājihāsābhyāṃ kvacitkadācitkenacitpravarteta nivarteta vā |
@@ -1094,7 +1095,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p>jinadattasūriṇā jainaṃ matamitthamuktam —</p>
 <p><lg><l>balabhogopabhogānāmubhayordānalābhayoḥ |</l>
 <pb n="87"/>
-<l>antarāyastathā nidrā bhīrajñānaṃ jugupsitam || 1 ||</l></lg></p>
+<l>antarāyastathā nidrā bhīrajñānaṃ<note n="3.416">tamaḥ <foreign xml:lang="en">for</foreign> bhīḥ <foreign xml:lang="en">D.</foreign></note> jugupsitam || 1 ||</l></lg></p>
 <p><lg><l>hiṃsā ratyaratī rāgadveṣāvaviratiḥ smaraḥ |</l>
 <l>śoko mithyātvameteṣṭādaśa doṣā na yasya saḥ || 2 ||</l></lg></p>
 <p><lg><l>jino devo guruḥ samyaktattvajñānopadeśakaḥ |</l>
@@ -1160,7 +1161,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p>eṣa hi tasya siddhāntaḥ — cidacidīśvarabhedena bhoktṛbhogyaniyā
 <lb ed="vsa" break="no"/>makabhedena ca vyavasthitāstrayaḥ padārthā iti | taduktam —</p>
 <p><lg><l>īśvaraścidacicceti padārthatritayaṃ hariḥ |</l>
-<l>īśvaraściditi prokto jīvo dṛśyamacitpunaḥ ||</l></lg> iti |</p>
+<l>īśvaraściditi prokto jīvo<note n="4.36">cita ityuktā jīvāḥ <foreign xml:lang="en">for</foreign> ciditi prokto jīvaḥ <foreign xml:lang="en">D.</foreign></note> dṛśyamacitpunaḥ ||</l></lg> iti |</p>
 <p>apare punaraśeṣaviśeṣapratyanīkaṃ cinmātraṃ brahmaiva paramārthaḥ | tacca
 <lb ed="vsa"/>nityaśuddhabuddhamuktasvabhāvamapi tattvamasi <ref>chā. 6 | 8 | 7</ref> ityādisā
 <lb ed="vsa" break="no"/>mānādhikaraṇyādhigatajīvaikyaṃ badhyate mucyate ca | tadatiriktanānā
@@ -1184,7 +1185,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p><lg><l>svarūpapararūpābhyāṃ nityaṃ sadasadātmake |</l>
 <l>vastuni jñāyate kiṃcitkaiścidrūpaṃ kadācana ||</l></lg></p>
 <p><lg><l>bhāvāntaramabhāvo hi kayācittu vyapekṣayā |</l>
-<l>bhāvāntarādabhāvonyo na kaścidanirūpaṇāt ||</l></lg>
+<l>bhāvāntarādabhāvonyo<note n="4.58">bhāvāntaram <foreign xml:lang="en">for</foreign> bhāvāntarāt <foreign xml:lang="en">A. B. C.</foreign></note> na kaścidanirūpaṇāt ||</l></lg>
 <lb ed="vsa"/>iti vadatā bhāvavyatiriktasyābhāvasyānabhyupagamāt | na dvitīyaḥ |
 <pb n="95"/>
 <lb ed="vsa"/>abhāvasya ṣaṣṭhapramāṇagocaratvena jñānasya nityānumeyatvena ca tada
@@ -1198,7 +1199,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p>tadetadgaganaromanthāyitam | bhāvarūpasyājñānasya jñānābhāvena samā
 <lb ed="vsa" break="no"/>nayogakṣematvāt | tathā hi — viṣayatvenāśrayatvena cājñānasya vyāvartaka
 <pb n="96"/>
-<lb ed="vsa" break="no"/>tayā pratyagarthaḥ pratipanno na vā | pratipannaścetsvarūpajñānanivartyaṃ
+<lb ed="vsa" break="no"/>tayā<note n="4.69">avyāvartakatayā <foreign xml:lang="en">for</foreign> vyāvartakatayā <foreign xml:lang="en">D.</foreign></note> pratyagarthaḥ pratipanno na vā | pratipannaścetsvarūpajñānanivartyaṃ
 <lb ed="vsa"/>tadajñānamiti tasminpratipanne kathaṃkāramavatiṣṭhate | apratipannaścedvyāva
 <lb ed="vsa" break="no"/>rtakāśrayaviṣayaśūnyamajñānaṃ kathamanubhūyeta | atha viśadaḥ svarūpāva
 <lb ed="vsa" break="no"/>bhāsa evājñānavirodhī nājñānena saha bhāsata ityāśrayaviṣayajñāne
@@ -1215,7 +1216,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>jñānasyaiva prakāśakatvāt | satyapi pradīpe jñānena viṣayaprakāśasaṃbha
 <lb ed="vsa" break="no"/>vāt | pradīpaprabhāyāstu cakṣurindriyasya jñānaṃ samutpādayato virodhi
 <lb ed="vsa" break="no"/>saṃtamasanirasanadvāreṇopakārakatvamātramevetyalamativistareṇa |</p>
-<p>pratiprayogaśca vivādādhyāsitamajñānaṃ na jñānamātrabrahmāśritam |
+<p>pratiprayogaśca vivādādhyāsitamajñānaṃ na jñānamātrabrahmāśritam<note n="4.86">āśrayam <foreign xml:lang="en">for</foreign> āśritam <foreign xml:lang="en">D.</foreign></note> |
 <pb n="98"/>
 <lb ed="vsa"/>ajñānatvācchuktikādyajñānavaditi | nanu śuktikādyajñānasyāśrayasya
 <lb ed="vsa"/>pratyagarthasya jñānamātrasvabhāvatvameveti cenmaivaṃ śaṅkiṣṭhāḥ | anu
@@ -1346,7 +1347,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>vīryaśaktitejaḥprabhṛtyanavadhikātiśayāsaṃkhyeyakalyāṇaguṇagaṇatā sva
 <lb ed="vsa" break="no"/>saṃkalpapravṛttasvetarasamastacidacidvastujātatā svābhimatasvānurūpai
 <lb ed="vsa" break="no"/>karūpadivyarūpaniratiśayavividhānantabhūṣaṇatetyādayaḥ |</p>
-<p>veṅkaṭanāthena tvitthaṃ niraṭaṅki padārthavibhāgaḥ —
+<p>veṅkaṭanāthena tvitthaṃ niraṭaṅki<note n="4.204">nirāṭaṅki <foreign xml:lang="en">for</foreign> niraṭaṅki <foreign xml:lang="en">A. B.</foreign></note> padārthavibhāgaḥ —
 <pb n="112"/></p>
 <p><lg><l>dravyādravyaprabhedānmitamubhayavidhaṃ tadvidastattvamāhuḥ</l>
 <l>dravyaṃ dvedhā vibhaktaṃ jaḍamajaḍamiti prācyamavyaktakālau |</l>
@@ -1409,7 +1410,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>ijyā nāma devatāpūjanam | svādhyāyo nāma arthānusaṃdhānapūrvako
 <lb ed="vsa"/>mantrajapo vaiṣṇavasūktastotrapāṭho nāmasaṃkīrtanaṃ tattvapratipādakaśāstrā
 <lb ed="vsa" break="no"/>bhyāsaśca | yogo nāma devatānusaṃdhānam |</p>
-<p>evamupāsanākarmasamuccitena vijñānena draṣṭvadarśane naṣṭe bhagavadbhaktasya
+<p>evamupāsanākarmasamuccitena vijñānena draṣṭvadarśane<note n="4.264">adarśane <foreign xml:lang="en">for</foreign> darśane <foreign xml:lang="en">D.</foreign></note> naṣṭe bhagavadbhaktasya
 <lb ed="vsa"/>tanniṣṭhasya bhaktavatsalaḥ paramakāruṇikaḥ puruṣottamaḥ svayāthātmyā
 <lb ed="vsa" break="no"/>nubhavānuguṇaniravadhikānandarūpaṃ punarāvṛttirahitaṃ svapadaṃ prayacchati |
 <lb ed="vsa"/>tathā ca smṛtiḥ —</p>
@@ -1430,7 +1431,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>jñānasya tadanuṣṭhānasya ca vairāgyotpādanadvārā cittakalmaṣāpanayadvārā
 <lb ed="vsa"/>ca brahmajñānaṃ prati sādhanatvena tayoḥ kāryakāraṇatvena pūrvottaramīmāṃsa
 <lb ed="vsa" break="no"/>yorekaśāstratvam | ata eva vṛttikārā ekamevedaṃ śāstraṃ jaiminīyena
-<lb ed="vsa"/>ṣoḍaśalakṣaṇenetyāhuḥ |</p>
+<lb ed="vsa"/>ṣoḍaśalakṣaṇenetyāhuḥ<note n="4.285">lakṣaṇam <foreign xml:lang="en">for</foreign> lakṣaṇena <foreign xml:lang="en">D.</foreign></note> |</p>
 <p>karmaphalasya kṣayitvaṃ brahmajñānaphalasya cākṣayitvaṃ parīkṣya lokānkarma
 <lb ed="vsa" break="no"/>citānbrāhmaṇo nirvedamāyānnāstyakṛtaḥ kṛtena <ref>mu0 1 | 2 | 12</ref> ityādi
 <pb n="119"/>
@@ -1454,7 +1455,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <l>avidyāṃ karmasaṃghātarūpāṃ sadyo nivartayet ||</l></lg></p>
 <p><lg><l>tataḥ svābhāvikāḥ puṃsāṃ te saṃsāratirohitāḥ |</l>
 <l>āvirbhavanti kalyāṇāḥ sarvajñatvādayo guṇāḥ ||</l></lg></p>
-<p><lg><l>evaṃ guṇāḥ samānāḥ syurmuktānāmīśvarasya ca |</l>
+<p><lg><l>evaṃ guṇāḥ samānāḥ syurmuktānāmīśvarasya<note n="4.308">bhaktānām <foreign xml:lang="en">for</foreign> muktānām. <foreign xml:lang="en">C.</foreign></note> ca |</l>
 <l>sarvakartṛtvamevaikaṃ tebhyo deve viśiṣyate ||</l></lg></p>
 <p><lg><l>muktāstu śeṣiṇi brahmaṇyaśeṣe śeṣarūpiṇaḥ |</l>
 <l>sarvānaśruvate kāmānsaha tena vipaścitā ||</l></lg> iti |
@@ -1601,7 +1602,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>mūlābhāvāt | bhedabhedinau bhinnāviti vyavahārādarśanāt | na caika
 <lb ed="vsa" break="no"/>bhedabalenānyabhedānumānam | dṛṣṭāntabhedāvighātenotthāne doṣābhā
 <pb n="135"/>
-<lb ed="vsa" break="no"/>vāt | soyaṃ piṇyākayācanārthaṃ gatasya khārikātailadātṛtvābhyu
+<lb ed="vsa" break="no"/>vāt | soyaṃ piṇyākayācanārthaṃ gatasya<note n="5.55">pācanārthaṃ gatasya bhautikasya <foreign xml:lang="en">for</foreign> yācanārthaṃ gatasya. <foreign xml:lang="en">D.</foreign></note> khārikātailadātṛtvābhyu
 <lb ed="vsa" break="no"/>pagama iva | dṛṣṭāntabhedavimarde tvanutthānameva | na hi varavighātāya
 <lb ed="vsa"/>kanyodvāhaḥ | tasmānmūlakṣayābhāvādanavasthā na doṣāya |
 <pb n="136"/></p>
@@ -1616,7 +1617,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <l>dadasyakhilamiṣṭaṃ ca svaguṇotkarṣavādinām ||</l></lg> iti |
 <pb n="137"/>
 <lb ed="vsa"/>evaṃ ca parameśvarābhedatṛṣṇayā viṣṇorguṇotkarṣasya mṛgatṛṣṇikāsa
-<lb ed="vsa" break="no"/>matvāmidhānaṃ vipulakadalīphalalipsayā jihvācchedanamanuharati |
+<lb ed="vsa" break="no"/>matvāmidhānaṃ vipulakadalīphalalipsayā<note n="5.68">viphala <foreign xml:lang="en">for</foreign> vipula. <foreign xml:lang="en">D.</foreign></note> jihvācchedanamanuharati |
 <lb ed="vsa"/>etādṛśaviṣṇuvidveṣaṇādandhatamasapraveśaprasaṅgāt | tadetatpratipāditaṃ
 <lb ed="vsa"/>madhyamandireṇa mahābhāratatātparyanirṇaye —</p>
 <p><lg><l>anādidveṣiṇo daityā viṣṇau dveṣo vivardhitaḥ |</l>
@@ -1892,12 +1893,12 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>tatra vidhīyamānamupāyaphalaṃ lābhaḥ | jñānataponityatvasthitiśuddhibhe
 <lb ed="vsa" break="no"/>dātpañcavidhaḥ | tadāha haradattācāryaḥ —
 <pb n="163"/></p>
-<p><lg><l>jñānaṃ tapotha nityatvaṃ sthitiḥ śuddhiśca pañcamam |</l></lg> iti |
+<p><lg><l>jñānaṃ tapotha nityatvaṃ sthitiḥ śuddhiśca<note n="6.18">dharmaśca nityatvaṃ sthitiḥ siddhiḥ <foreign xml:lang="en">for</foreign> tapotha nityatvaṃ sthitiḥ śuddhiḥ. <foreign xml:lang="en">D.</foreign></note> pañcamam |</l></lg> iti |
 <lb ed="vsa"/>ātmāśrito duṣṭabhāvo malaḥ | sa mithyājñānādibhedātpañcavidhaḥ |
 <lb ed="vsa"/>tadapyāha —</p>
 <p><lg><l>mithyājñānamadharmaśca saktihetuścyutistathā |</l>
 <l>paśutvamūlaṃ pañcaite tantre heyā viviktitaḥ ||</l></lg> iti |
-<lb ed="vsa"/>sādhakasya śuddhiheturupāyo vāsacaryādibhedātpañcavidhaḥ | tadapyāha —</p>
+<lb ed="vsa"/>sādhakasya śuddhiheturupāyo<note n="6|23">sādhanasya śuddhivṛddhi <foreign xml:lang="en">for</foreign> sādhakasya śuddhi. <foreign xml:lang="en">D.</foreign></note> vāsacaryādibhedātpañcavidhaḥ | tadapyāha —</p>
 <p><lg><l>vāsacaryā japo dhyānaṃ sadā rudrasmṛtistathā |</l>
 <l>prapattiśceti lābhānāmupāyāḥ pañca niścitāḥ ||</l></lg> iti |
 <lb ed="vsa"/>yenārthānusaṃdhānapūrvakaṃ jñānatapovṛddhī prāpnoti sa deśo guruja
@@ -2013,7 +2014,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>hatakriyāśaktyā kāryakāritvābhyupagamāt | taduktaṃ saṃpradāyavidbhiḥ —</p>
 <p><lg><l>karmādinirapekṣastu svecchācārī yato hyayam |</l>
 <pb n="173"/>
-<l>tataḥ kāraṇataḥ śāstre sarvakāraṇakāraṇam ||</l></lg> iti |</p>
+<l>tataḥ kāraṇataḥ śāstre sarvakāraṇakāraṇam<note n="6.129">kāraṇatā matā <foreign xml:lang="en">for</foreign> kāraṇakāraṇam <foreign xml:lang="en">C.</foreign></note> ||</l></lg> iti |</p>
 <p>nanu darśanāntarepīśvarajñānānmokṣo labhyata eveti kutosya viśeṣa
 <lb ed="vsa"/>iti cet — maivaṃ vādīḥ | vikalpānupapatteḥ | kimīśvaraviṣayajñānamātraṃ
 <lb ed="vsa"/>nirvāṇakāraṇaṃ kiṃ vā sākṣātkāraḥ atha vā yathāvattattvaniścayaḥ |
@@ -2081,7 +2082,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>anyatrāpi —</p>
 <p><lg><l>vivādādhyāsitaṃ sarvaṃ buddhimatkartṛpūrvakam |</l>
 <l>kāryatvādāvayoḥ siddhaṃ kāryaṃ kumbhādikaṃ yathā ||</l></lg> iti |
-<lb ed="vsa"/>sarvakartṛtvādevāsya sarvajñatvaṃ siddham | ajñasya karaṇāsaṃbhavāt |
+<lb ed="vsa"/>sarvakartṛtvādevāsya<note n="7.49">sarvātmakatvāt <foreign xml:lang="en">for</foreign> sarvakartṛtvāt <foreign xml:lang="en">A.</foreign></note> sarvajñatvaṃ siddham | ajñasya karaṇāsaṃbhavāt |
 <pb n="178"/>
 <lb ed="vsa"/>uktaṃ ca śrīmanmṛgendraiḥ —</p>
 <p><lg><l>sarvajñaḥ sarvakartṛtvātsādhanāṅgaphalaiḥ saha |</l>
@@ -2121,7 +2122,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>vānāṃ savācakānāṃ śivatvaprāptisādhanena dīkṣādinopāyakalāpena
 <lb ed="vsa"/>saha patipadārthe saṃgrahaḥ kṛta iti boddhavyam | taditthaṃ patipadārtho
 <lb ed="vsa"/>nirūpitaḥ |</p>
-<p>saṃprati paśupadārtho nirūpyate — anaṇuḥ kṣetrajñādipadavedanīyo
+<p>saṃprati paśupadārtho nirūpyate — anaṇuḥ<note n="7.86">aṇu <foreign xml:lang="en">for</foreign> anaṇuḥ <foreign xml:lang="en">C.</foreign></note> kṣetrajñādipadavedanīyo
 <pb n="181"/>
 <lb ed="vsa"/>jīvātmā paśuḥ | na tu cārvākādivaddehādirūpaḥ | nānyadṛṣṭaṃ smaratyanya
 <lb ed="vsa"/>iti nyāyena pratisaṃdhānānupapatteḥ | nāpi naiyāyikādivatprakāśyaḥ |
@@ -2191,7 +2192,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p><lg><l>śabdaḥ sparśastathā rūpaṃ raso gandhaśca pañcakam |</l>
 <l>buddhirmanastvahaṃkāraḥ puryaṣṭakamudāhṛtam ||</l></lg>
 <lb ed="vsa"/>iti śrūyate | tatkathamanyathā kathyate | addhā | ata eva ca tatrabhavatā
-<lb ed="vsa"/>rāmakāṇḍena tatsūtraṃ triṃśattattvaparatayā vyākhyāyītyalamatiprapañcena |
+<lb ed="vsa"/>rāmakāṇḍena<note n="7.151">rāmakaṇṭhena <foreign xml:lang="en">C,</foreign> rāmakarṇena <foreign xml:lang="en">D, for</foreign> rāmakāṇḍena.</note> tatsūtraṃ triṃśattattvaparatayā vyākhyāyītyalamatiprapañcena |
 <pb n="186"/>
 <lb ed="vsa"/>tathāpi kathaṃ punarasya puryaṣṭakatvam | bhūtatanmātrabuddhīndriyakarmendriyā
 <lb ed="vsa" break="no"/>ntaḥkaraṇasaṃjñaiḥ pañcabhirvargaistatkāraṇena pradhānena kalādipañcakātmanā
@@ -2237,7 +2238,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <l>tuṣataṇḍulavajjñeyastāmrāśritakālikāvadvā ||</l></lg> iti |
 <lb ed="vsa"/>balaṃ rodhaśaktiḥ | asyāḥ śivaśakteḥ pāśādhiṣṭhānena puruṣatirodhāya
 <lb ed="vsa" break="no"/>katvādupacāreṇa pāśatvam | taduktam —</p>
-<p><lg><l>tāsāmahaṃ varā śaktiḥ sarvānugrāhikā śivā |</l>
+<p><lg><l>tāsāmahaṃ varā<note n="7.194">tasmānmāheśvarī <foreign xml:lang="en">for</foreign> tāsāmahaṃ varā <foreign xml:lang="en">C.</foreign></note> śaktiḥ sarvānugrāhikā śivā |</l>
 <l>dharmānuvartanādeva pāśa ityupacaryate ||</l></lg> iti |
 <lb ed="vsa"/>kriyate phalārthibhiriti karma dharmādharmātmakaṃ bījāṅkuravatpravāharūpe
 <lb ed="vsa" break="no"/>ṇānādi | yathoktaṃ śrīmatkiraṇe —
@@ -2304,7 +2305,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p><lg><l>bhaktilakṣmīsamṛddhānāṃ kimanyadupayācitam |</l>
 <l>etayā vā daridrāṇāṃ kimanyadapayācitam ||</l></lg> iti |
 <lb ed="vsa"/>itthaṃ ṣaṣṭhīsamāsapakṣe prayojanaṃ nirdiṣṭam | bahuvrīhipakṣe tūpapāda
-<lb ed="vsa" break="no"/>yāmaḥ | samastasya bāhyābhyantarasya nityasukhāderyā saṃpatsiddhista
+<lb ed="vsa" break="no"/>yāmaḥ | samastasya bāhyābhyantarasya nityasukhāderyā<note n="8.44">nīti <foreign xml:lang="en">for</foreign> nitya <foreign xml:lang="en">D.</foreign></note> saṃpatsiddhista
 <lb ed="vsa" break="no"/>thātvaprakāśastasyāḥ samyagavāptiryasyāḥ pratyabhijñāyā hetuḥ sā
 <lb ed="vsa"/>tathoktā | tasya maheśvarasya pratyabhijñā prati ābhimukhyena jñānam |
 <lb ed="vsa"/>loke hi sa evāyaṃ caitra iti pratisaṃdhānenābhimukhībhūte vastuni
@@ -2350,7 +2351,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>vastutastu deśakālākārasaṃkocavaikalyādabheda eva | sa eva caita
 <lb ed="vsa" break="no"/>nyarūpaḥ prakāśaḥ pramātetyucyate | tathā ca paṭhitaṃ śivasūtreṣu — caita
 <lb ed="vsa" break="no"/>nyamātmeti | tasya cidrūpatvamanavacchinnavimarśatvamananyonmukhatvamā
-<lb ed="vsa" break="no"/>nandaikaghanatvaṃ māheśvaryamiti paryāyaḥ | sa eva hyayaṃ bhāvātmā vimarśaḥ
+<lb ed="vsa" break="no"/>nandaikaghanatvaṃ māheśvaryamiti paryāyaḥ | sa eva hyayaṃ<note n="8.86">aham <foreign xml:lang="en">for</foreign> hyayam <foreign xml:lang="en">D.</foreign></note> bhāvātmā vimarśaḥ
 <lb ed="vsa"/>śuddhe pāramārthikyau jñānakriye | tatra prakāśarūpatā jñānam | svato
 <lb ed="vsa"/>jagannirmātṛtvaṃ kriyā | tacca nirūpitaṃ kriyādhikāre —</p>
 <p><lg><l>eṣa cānantaśaktitvādevamābhāsayatyamūn |</l>
@@ -2382,7 +2383,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>tantrya iti pakṣe na kācidanupapattiḥ | ata evoktaṃ vasuguptācāryaiḥ —
 <pb n="199"/></p>
 <p><lg><l>nirupādānasaṃbhāramabhittāveva tanvate |</l>
-<l>jagaccitraṃ namastasmai kalānāthāya śūline ||</l></lg> iti |</p>
+<l>jagaccitraṃ namastasmai kalānāthāya<note n="8.115">ślāghyāya <foreign xml:lang="en">for</foreign> nāthāya <foreign xml:lang="en">A.</foreign></note> śūline ||</l></lg> iti |</p>
 <p>nanu pratyagātmanaḥ parameśvarābhinnatve saṃsārasaṃbandhaḥ kathaṃ bhavediti
 <lb ed="vsa"/>cet — tatroktamāgamādhikāre —</p>
 <p><lg><l>eṣa pramātā māyāndhaḥ saṃsārī karmabandhanaḥ |</l>
@@ -2446,7 +2447,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>dābhilapyaharagaurīsṛṣṭijātasya nityatvopapatteḥ |</p>
 <p>tathā ca rasahṛdaye —</p>
 <p><lg><l>ye cātyaktaśarīrā haragaurīsṛṣṭijāṃ tanuṃ prāptāḥ |</l>
-<l>muktāste rasasiddhā mantragaṇaḥ kiṃkaro yeṣām ||</l></lg> <ref>ra. hṛ. 1 | 7</ref> iti |
+<l>muktāste<note n="9.24">vandyāḥ <foreign xml:lang="en">for</foreign> muktāḥ <foreign xml:lang="en">A.</foreign></note> rasasiddhā mantragaṇaḥ kiṃkaro yeṣām ||</l></lg> <ref>ra. hṛ. 1 | 7</ref> iti |
 <lb ed="vsa"/>tasmājjīvanmuktiṃ samīhamānena yoginā prathamaṃ divyatanurvidheyā |
 <lb ed="vsa"/>haragaurīsṛṣṭisaṃyogajanitatvaṃ ca rasasya harajatvenābhrakasya gaurīsaṃbha
 <lb ed="vsa" break="no"/>vatvena tattadātmakatvamuktam —
@@ -2511,7 +2512,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>jīvanaṃ varjanīyam | ajīvato jñātṛtvānupapatteḥ | taduktaṃ raseśvara
 <lb ed="vsa" break="no"/>siddhānte —</p>
 <p><lg><l>rasāṅkameyamārgokto jīvamokṣonyathā tu na |</l>
-<l>pramāṇāntaravādeṣu yuktibhedāvalambiṣu ||</l></lg></p>
+<l>pramāṇāntaravādeṣu yuktibhedāvalambiṣu<note n="9.87">mukti <foreign xml:lang="en">for</foreign> yukti <foreign xml:lang="en">D.</foreign></note> ||</l></lg></p>
 <p><lg><l>jñātṛjñeyamidaṃ viddhi sarvatantreṣu saṃmatam |</l>
 <l>nājīvañjñāsyati jñeyaṃ yadatostyeva jīvanam ||</l></lg> iti |</p>
 <p>na cedamadṛṣṭacaramiti mantavyam | viṣṇusvāmimatānusārimirnṛpa
@@ -2588,7 +2589,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>śarīratadupayogivivecanam | tatrāpi prathame tadupayogivivecanam |
 <lb ed="vsa"/>dvitīye śarīravivecanam | āhnikadvayavati pañcame karmapratipādanam |
 <lb ed="vsa"/>tatrāpi prathame śarīrasaṃbandhikarmacintanam | dvitīye mānasakarmaci
-<lb ed="vsa" break="no"/>ntanam | āhnikadvayaśālini ṣaṣṭhe śrautadharmanirūpaṇam | tatrāpi
+<lb ed="vsa" break="no"/>ntanam<note n="10.22">sādhāraṇa <foreign xml:lang="en">for</foreign> mānasa. <foreign xml:lang="en">D.</foreign></note> | āhnikadvayaśālini ṣaṣṭhe śrautadharmanirūpaṇam | tatrāpi
 <lb ed="vsa"/>prathame dānapratigrahadharmavivekaḥ | dvitīye cāturāśramyocitadharma
 <lb ed="vsa" break="no"/>nirūpaṇam | tathāvidhe saptame guṇasamavāyapratipādanam | tatrāpi
 <lb ed="vsa"/>prathame buddhinirapekṣaguṇapratipādanam | dvitīye tatsāpekṣaguṇapra
@@ -2687,7 +2688,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p>buddherbuddhyantaravināśyatve saṃskāravināśyatve ca pramāṇam — vivā
 <lb ed="vsa" break="no"/>dādhyāsitāni jñānānyuttarottarakāryavināśyāni kṣaṇikavibhuviśeṣa
 <lb ed="vsa" break="no"/>guṇatvācchabdavat | kvaciddravyārambhakasaṃyogapratidvandvivibhāgajanaka
-<lb ed="vsa" break="no"/>karmasamakālamekatvasāmānyacintayāśrayanivṛttereva dvitvanivṛttiḥ |
+<lb ed="vsa" break="no"/>karmasamakālamekatvasāmānyacintayāśrayanivṛttereva<note n="10.111">sāmānyajñāna <foreign xml:lang="en">for</foreign> sāmānya. <foreign xml:lang="en">D.</foreign></note> dvitvanivṛttiḥ |
 <lb ed="vsa"/>karmasamakālamapekṣābuddhicintanādubhābhyāmiti saṃkṣepaḥ |
 <pb n="224"/>
 <lb ed="vsa"/>apekṣābuddhirnāma vināśakavināśapratiyoginī buddhiriti boddhavyam |
@@ -2708,9 +2709,9 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>raṇavibhāgajaśca | tatra prathamaḥ kathyate — kāryavyāpte kāraṇe karmotpannaṃ
 <lb ed="vsa"/>yadāvayavāntarādvibhāgaṃ vidhatte na tadākāśādideśādvibhāgaḥ |
 <lb ed="vsa"/>yadā tvākāśādideśādvibhāgo na tadāvayavāntarāditi sthiti
-<lb ed="vsa" break="no"/>niyamaḥ | karmaṇo gaganavibhāgākartṛtvasya dravyārambhakasaṃyogavirodhi
+<lb ed="vsa" break="no"/>niyamaḥ | karmaṇo gaganavibhāgākartṛtvasya<note n="10.129">kartṛtvasya <foreign xml:lang="en">for</foreign> akartṛtvasya <foreign xml:lang="en">C.</foreign></note> dravyārambhakasaṃyogavirodhi
 <lb ed="vsa" break="no"/>vibhāgārambhakatvena dhūmasya dhūmadhvajavargeṇeva vyabhicārānupalambhāt |
-<lb ed="vsa"/>tataścāvayavakarmāvayavāntarādeva vibhāgaṃ karoti nākāśādi
+<lb ed="vsa"/>tataścāvayavakarmāvayavāntarādeva<note n="10.131">avayavi <foreign xml:lang="en">for</foreign> avayava <foreign xml:lang="en">C.</foreign></note> vibhāgaṃ karoti nākāśādi
 <pb n="227"/>
 <lb ed="vsa" break="no"/>deśāt | tasmādvibhāgāddravyārambhakasaṃyoganivṛttiḥ | tataḥ kāraṇā
 <lb ed="vsa" break="no"/>bhāvātkāryābhāva iti nyāyādavayavinivṛttiḥ | nivṛttevayavini
@@ -2834,7 +2835,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>dharmyotkarṣāpakarṣavarṇyāvarṇyavikalpasādhyaprāptyaprāptiprasaṅgapratidṛṣṭā
 <pb n="241"/>
 <lb ed="vsa" break="no"/>ntānutpattisaṃśayaprakaraṇahetvarthāpattyaviśeṣopapattyupalabdhyanupalabdhi
-<lb ed="vsa" break="no"/>nityānityakāryasamabhedāt |
+<lb ed="vsa" break="no"/>nityānityakāryasamabhedāt<note n="11.57">saṃbhedāt <foreign xml:lang="en">for</foreign> samabhedāt <foreign xml:lang="en">E.</foreign></note> |
 <pb n="242"/></p>
 <p>parājayanimittaṃ nigrahasthānam | taddvāviṃśatiprakāram | pratijñā
 <lb ed="vsa" break="no"/>hānipratijñāntarapratijñāvirodhapratijñāsaṃnyāsahetvantarārthāntaranira
@@ -2917,7 +2918,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>saretām | amūrtatve gamanamanupapannameva | calanātmikāyāḥ kriyāyā
 <lb ed="vsa"/>mūrtatvapratibandhāt | pāratantryaṃ bandhaḥ svātantryaṃ mokṣa iti cārvā
 <lb ed="vsa" break="no"/>kapakṣepi svātantryaṃ duḥkhanivṛttiścet — avivādaḥ | aiśvaryaṃ cet — sā
-<lb ed="vsa" break="no"/>tiśayatayā sadṛkṣatayā ca prekṣāvatāṃ nābhimatam | prakṛtipuruṣānya
+<lb ed="vsa" break="no"/>tiśayatayā sadṛkṣatayā ca prekṣāvatāṃ nābhimatam<note>11|133 — prekṣāvadvikalpāsahatayā mukterdurnirūpatvāpatteḥ <foreign xml:lang="en">for</foreign> prekṣāvatāṃ nābhi<lb ed="vsa" break="no"/>matam <foreign xml:lang="en">D.</foreign></note> | prakṛtipuruṣānya
 <lb ed="vsa" break="no"/>tvakhyātau prakṛtyuparame puruṣasya svarūpeṇāvasthānaṃ muktiriti sāṃkhyā
 <lb ed="vsa" break="no"/>khyātepi pakṣe duḥkhocchedostyeva | vivekajñānaṃ puruṣāśrayaṃ prakṛtyāśrayaṃ
 <lb ed="vsa"/>vetyetāvadavaśiṣyate | tatra puruṣāśrayamiti na śliṣyate | puruṣasya
@@ -2925,7 +2926,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>ttasyāḥ | kiṃ ca prakṛtiḥ pravṛttisvabhāvā nivṛttisvabhāvā vā |
 <lb ed="vsa"/>ādye'nirmokṣaḥ | svabhāvasyānapāyāt | dvitīye | saṃprati saṃsāro
 <pb n="250"/>
-<lb ed="vsa" break="no"/>stamiyāt | nityaniratiśayasukhābhivyaktirmuktiriti bhaṭṭasarvajñādya
+<lb ed="vsa" break="no"/>stamiyāt | nityaniratiśayasukhābhivyaktirmuktiriti bhaṭṭasarvajñādya<note n="11.140">bhā <foreign xml:lang="en">for</foreign> bhaṭṭa. <foreign xml:lang="en">D.</foreign></note>
 <lb ed="vsa" break="no"/>bhimatepi duḥkhanivṛttirabhimataiva | paraṃ tu nityasukhaṃ na pramāṇapaddhati
 <lb ed="vsa" break="no"/>madhyāste | śrutistatra pramāṇamiti cet — na | yogyānupalabdhibādhite
 <lb ed="vsa"/>tadanavakāśāt | avakāśe vā grāvaplavepi tathābhāvaprasaṅgāt |</p>
@@ -2950,7 +2951,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>nam | tadvyāptaliṅgābhāvāt | nāgamaḥ | vikalpāsahatvāt | kiṃ
 <pb n="252"/>
 <lb ed="vsa"/>nityovagamayatyanityo vā | ādyepasiddhāntāpātaḥ | dvitīye paraspa
-<lb ed="vsa" break="no"/>rāśrayāpātaḥ | upamānādikamaśakyaśaṅkam | niyataviṣayatvāt |
+<lb ed="vsa" break="no"/>rāśrayāpātaḥ | upamānādikamaśakyaśaṅkam | niyataviṣayatvāt<note n="11.163">atat <foreign xml:lang="en">for</foreign> niyata. <foreign xml:lang="en">D.</foreign></note> |
 <lb ed="vsa"/>tasmādīśvaraḥ śaśaviṣāṇāyata iti cet — tadetanna caturacetasāṃ cetasi
 <lb ed="vsa"/>camatkāramāviṣkaroti | vivādāspadaṃ nagasāgarādikaṃ sakartṛkaṃ
 <lb ed="vsa"/>kāryatvātkumbhavat | na cāyamasiddho hetuḥ | sāvayavatvena tasya
@@ -3000,7 +3001,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <pb n="256"/>
 <lb ed="vsa" break="no"/>vadhāyakaṃ na bhavatīti nyāyena pratyuta tannirvāhāt | eka eva rudro
 <lb ed="vsa"/>na dvitīyovatasthe <ref>tai. saṃ. 1 | 8 | 6</ref> ityādirāgamastatra pramāṇam |
-<lb ed="vsa"/>yadyevaṃ tarhi parasparāśrayabādhavyādhiṃ samādhatsveti cet — tasyānutthā
+<lb ed="vsa"/>yadyevaṃ tarhi parasparāśrayabādhavyādhiṃ<note n="11.210">bodha <foreign xml:lang="en">for</foreign> bādha <foreign xml:lang="en">D.</foreign></note> samādhatsveti cet — tasyānutthā
 <lb ed="vsa" break="no"/>nāt | kimutpattau parasparāśrayaḥ śaṅkyate jñaptau vā | nādyaḥ | āga
 <lb ed="vsa" break="no"/>masyeśvarādhīnotpattikatvepi parameśvarasya nityatvenotpatteranupapatteḥ |
 <lb ed="vsa"/>nāpi jñaptau | parameśvarasyāgamādhīnajñaptikatvepi tasyānyatovagamāt |
@@ -3083,7 +3084,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>dīnāṃ caturṇāṃ kriyāphalānāmasaṃbhavāt | tasmātsāmarthyaprāptovabodho
 <pb n="266"/>
 <lb ed="vsa"/>bhāvyatvenāvatiṣṭhate | arthī samartho vidvānadhikriyata iti nyāyena
-<lb ed="vsa"/>darśapūrṇamāsādividhayaḥ svaviṣayāvabodhamapekṣamāṇāḥ svārthabodhe
+<lb ed="vsa"/>darśapūrṇamāsādividhayaḥ svaviṣayāvabodhamapekṣamāṇāḥ svārthabodhe<note n="12.64">svāvabodhe <foreign xml:lang="en">for</foreign> svārthabodhe <foreign xml:lang="en">D.</foreign></note>
 <lb ed="vsa"/>svādhyāyaṃ viniyuñjate | adhyayanavidhiśca likhitapāṭhādivyāvṛttyā
 <lb ed="vsa" break="no"/>dhyayanasaṃskṛtatvaṃ svādhyāyasyāvagamayati | tathā ca yathā darśapūrṇa
 <lb ed="vsa" break="no"/>māsādijanyaṃ paramāpūrvamavaghātādijanyasyāvāntarāpūrvasya kalpakaṃ
@@ -3197,7 +3198,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>rthadarśanaṃ na saṃjāghaṭīti | deśakālasvabhāvaviprakṛṣṭārthagrahaṇo
 <lb ed="vsa" break="no"/>pāyābhāvāt | na ca taccakṣurādikameva tādṛkpratītijananakṣama
 <lb ed="vsa" break="no"/>miti mantavyam | dṛṣṭānusāreṇaiva kalpanāyā āśrayaṇīyatvāt |
-<lb ed="vsa"/>taduktaṃ gurubhiḥ sarvajñanirākaraṇavelāyām —</p>
+<lb ed="vsa"/>taduktaṃ gurubhiḥ<note n="12.171">bhaṭṭācāryaiḥ <foreign xml:lang="en">for</foreign> gurubhiḥ. <foreign xml:lang="en">D.</foreign></note> sarvajñanirākaraṇavelāyām —</p>
 <p><lg><l>yatrāpyatiśayo dṛṣṭaḥ sa svārthānatilaṅghanāt |</l>
 <l>dūrasūkṣmādidṛṣṭau syānna rūpe śrotravṛttitā ||</l></lg> iti |
 <lb ed="vsa"/>ata eva nāgamabalāttatsādhanam | yathā tena proktam <ref>pā. sū. 4 | 3 |
@@ -3245,7 +3246,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>nityatve sarvadopalabdhyanupalabdhiprasaṅgo nyāyabhūṣaṇakāroktaḥ sopi
 <pb n="279"/>
 <lb ed="vsa"/>dhvanisaṃskṛtasyopalambhābhyupagamātpratikṣiptaḥ | yattu yugapadindriyasaṃba
-<lb ed="vsa" break="no"/>ndhitvena pratiniyatasaṃskārakasaṃskāryatvābhāvānumānaṃ tadātmanyanai
+<lb ed="vsa" break="no"/>ndhitvena pratiniyatasaṃskārakasaṃskāryatvābhāvānumānaṃ<note n="12.214">saṃskāra <foreign xml:lang="en">for</foreign> saṃskāraka <foreign xml:lang="en">D.</foreign></note> tadātmanyanai
 <lb ed="vsa" break="no"/>kāntikamityalamatikalahena | tataśca vedasyāpauruṣeyatayā nirastasa
 <lb ed="vsa" break="no"/>mastaśaṅkākalaṅkāṅkuratvena svataḥsiddhaṃ dharme prāmāṇyamiti susthitam |</p>
 <p>syādetat |</p>
@@ -3282,7 +3283,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>bhāvasya kāryatvamasti na vā | yadi nāsti tadā ghaṭapradhvaṃsānutpattyā
 <lb ed="vsa"/>ghaṭasya nityatāprasaṅgaḥ | athāsti kimaparāddhaṃ kāraṇatveneti seyamubha
 <lb ed="vsa" break="no"/>yataspāśā rajjuḥ | taduditamudayanena —</p>
-<p>bhāvo yathā tathābhāvaḥ kāraṇaṃ kāryavanmataḥ | <ref>nyā. ku. 1 | 10</ref>
+<p>bhāvo yathā tathābhāvaḥ<note n="12.248">tathā abhāvaḥ iti padacchedaḥ |</note> kāraṇaṃ kāryavanmataḥ | <ref>nyā. ku. 1 | 10</ref>
 <lb ed="vsa"/>iti | tathā ca prayogaḥ — vimataṃ prāmāṇyaṃ jñānahetvatiriktahetva
 <lb ed="vsa" break="no"/>dhīnaṃ kāryatve sati tadviśeṣāśritatvādaprāmāṇyavat | prāmāṇyaṃ parato
 <lb ed="vsa"/>jñāyate anabhyāsadaśāyāṃ sāṃśayikatvādaprāmāṇyavat | tasmādutpattau
@@ -3313,7 +3314,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>dhīnatvābhāvamāpādayatā praṇyagādi | pravṛttirhīcchāmapekṣate | tatprā
 <lb ed="vsa" break="no"/>curyaṃ cecchāprācuryam | icchā ceṣṭasādhanatājñānam | tacceṣṭajātīya
 <lb ed="vsa" break="no"/>tvaliṅgānubhavam | sopīndriyārthasaṃnikarṣam | prāmāṇyagrahaṇaṃ tu na
-<lb ed="vsa"/>kvacidupayujyata iti | tadapi taskarasya purastātkakṣe suvarṇamupetya
+<lb ed="vsa"/>kvacidupayujyata iti | tadapi taskarasya purastātkakṣe suvarṇamupetya<note n="12.276">apalapataḥ <foreign xml:lang="en">for</foreign> upetya <foreign xml:lang="en">D.</foreign></note>
 <lb ed="vsa"/>sarvāṅgoddhāṭanamiva pratibhāti | yataḥ samīhitasādhanatājñānameva
 <lb ed="vsa"/>pramāṇatayāvagamyamānamicchāṃ janayatītyatraiva sphuṭa eva prāmāṇyagra
 <lb ed="vsa" break="no"/>haṇasyopayogaḥ | kiṃ ca kvacidapi cennirvicikitsā pravṛttiḥ saṃśa
@@ -3322,7 +3323,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>sulabhaṃ bhavettadā prāmāṇyaṃ dattajalāñjalikaṃ bhavedityalamatiprapañcena |
 <lb ed="vsa"/>yasmāduktam —</p>
 <p><lg><l>tasmātsadbodhakatvena prāptā buddheḥ pramāṇatā |</l>
-<l>arthānyathātvahetūtthadoṣajñānādapodyate ||</l></lg> iti |</p>
+<l>arthānyathātvahetūtthadoṣajñānādapodyate<note n="12.285">atha <foreign xml:lang="en">for</foreign> artha <foreign xml:lang="en">D.</foreign></note> ||</l></lg> iti |</p>
 <p>tasmāddharme svataḥsiddhapramāṇabhāve jyotiṣṭomena svargakāmo yajete
 <lb ed="vsa" break="no"/>tyādividhyarthavādamantranāmadheyātmake vede yajetetyatra tapratyayaḥ prakṛtya
 <pb n="286"/>
@@ -3438,7 +3439,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>ktam — ekaḥ śabdaḥ samyagjñātaḥ suṣṭhu prayuktaḥ svarge loke kāmadhugbha
 <lb ed="vsa" break="no"/>vatīti | tathā —</p>
 <p><lg><l>nākamiṣṭasukhaṃ yānti suyuktairbaddhavāgrathaiḥ |</l>
-<l>atha patkāṣiṇo yānti ye cikkamitabhāṣiṇaḥ ||</l></lg>
+<l>atha patkāṣiṇo yānti ye cikkamitabhāṣiṇaḥ<note n="13.96">acīkramata <foreign xml:lang="en">for</foreign> cikvamita <foreign xml:lang="en">A.</foreign></note> ||</l></lg>
 <lb ed="vsa"/>nanvacetanasya śabdasya kathamīdṛśaṃ sāmarthyamupapadyata iti cet — maivaṃ
 <lb ed="vsa"/>manyethāḥ | mahatā devena sāmyaśravaṇāt | tadāha śrutiḥ —
 <pb n="297"/></p>
@@ -3479,7 +3480,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>t | kiṃ varṇāḥ samastā vyastā vārthapratyayaṃ janayanti | nādyaḥ | varṇānāṃ
 <pb n="300"/>
 <lb ed="vsa"/>kṣaṇikānāṃ samūhāsaṃbhavāt | nāntyaḥ | vyastavarṇebhyorthapratyayāsaṃ
-<lb ed="vsa" break="no"/>bhavāt | na ca vyāsasamāsābhyāmanyaḥ prakāraḥ samastīti | tasmādva
+<lb ed="vsa" break="no"/>bhavāt<note n="13.133">itaravarṇavaiyarthyaprasaṅgāt <foreign xml:lang="en">for</foreign> vyastavarṇebhyorthapratyayāsaṃbhavāt <foreign xml:lang="en">D.</foreign></note> | na ca vyāsasamāsābhyāmanyaḥ prakāraḥ samastīti | tasmādva
 <lb ed="vsa" break="no"/>rṇānāṃ vācakatvānupapattau yadbalādarthapratipattiḥ sa sphoṭaḥ | varṇā
 <lb ed="vsa" break="no"/>tirikto varṇābhivyaṅgyorthapratyāyako nityaḥ śabdaḥ sphoṭa iti
 <lb ed="vsa"/>tadvido vadanti | ata eva sphuṭyate vyajyate varṇairiti sphoṭo
@@ -3510,7 +3511,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <pb n="302"/>
 <lb ed="vsa"/>padabuddhirbhaviṣyati | tarhi sara ityetasminpade yāvanto varṇāstāvanta
 <lb ed="vsa"/>eva rasa ityatrāpi | evaṃ vanaṃ navaṃ nadī dīnā rāmo māro rājā
-<lb ed="vsa"/>jāretyādiṣvarthabhedapratītirna syāditi cenna | kramabhedena bhedasaṃbhavāt |
+<lb ed="vsa"/>jāretyādiṣvarthabhedapratītirna syāditi cenna | kramabhedena bhedasaṃbhavāt<note n="13.163"> kramavatāmeva varṇānāṃ vācakatvasāmarthyābhyupagamāt <foreign xml:lang="en">for</foreign> kramabhedena bheda<lb ed="vsa" break="no"/>saṃbhavāt <foreign xml:lang="en">D.</foreign></note> |
 <lb ed="vsa"/>taduktaṃ tautātitaiḥ —</p>
 <p><lg><l>yāvanto yādṛśā ye ca yadarthapratipādane |</l>
 <l>varṇāḥ prajñātasāmarthyāste tathaivāvabodhakāḥ ||</l></lg> iti |
@@ -3537,7 +3538,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>svādhyāyaḥ sakṛtpaṭhyamāno nāvadhāryate | abhyāsena tu sphuṭāva
 <lb ed="vsa" break="no"/>sāyaḥ | yathā vā ratnatattvaṃ prathamapratītau sphuṭaṃ na cakāsti | carame
 <lb ed="vsa"/>cetasi yathāvadabhivyajyate |</p>
-<p><lg><l>nādairāhitabījāyāmantyena dhvaninā saha |</l>
+<p><lg><l>nādairāhitabījāyāmantyena<note n="13.189">anyena <foreign xml:lang="en">for</foreign> antyena. <foreign xml:lang="en">D.</foreign></note> dhvaninā saha |</l>
 <l>āvṛttiparipākāyāṃ buddhau śabdovadhāryate ||</l></lg> <ref>vākyapa. 1 | 85</ref>
 <pb n="304"/>
 <lb ed="vsa"/>iti prāmāṇikokteḥ | tasmādasmācchabdādarthaṃ pratipadyāmaha iti vyava
@@ -3675,7 +3676,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>rajasastūbhayatra kriyotpādanadvāreṇa kāraṇatvamastīti na vaiyarthyam |
 <lb ed="vsa"/>taduktamīśvarakṛṣṇena —</p>
 <p><lg><l>abhimānohaṃkārastasmāddvividhaḥ pravartate sargaḥ |</l>
-<l>ekādaśakaraṇagaṇastanmātrāpañcakaṃ caiva ||</l></lg></p>
+<l>ekādaśakaraṇagaṇastanmātrāpañcakaṃ<note n="14.24">ekādaśakaśca <foreign xml:lang="en">for</foreign> ekādaśakaraṇa <foreign xml:lang="en">A.</foreign></note> caiva ||</l></lg></p>
 <p><lg><l>sāttvika ekādaśakaḥ pravartate vaikṛtādahaṃkārāt |</l>
 <l>bhūtādestanmātraḥ sa tāmasastaijasādubhayam ||</l></lg>
 <pb n="318"/></p>
@@ -3786,7 +3787,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>jīvānāṃ duḥkhaprahāṇecchānupapattiḥ | dvitīye parasparāśrayaprasaṅgaḥ |
 <lb ed="vsa"/>karuṇayā sṛṣṭiḥ sṛṣṭyā ca kāruṇyamiti | tasmādacetanasyāpi ceta
 <pb n="329"/>
-<lb ed="vsa" break="no"/>nānadhiṣṭhitasya pradhānasya mahadādirūpeṇa pariṇāmaḥ puruṣārthaprayuktaḥ
+<lb ed="vsa" break="no"/>nānadhiṣṭhitasya pradhānasya mahadādirūpeṇa pariṇāmaḥ puruṣārthaprayuktaḥ<note n="14.129">prayukta <foreign xml:lang="en">for</foreign> prayuktaḥ <foreign xml:lang="en">C.</foreign></note>
 <lb ed="vsa"/>pradhānapuruṣasaṃyoganimittaḥ | yathā nirvyāpārasyāpyayaskāntasya
 <lb ed="vsa"/>saṃnidhānena lohasya vyāpārastathā nirvyāpārasya puruṣasya saṃnidhānena
 <lb ed="vsa"/>pradhānavyāpāro yujyate | prakṛtipuruṣasaṃbandhaśca paṅgvandhavatparasparāpe
@@ -3947,7 +3948,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>prayojanam | śāstrayogayoḥ pratipādyapratipādakabhāvalakṣaṇaḥ saṃbandhaḥ |
 <lb ed="vsa"/>yogasya kaivalyasya ca sādhyasādhanabhāvalakṣaṇaḥ saṃbandhaḥ | sa ca
 <lb ed="vsa"/>śrutyādiprasiddha iti prāgevāvādiṣam | mokṣamapekṣamāṇā evādhi
-<lb ed="vsa" break="no"/>kāriṇa ityarthasiddham | na cāthāto brahmajijñāsā <ref>bra. sū. 1 | 1 | 1</ref>
+<lb ed="vsa" break="no"/>kāriṇa<note n="15.121">śravaṇādhikāriṇaḥ <foreign xml:lang="en">for</foreign> evādhikāriṇaḥ <foreign xml:lang="en">A.</foreign></note> ityarthasiddham | na cāthāto brahmajijñāsā <ref>bra. sū. 1 | 1 | 1</ref>
 <lb ed="vsa"/>ityādāvadhikāriṇorthataḥ siddhirāśaṅkanīyā | tatrāthaśabdenānantaryā
 <lb ed="vsa" break="no"/>bhidhānapraṇāḍikayādhikārisamarpaṇasiddhāvārthikatvaśaṅkānudayāt |
 <pb n="345"/>
@@ -4090,7 +4091,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>deśādyavacchedena bhāvanā pravartate tadā savicāraḥ | yadā rajastamole
 <lb ed="vsa" break="no"/>śānuviddhaṃ cittaṃ bhāvyate tadā sukhaprakāśamayasya sattvasyodrekā
 <lb ed="vsa" break="no"/>tsānandaḥ | yadā rajastamoleśānabhibhūtaṃ śuddhaṃ sattvamālambanīkṛtya
-<lb ed="vsa"/>yā pravartate bhāvanā tadā tasyāṃ sattvasya nyagbhāvāccitiśakterudre
+<lb ed="vsa"/>yā pravartate bhāvanā tadā tasyāṃ<note n="15.252">tasya <foreign xml:lang="en">for</foreign> tasyām <foreign xml:lang="en">c.</foreign></note> sattvasya nyagbhāvāccitiśakterudre
 <lb ed="vsa" break="no"/>kācca sattāmātrāvaśeṣatvena sāsmitaḥ samādhiḥ | taduktaṃ patañja
 <lb ed="vsa" break="no"/>linā-vitarkavicārānandāsmitārūpānugamātsaṃprajñātaḥ <ref>pāta. yo.
 <lb ed="vsa"/>sū. 1 | 17</ref> iti | sarvavṛttinirodhe tvasaṃprajñātaḥ samādhiḥ | nanu
@@ -4127,7 +4128,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>vidyāviruddhasya viparyayajñānasyābhidhānamiti vṛddhairaṅgīkārāt |
 <lb ed="vsa"/>tadāha —</p>
 <p><lg><l>nāmadhātvarthayoge tu naiva nañ pratiṣedhakaḥ |</l>
-<l>vadatyabrāhmaṇādharmāvanyamātravirodhinau ||</l></lg> iti |</p>
+<l>vadatyabrāhmaṇādharmāvanyamātravirodhinau<note n="15.286">vadanti <foreign xml:lang="en">for</foreign> vadati <foreign xml:lang="en">c.</foreign></note> ||</l></lg> iti |</p>
 <p><lg><l>vṛddhaprayogagamyo hi śabdārthaḥ sarva eva naḥ |</l>
 <l>tena yatra prayukto yo na tasmādapanīyate ||</l></lg> iti |
 <lb ed="vsa"/>vācaspatimiśrairapyuktaṃ lokādhīnāvadhāraṇo hi śabdārthayoḥ saṃbandhaḥ |
@@ -4157,7 +4158,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>naśaktyorekātmatevāsmitā <ref>pāta. yo. sū. 2 | 6</ref> iti |</p>
 <p>sukhābhijñasya sukhānusmṛtipūrvakaḥ sukhasādhaneṣu tṛṣṇārūpo gardho
 <pb n="363"/>
-<lb ed="vsa"/>rāgaḥ | duḥkhābhijñasya tadanusmṛtipurassaraṃ tatsādhaneṣu nivṛttirdveṣaḥ |
+<lb ed="vsa"/>rāgaḥ | duḥkhābhijñasya tadanusmṛtipurassaraṃ tatsādhaneṣu nivṛttirdveṣaḥ<note n="15.313">nindā <foreign xml:lang="en">for</foreign> nivṛttiḥ <foreign xml:lang="en">A.</foreign></note> |
 <lb ed="vsa"/>taduktaṃ — sukhānuśayī rāgaḥ <ref>pāta. yo. sū. 2 | 7</ref> duḥkhānuśayī
 <lb ed="vsa"/>dveṣaḥ <ref>pāta. yo. sū. 2 | 8</ref> iti |</p>
 <p>kimatrānuśayiśabde tācchīlyārthe ṇinirinirvā matvarthīyobhimataḥ |
@@ -4177,7 +4178,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>siddham |</p>
 <p>pūrvajanmānubhūtamaraṇaduḥkhānubhavavāsanābalātsarvasya prāṇabhṛnmātra
 <lb ed="vsa" break="no"/>syā kṛmerā ca viduṣaḥ saṃjāyamānaḥ śarīraviṣayādermama viyogo mā
-<lb ed="vsa"/>bhūditi pratyahaṃ nimittaṃ vinā pravartamāno bhayarūpobhiniveśaḥ pañcamaḥ
+<lb ed="vsa"/>bhūditi pratyahaṃ nimittaṃ vinā pravartamāno bhayarūpobhiniveśaḥ<note n="15.332">bhavarūpaḥ <foreign xml:lang="en">for</foreign> bhayarūpaḥ <foreign xml:lang="en">D.</foreign></note> pañcamaḥ
 <lb ed="vsa"/>kleśaḥ | mā na bhūvaṃ hi bhūyāsamiti prārthanāyāḥ pratyātmamanubhavasiddha
 <pb n="365"/>
 <lb ed="vsa" break="no"/>tvāt | tadāha — svarasavāhī viduṣopi tathā rūḍhobhiniveśaḥ <ref>pāta.
@@ -4197,7 +4198,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>punaḥ punastathātvena cetasi niveśanamabhyāsaḥ | carmaṇi dvīpinaṃ hantī
 <lb ed="vsa" break="no"/>tivannimittārtheyaṃ saptamītyuktaṃ bhavati | dṛṣṭānuśravikaviṣayavitṛṣṇasya
 <lb ed="vsa"/>vaśīkārasaṃjñā vairāgyam <ref>pāta. yo. sū. 1 | 15</ref> | aihikapāratrikavi
-<lb ed="vsa" break="no"/>ṣayādau doṣadarśanānnirabhilāṣasya mamaite viṣayā vaśyā nāhameteṣāṃ
+<lb ed="vsa" break="no"/>ṣayādau doṣadarśanānnirabhilāṣasya mamaite viṣayā vaśyā<note n="15.350">na vaśyāḥ <foreign xml:lang="en">for</foreign> vaśyāḥ <foreign xml:lang="en">D.</foreign></note> nāhameteṣāṃ
 <lb ed="vsa"/>vaśya iti vimarśo vairāgyamityuktaṃ bhavati |</p>
 <p>samādhiparipanthikleśatanūkaraṇārthaṃ samādhilābhārthaṃ ca prathamaṃ kriyā
 <lb ed="vsa" break="no"/>yogavidhānapareṇa yoginā bhavitavyam | kriyāyogasaṃpādanebhyāsa
@@ -4230,7 +4231,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p><lg><l>jananaṃ jīvanaṃ caiva tāḍanaṃ bodhanaṃ tathā |</l>
 <l>abhiṣekotha vimalīkaraṇāpyāyane punaḥ ||</l></lg></p>
 <p><lg><l>tarpaṇaṃ dīpanaṃ guptirdaśaitā mantrasaṃskriyāḥ |</l>
-<l>mantrāṇāṃ mātṛkāyantrāduddhāro jananaṃ smṛtam ||</l></lg></p>
+<l>mantrāṇāṃ mātṛkāyantrāduddhāro<note n="15.380">vargāt <foreign xml:lang="en">for</foreign> yantrāt <foreign xml:lang="en">C.</foreign></note> jananaṃ smṛtam ||</l></lg></p>
 <p><lg><l>praṇavāntaritānkṛtvā mantravarṇāñjapetsudhīḥ |</l>
 <l>mantrārṇasaṃkhyayā taddhi jīvanaṃ saṃpracakṣate ||</l></lg></p>
 <p><lg><l>mantravarṇānsamālikhya tāḍayeccandanāmbhasā |</l>
@@ -4322,14 +4323,14 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p><lg><l>padmāsanaṃ bhavedetatsarveṣāmabhipūjitam |</l></lg>
 <lb ed="vsa"/>ityādinā yājñavalkyaḥ padmāsanādisvarūpaṃ nirūpitavān | tatsarvaṃ
 <lb ed="vsa"/>tata evāvagantavyam | tasminnāsanasthairye sati prāṇāyāmaḥ pratiṣṭhito
-<lb ed="vsa"/>bhavati | sa ca śvāsapraśvāsayorgativicchedasvarūpaḥ | tatra śvāso
+<lb ed="vsa"/>bhavati | sa ca śvāsapraśvāsayorgativicchedasvarūpaḥ<note n="15.470">ucchvāsa <foreign xml:lang="en">for</foreign> śvāsa <foreign xml:lang="en">D.</foreign></note> | tatra śvāso
 <lb ed="vsa"/>nāma bāhyasya vāyorantarānayanam | praśvāsaḥ punaḥ koṣṭhyasya bahirniḥ
 <lb ed="vsa" break="no"/>sāraṇam | tayorubhayorapi saṃcaraṇābhāvaḥ prāṇāyāmaḥ | nanu nedaṃ
 <lb ed="vsa"/>prāṇāyāmasāmānyalakṣaṇam | tadviśeṣeṣu recakapūrakakumbhakaprakāreṣu
 <pb n="377"/>
 <lb ed="vsa"/>tadanugaterayogāditi cet — naiṣa doṣaḥ | sarvatrāpi śvāsapraśvāsagati
 <lb ed="vsa" break="no"/>vicchedasaṃbhavāt | tathā hi | koṣṭhyasya vāyorbahirniḥsaraṇaṃ recakaḥ
-<lb ed="vsa"/>prāṇāyāmo yaḥ praśvāsatvena prāguktaḥ | bāhyasya vāyorantardhāraṇaṃ pūrako
+<lb ed="vsa"/>prāṇāyāmo yaḥ praśvāsatvena prāguktaḥ | bāhyasya vāyorantardhāraṇaṃ pūrako<note n="15.476">caramaḥ <foreign xml:lang="en">for</foreign> pūrakaḥ <foreign xml:lang="en">A.</foreign></note>
 <lb ed="vsa"/>yaḥ śvāsarūpaḥ | antaḥstambhavṛttiḥ kumbhakaḥ | yasmiñjalamiva kumbhe
 <lb ed="vsa"/>niścalatayā prāṇākhyo vāyuravasthāpyate | tatra sarvatra śvāsapraśvāsa
 <lb ed="vsa" break="no"/>dvayagativicchedostyeveti nāsti śaṅkāvakāśaḥ | taduktaṃ tasminsati
@@ -4440,7 +4441,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>siddhayaḥ svadanta iti madhupratīkāḥ | sarvabhāvādhiṣṭhātṛtvādirūpā
 <lb ed="vsa"/>viśokā siddhiḥ | tadāha — sattvapuruṣānyatākhyātimātrasya sarvabhāvā
 <lb ed="vsa" break="no"/>ghiṣṭhātṛtvaṃ sarvajñatvaṃ ca <ref>pāta. yo. sū. 3 | 49</ref> iti | sarveṣāṃ
-<lb ed="vsa"/>vyavasāyāvyavasāyātmakānāṃ guṇapariṇāmarūpāṇāṃ bhāvānāṃ svāmi
+<lb ed="vsa"/>vyavasāyāvyavasāyātmakānāṃ<note n="15.582">avyavaseya <foreign xml:lang="en">for</foreign> avyavasāya <foreign xml:lang="en">D.</foreign></note> guṇapariṇāmarūpāṇāṃ bhāvānāṃ svāmi
 <lb ed="vsa" break="no"/>vadākramaṇaṃ sarvabhāvādhiṣṭhātṛtvam | teṣāmeva śāntoditāvyapadeśya
 <pb n="386"/>
 <lb ed="vsa" break="no"/>dharmitvena sthitānāṃ vivekajñānaṃ sarvajñātṛtvam | taduktaṃ — viśokā vā
@@ -4470,7 +4471,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>saṃsāraḥ saṃsāraheturmokṣo mokṣopāya iti | tatra duḥkhamayaḥ saṃsāro
 <lb ed="vsa"/>heyaḥ | pradhānapuruṣayoḥ saṃyogo heyabhogahetuḥ | tasyātyantikī
 <lb ed="vsa"/>nivṛttirhānam | tadupāyaḥ samyagdarśanam | evamanyadapi śāstraṃ
-<lb ed="vsa"/>yathāsaṃbhavaṃ caturvyūhamūhanīyamiti sarvamavadātam |</p>
+<lb ed="vsa"/>yathāsaṃbhavaṃ caturvyūhamūhanīyamiti sarvamavadātam<note n="15.609">sarvamavadātam — ityasyānataram ‘itaḥ paraṃ sarvadarśanaśiromaṇimūtaṃ śāṃka<lb ed="vsa" break="no"/>radarśanamanyatra likhitamityatropekṣitamiti’ iyaṃ paṅktiḥ <foreign xml:lang="en">ḍ</foreign> pustake vartate |</note> |</p>
 <trailer>iti śrīmatsāyaṇamādhavīye sarvadarśanasaṃgrahe pātañjaladarśanam ||</trailer>
 </div>
 <div n="16"><pb n="389"/>
@@ -4518,7 +4519,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>vena pradhānapravṛtteḥ prāgapi muktatayā tadarthaṃ pravṛttyanupapatteḥ | śabdādyupa
 <lb ed="vsa" break="no"/>bhogārthamapravṛttatvena pradhānasya tadajanakatvaprasaṅgācca | nāpi tṛtīyaḥ |
 <lb ed="vsa"/>prāguktadūṣaṇalaṅghanālaṅghitatvāt | pravṛttisvabhāvāyāḥ prakṛteraudāsī
-<lb ed="vsa" break="no"/>nyāyogācca | nanu sattvapuruṣānyatākhyātiḥ puruṣārthaḥ | tasyāṃ jātāyāṃ
+<lb ed="vsa" break="no"/>nyāyogācca<note n="16.40">kādācitkatva <foreign xml:lang="en">for</foreign> audāsīnya <foreign xml:lang="en">D.</foreign></note> | nanu sattvapuruṣānyatākhyātiḥ puruṣārthaḥ | tasyāṃ jātāyāṃ
 <lb ed="vsa"/>sā nivartate kṛtakāryatvāditi cet — tadasamañjasam | acetanāyāḥ
 <lb ed="vsa"/>prakṛtervicārya kāryakāritvāyogāt | yatheyaṃ kṛtepi śabdādyupalambhe
 <lb ed="vsa"/>tadarthaṃ punaḥ pravartata evamatrāpi punaḥ pravarteta | svabhāvasyānapāyāt |
@@ -4536,14 +4537,14 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>ktavyaḥ | svīkartavyaśca vivartavādaḥ | nanu jīvajaḍayoḥ sārūpyābhā
 <lb ed="vsa" break="no"/>vena cidvivartatvaṃ prapañcasya na saṃparipadyata iti prāgavādiṣmeti cet —
 <lb ed="vsa"/>naitatsādhu | na hi sārūpyanibandhanāḥ sarve vibhramā iti vyāptirasti |
-<lb ed="vsa"/>asarūpādapi kāmādeḥ kāntāliṅganādiṣviva svapnavibhramasyopala
+<lb ed="vsa"/>asarūpādapi<note n="16.58">asadrūpāt <foreign xml:lang="en">for</foreign> asarūpāt <foreign xml:lang="en">A.</foreign></note> kāmādeḥ kāntāliṅganādiṣviva svapnavibhramasyopala
 <lb ed="vsa" break="no"/>mbhāt | kiṃ ca kādācitke vibhrame sārūpyāpekṣā nānādyavidyāniba
 <lb ed="vsa" break="no"/>ndhane prapañce | tadavocadācāryavācaspatiḥ —</p>
 <p><lg><l>vivartastu prapañcoyaṃ brahmaṇo'pariṇāminaḥ |</l>
 <l>anādivāsanodbhūto na sārūpyamapekṣate ||</l></lg> iti |
 <lb ed="vsa"/>tadetatsarvaṃ vedāntaśāstrapariśramaśālināṃ sugamaṃ sughaṭaṃ ca |
 <pb n="394"/></p>
-<p>tacca vedāntaśāstraṃ caturlakṣaṇam | bhagavatā bādarāyaṇena praṇītasya
+<p>tacca vedāntaśāstraṃ caturlakṣaṇam | bhagavatā bādarāyaṇena praṇītasya<note n="16.64">bhagavadbādarāyaṇaprāṇāyitasya <foreign xml:lang="en">for</foreign> bhagavatā bādarāyaṇena praṇītasya <foreign xml:lang="en">D.</foreign></note>
 <lb ed="vsa"/>vedāntaśāstrasya pratyagbrahmaikyaṃ viṣaya iti śaṃkarācāryāḥ pratyapīpa
 <lb ed="vsa" break="no"/>dan | tatra prathame samanvayādhyāye sarveṣāṃ vedāntānāṃ brahmaṇi tātpa
 <lb ed="vsa" break="no"/>ryeṇa paryavasānam | dvitīye'virodhādhyāye sāṃkhyāditarkavirodhani
@@ -4717,7 +4718,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>cchikī vā | nādyaḥ | ekasminnavayave chinne cidātmanopyavayava
 <lb ed="vsa" break="no"/>śchinna ityacetanatvāpātāt | na dvitīyaḥ | anekeṣāmavayavānāma
 <lb ed="vsa" break="no"/>nyonyasāhityaniyamādarśanāt | na tṛtīyaḥ | saṃśleṣavadviśleṣasyāpi
-<lb ed="vsa"/>yādṛcchikatvena sukhena vasatāmakasmādacetanatvaprasaṅgāt |
+<lb ed="vsa"/>yādṛcchikatvena sukhena vasatāmakasmādacetanatvaprasaṅgāt<note n="16|217">sukheneva satām <foreign xml:lang="en">for</foreign> sukhena vasatām <foreign xml:lang="en">A.</foreign></note> |
 <pb n="412"/></p>
 <p>na cāṇuparimāṇatvamātmanaḥ śaṅkanīyam | sthūlohaṃ dīrghohamiti
 <lb ed="vsa"/>pratyayānupapatteḥ |</p>
@@ -4730,7 +4731,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>vasya prāgeva prapañcitatvāt | tathā ca prayogaḥ — vimataṃ śāstraṃ viṣaya
 <lb ed="vsa" break="no"/>prayojanasahitamāvidyakabandhanivartakatvātsuptotthitabodhavat | yathā
 <lb ed="vsa"/>svapnāvasthāyāṃ māyāparikalpitayoṣādikṛtabandhanivartakasya supto
-<lb ed="vsa" break="no"/>tthitabodhasya mandiramadhye sukhena śayyāyāmavatiṣṭhamāno deho viṣayaḥ |
+<lb ed="vsa" break="no"/>tthitabodhasya mandiramadhye sukhena śayyāyāmavatiṣṭhamāno deho viṣayaḥ<note n="16.228">na viṣayaḥ <foreign xml:lang="en">for</foreign> viṣayaḥ <foreign xml:lang="en">D.</foreign></note> |
 <lb ed="vsa"/>tasya suptabodhenāniścayāt | svapnamāyāvijṛmbhitānarthanivṛttiḥ prayo
 <lb ed="vsa" break="no"/>janam | evaṃ mananādijanyaparokṣajñānadvāreṇādhyāsikakartṛtvabhoktṛtvā
 <lb ed="vsa" break="no"/>dyanarthaniṣedhakasya śāstrasya saccidānandaikarasaṃ pratyagātmabhūtaṃ brahma
@@ -4812,7 +4813,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <l>vārtāhāreṇa yātasya pariśeṣaviniściteḥ ||</l></lg> <ref>citsu. pṛ. 88</ref> iti |
 <lb ed="vsa"/>yaduktaṃ siddhārthapareṣu kāryādhyāhāra iti tadayuktam | mukhyārthaviṣa
 <lb ed="vsa" break="no"/>yatayā siddhepi prayogasiddhāvadhyāhārānupapatteḥ | yaduktaṃ śāstratva
-<lb ed="vsa" break="no"/>prasiddhyā ca na svarūpaparatvamiti tadapyayuktam | hitaśāsanādapi
+<lb ed="vsa" break="no"/>prasiddhyā ca na svarūpaparatvamiti<note n="16.305">pravṛttiparāṇāmeva śāstratvam <foreign xml:lang="en">for</foreign> śāstratvaprasiddhyā ca na svarūpaparatvam <foreign xml:lang="en">D.</foreign></note> tadapyayuktam | hitaśāsanādapi
 <lb ed="vsa"/>śāstratvopapatteḥ | na ca prayojanābhāvaḥ | śrutamatavedāntajanyādvi
 <lb ed="vsa" break="no"/>tīyātmavijñānābhyāsena vidyodaye saṃsāranidānāvidyānivṛttyupala
 <lb ed="vsa" break="no"/>kṣitabrahmātmatālakṣaṇaparamapuruṣārthasiddheḥ | na cātra vidhiḥ saṃbhavati |
@@ -5147,11 +5148,11 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa" break="no"/>yogitvopapatteḥ |</p>
 <p>nanvidaṃ rajatamiti jñānamekamanekaṃ vā | na tāvadādyaḥ | apasi
 <lb ed="vsa" break="no"/>ddhāntāpatterasaṃbhavācca | tathā hi | śuktīdamaṃśendriyasaṃprayogādida
-<lb ed="vsa" break="no"/>mākārāntaḥpariṇāmarūpamekaṃ jñānaṃ jāyate | na ca tatra kaladhautaṃ
+<lb ed="vsa" break="no"/>mākārāntaḥpariṇāmarūpamekaṃ<note n="16.626">rūpātmakam <foreign xml:lang="en">for</foreign> rūpamekam <foreign xml:lang="en">D.</foreign></note> jñānaṃ jāyate | na ca tatra kaladhautaṃ
 <lb ed="vsa"/>viṣayabhāvamākalpayitumutsahate | asaṃprayuktatvāttasya | viṣayatvā
 <lb ed="vsa" break="no"/>ṅgīkāre sarvajñātvāpatteḥ | na ca cakṣuranvayavyatirekānuvidhāyitayā
 <lb ed="vsa"/>tajjñānasya tajjanyatvaṃ vācyam | idamaṃśajñānotpattau tadupakṣayopa
-<lb ed="vsa" break="no"/>patteḥ | na cāpi saṃskārādrajatajñānasya janma | smṛtitvāpatteḥ | athe
+<lb ed="vsa" break="no"/>patteḥ<note n="16.629">tadapekṣāyāḥ <foreign xml:lang="en">for</foreign> tadupakṣaya <foreign xml:lang="en">D.</foreign></note> | na cāpi saṃskārādrajatajñānasya janma | smṛtitvāpatteḥ | athe
 <pb n="444"/>
 <lb ed="vsa" break="no"/>ndriyadoṣasya tatkaraṇatvam | tadapyayuktam | svātantryeṇa tasya jñāna
 <lb ed="vsa" break="no"/>hetutvānupapatteḥ | na hi grahaṇasmaraṇābhyāmanyaḥ prakāraḥ samasti |
@@ -5241,7 +5242,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>samānaḥ | tadevamātmani pratyakṣeṇa vānyena vā jñānamātrābhāvasya
 <lb ed="vsa"/>grahaṇamaśakyamiti sthitam |</p>
 <p>nanu jñānaviśeṣābhāvaḥ pratyakṣeṇa gṛhyatām | na tāvatsmaraṇā
-<lb ed="vsa" break="no"/>bhāvaḥ | abhāvagrahaṇe pratiyogismaraṇasya kāraṇatvāt | nāpyanubha
+<lb ed="vsa" break="no"/>bhāvaḥ | abhāvagrahaṇe pratiyogismaraṇasya<note n="16.713">grahaṇasya <foreign xml:lang="en">for</foreign> smaraṇasya <foreign xml:lang="en">A.</foreign></note> kāraṇatvāt | nāpyanubha
 <lb ed="vsa" break="no"/>vābhāvaḥ | tasyāvarjanīyatvāt | nanvātmani ghaṭānubhavābhāvaḥ pratya
 <pb n="452"/>
 <lb ed="vsa" break="no"/>kṣaviṣayastarhyahamajña iti jñānasāmānyavacano jānātirjñānaviśeṣenubhave
@@ -5265,7 +5266,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <p>astu vā jñānābhāvapratibhāsaḥ | ayamabhāvaśca pratiyogī yatra
 <lb ed="vsa"/>niṣidhyate na tatastattvāntaramanyadadhikaraṇabhāvāt | mā bhūdanyabhā
 <pb n="454"/>
-<lb ed="vsa" break="no"/>vatvamanyābhāvatvaṃ tu syāt | nanu tadapi viruddham | satyaṃ sati bhede |
+<lb ed="vsa" break="no"/>vatvamanyābhāvatvaṃ tu syāt | nanu tadapi viruddham<note n="16|734">tadaviruddham <foreign xml:lang="en">for</foreign> tadapi viruddham <foreign xml:lang="en">D.</foreign></note> | satyaṃ sati bhede |
 <lb ed="vsa"/>sa ca pramāṇāt | tacca sati pratiyogyabhāvādhikaraṇatastattvāntare |
 <lb ed="vsa"/>nanu ghaṭavati bhūtale ghaṭābhāvamitivyavahṛtī syātāmiti cet — mā
 <lb ed="vsa"/>bhūtāmete pratiyoginā sahānubhūyamānedhikaraṇe | pratiyogismaraṇe
@@ -5350,7 +5351,7 @@ teṣu vinaṣṭeṣu satsu svayaṃ vinaśyati | tadāhuḥ — vijñānaghana
 <lb ed="vsa"/>vaidikyāḥ kriyāyāḥ samakṣakṣayitayā pāratrikaphalakaraṇatvānyathā
 <lb ed="vsa" break="no"/>nupapattyā apūrvāṅgīkaraṇānupapattiśca | loke ca śuktivyaktitattvābhi
 <lb ed="vsa" break="no"/>vyaktāvapanīyamānasyāropitasya mithyātvadṛṣṭau taddṛṣṭāntāvaṣṭambhenā
-<lb ed="vsa" break="no"/>tmatattvasākṣātkāravidyāpanodyasyāvidyakasya bandhasya mithyātvānu
+<lb ed="vsa" break="no"/>tmatattvasākṣātkāravidyāpanodyasyāvidyakasya<note n="16.812">ātyantikatattva <foreign xml:lang="en">for</foreign> ātmatattva <foreign xml:lang="en">A.</foreign></note> bandhasya mithyātvānu
 <lb ed="vsa" break="no"/>mānasaṃbhavāt | vimataṃ mithyā adhiṣṭhānatattvajñānanivartyatvācchukti
 <lb ed="vsa" break="no"/>kārūpyavaditi | na ca vimataṃ satyaṃ bhāsamānatvāditi pratiprayoge
 <lb ed="vsa"/>samānabalatayā bādhapratirodhaḥ | pratirodhabhiyānyataradoṣatvasaṃbha
