@@ -1,4 +1,74 @@
 <doc>
+<!--
+    <teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<title type="main" subtype="commentary">Nyāyavārttikatātparyapariśuddhi</title>
+       <author role="commentator" ref="http://viaf.org/viaf/56623455">Udayanācārya</author>
+	<funder><ref target="https://www.oeaw.ac.at/en/ikga">Institute for the Cultural and Intellectual History of Asia (IKGA), Austrian Academy of Sciences</ref></funder>
+	<principal>
+          <persName ref="https://orcid.org/0000-0002-6076-5182">Birgit Kellner</persName>
+        </principal>
+	<respStmt>
+	  <resp>data entry by</resp>
+	  <name key="aurorachana">Aurorachana, Auroville</name>
+	</respStmt>
+	<respStmt>
+	  <resp>prepared for SARIT by</resp>
+	  <persName xml:id="sarit-encoder-1-nvtp" ref="https://viaf.org/viaf/308710472/">Liudmila Olalde</persName>
+          <persName xml:id="sarit-encoder-2-nvtp" ref="https://orcid.org/0000-0001-8043-7453">Patrick McAllister</persName>
+	</respStmt>
+      </titleStmt>
+      <editionStmt>
+	<p> </p>
+      </editionStmt>
+      <publicationStmt>
+	<publisher>SARIT: Search and Retrieval of Indic Texts.</publisher>
+	<availability status="restricted">
+	  <p>Copyright Notice:</p>
+	  <p>Copyright 2021 SARIT</p>
+	  <licence>
+	    <p>Distributed under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International licence.</ref> Under this licence, you are free to:</p>
+	    <list>
+	      <item>Share — copy and redistribute the material in any medium or format.</item> <item>Adapt — remix, transform, and build upon the material for any purpose, even commercially.</item>
+	    </list>
+	    <p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p>
+	    <p>Under the following terms:</p>
+	    <list>
+	      <item>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</item>
+	      <item>ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</item>
+	    </list>
+	    <p>More information and fuller details of this license are given on the Creative Commons website.</p>
+	  </licence>
+	  <p>SARIT assumes no responsibility for unauthorised use that infringes the rights of any copyright owners, known or unknown.</p>
+	</availability>
+	<date>2021</date>
+      </publicationStmt>
+      <sourceDesc>
+	<bibl xml:id="nvtp-thakur-1996">
+	  <author role="commentator">Udayanācārya</author>, <title level="m" type="main">Nyāyavārttika-tātparyapariśuddhi</title>. 
+    	  Edited by <editor>Anantalal Thakur</editor>. <pubPlace>New Delhi</pubPlace>: <publisher>Indian Council of Philosophical Research</publisher>, <date when="1996">1996</date>
+	  <note>The following list of witnesses is based on the Preface to <ref target="#nvtp-thakur-1996">Thakur 1996</ref>, p. vii.</note>
+	</bibl>
+	<listWit>
+          <witness xml:id="nvtp-J">Photocopies from a Jaisalmir manuscript (complete).</witness>
+	    <witness xml:id="nvtp-A">Photocopies from an Ahmedabad manuscript (complete).</witness>
+	    <witness xml:id="nvtp-T">Handmade copies from a Tanjore manuscript (complete).</witness>
+	    <witness xml:id="nvtp-M">Handmade copies from an Adyar manuscript (complete).</witness>
+	  <witness xml:id="nvtp-B1">Manuscript of the fifth chapter of the Pariśuddhi: Oriental Institute, Baroda, accession no. 1207.</witness>
+	  <witness xml:id="nvtp-B">Prakāśa of Vardhamāna (published portions).</witness>
+	</listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>
+      </p>
+    </encodingDesc>
+    <revisionDesc>
+      <change></change>
+    </revisionDesc>
+  </teiHeader>
+-->
 <pb n="1"/>
 <h0>|| nyāyavārttikatātparyapariśuddhiḥ ||</h0>
 <h1>|| prathamādhyāye prathamāhnikam ||</h1>
