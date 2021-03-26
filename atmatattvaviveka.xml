@@ -1,4 +1,81 @@
 <doc>
+<!--
+<teiHeader xml:lang="en">
+    <fileDesc>
+      <titleStmt>
+	<title type="main" subtype="base-text">Ātmatattvaviveka</title>
+	<author role="base-author" ref="http://viaf.org/viaf/56623455">Udayanācārya</author>
+   	<author role="commentator" n="1">Śaṅkara Miśra</author>
+	<author role="commentator" n="2">Bhagīratha Ṭhakkura</author>
+	<author role="commentator" n="3">Raghunātha Tārkikaśiromaṇi</author>
+	<author role="commentator" n="4">Mathurānātha Tarkavāgīśa</author>
+	<funder><ref target="https://www.oeaw.ac.at/en/ikga">Institute for the Cultural and Intellectual History of Asia (IKGA), Austrian Academy of Sciences</ref></funder>
+	<principal>
+          <persName ref="https://orcid.org/0000-0002-6076-5182">Birgit Kellner</persName>
+        </principal>
+	<respStmt>
+	  <resp>data entry by</resp>
+	  <name key="aurorachana">Aurorachana, Auroville</name>
+	</respStmt>
+	<respStmt>
+	  <resp>prepared for SARIT by</resp>
+	  <persName xml:id="sarit-encoder-1-ātv" ref="https://viaf.org/viaf/308710472/">Liudmila Olalde</persName>
+	  <persName xml:id="sarit-encoder-2-ātv" ref="https://orcid.org/0000-0001-8043-7453">Patrick McAllister</persName>
+	</respStmt>
+      </titleStmt>
+      <editionStmt>
+	<p> </p>
+      </editionStmt>
+      <publicationStmt>
+	<publisher>SARIT: Search and Retrieval of Indic Texts.</publisher>
+	<availability status="restricted">
+	  <p>Copyright Notice:</p>
+	  <p>Copyright 2021 SARIT</p>
+	  <licence>
+	    <p>Distributed under a <ref target="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International licence.</ref> Under this licence, you are free to:</p>
+	    <list>
+	      <item>Share — copy and redistribute the material in any medium or format.</item> <item>Adapt — remix, transform, and build upon the material for any purpose, even commercially.</item>
+	    </list>
+	    <p>The licensor cannot revoke these freedoms as long as you follow the license terms.</p>
+	    <p>Under the following terms:</p>
+	    <list>
+	      <item>Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</item>
+	      <item>ShareAlike — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.</item>
+	    </list>
+	    <p>More information and fuller details of this license are given on the Creative Commons website.</p>
+	  </licence>
+	  <p>SARIT assumes no responsibility for unauthorised use that infringes the rights of any copyright owners, known or unknown.</p>
+	</availability>
+	<date>2021</date>
+      </publicationStmt>
+      <sourceDesc>
+	<bibl xml:id="ātv-dvivedin_dravida-1986">
+	  <author role="base-author">Udayanācārya</author>, <title level="m" type="main">Ātmatattvaviveka</title> <title level="m" type="sub">with the commentaries of Śaṅkara Miśra, Bhagīratha Thakkura and Raghunātha Tārkikaśiromaṇī</title>.
+	  Edited by <editor n="1">Vindhyesvariprasada Dvivedin</editor> and <editor n="2">Lakshmana Sastri Dravida</editor>.
+	  <pubPlace>Calcutta</pubPlace>: <publisher>The Asiatic Society</publisher>, <date when="1986">1986</date>.
+	  <note>First published in 1907–39. Reprinted in 1986.</note>
+	</bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p>The text is structured in five sections (see Introduction to Dvivedin and Dravida, 1986, p. xiii):
+      <list>
+	<item>Kṣaṇabhaṅgavāda: 1-428;</item>
+	<item>Bāhyārthabhaṅgavādaprārambha: 429-709;</item>
+	<item>Guṇaguṇibhedabhaṅgavādaprārambha: 710-738;</item>
+	<item>Anupalambhavāda: 739-948.</item>
+      </list>
+      </p>
+      <p>Commentaries included:
+      <list>
+	<item>Śaṅkara Miśra (शङ्क० टी०): complete;</item>
+	<item>Bhagīratha Ṭhakkura (भगी० टी०): occasional lacunae, for instance on pp. 665 and 831-858;</item>
+	<item>Ragunātha Tārkikaśiromaṇi (रघु० टी०): complete;</item>
+	<item>Mathurānātha Tarkavāgīśa (मथु० टी०): this is only given up to page 38.</item>
+      </list></p>
+    </encodingDesc>
+  </teiHeader>
+-->
 <pb n="1"/>
 <h1>oṃṃ namaḥ paramātmane |
 <br/>ātmatattvavivekaḥ |
