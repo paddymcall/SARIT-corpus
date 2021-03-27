@@ -27,7 +27,8 @@
 	<p> </p>
       </editionStmt>
       <publicationStmt>
-	<publisher>SARIT: Search and Retrieval of Indic Texts.</publisher>
+	<publisher><orgName>Institute for the Cultural and Intellectual History of Asia of the Austrian Academy of Sciences (<ref target="https://www.oeaw.ac.at/en/ikga/">IKGA</ref>)</orgName></publisher>
+	<distributor><orgName>SARIT: Search and Retrieval of Indic Texts</orgName></distributor>
 	<availability status="restricted">
 	  <p>Copyright Notice:</p>
 	  <p>Copyright 2021 SARIT</p>
