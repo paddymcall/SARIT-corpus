@@ -1,5 +1,4 @@
-<doc>
-<!--
+<TEI xml:id="nvttp" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader xml:lang="en">
     <fileDesc>
       <titleStmt>
@@ -69,7 +68,8 @@
       <change></change>
     </revisionDesc>
   </teiHeader>
--->
+  <text>
+    <body>
 <pb n="1"/>
 <h0>|| nyāyavārttikatātparyapariśuddhiḥ ||</h0>
 <h1>|| prathamādhyāye prathamāhnikam ||</h1>
@@ -15907,4 +15907,6 @@
 <br/><roman>JA</roman></p></note>
 <note n="601-6"><p><roman>J</roman> tārkikagajaghaṭāsihaṃnādapaṇḍitaśrīudayanācāryakṛtagranthe ṭippaṇake pañcamo'dhyāyaḥ | <roman>A</roman> iti
 <br/>paṇḍitaśrīudayanakṛtau tātparyapariśuddhau pañcamo'dhyāyaḥ samāptaḥ | śubhaṃ bhavatu, sarvakalyāṇamastu |</p></note>
-</doc>
+    </body>
+  </text>
+</TEI>
