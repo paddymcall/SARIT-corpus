@@ -20,7 +20,7 @@
 	</respStmt>
 	<respStmt>
 	  <resp>prepared for SARIT by</resp>
-	  <persName key="name person pma">Patrick Mc Allister</persName>
+	  <persName key="name person pma">Patrick McAllister</persName>
 	</respStmt>
 	<respStmt>
 	  <persName>Rāhula Sāṅkṛtyāyana</persName>
@@ -103,8 +103,7 @@
       </p>
     </encodingDesc>
     <revisionDesc>
-      <change> Converted from source file to TEI XML by <persName>Patrick Mc
-      Allister</persName> <date>2013-09-09</date>:
+      <change> Converted from source file to TEI XML by <persName>Patrick McAllister</persName> <date>2013-09-09</date>:
       <list>
 	<item>removed inexistent entites (&amp;sect;, e.g.)
 	</item>
@@ -117,7 +116,7 @@
       </change>
       <change xml:id="pva_ed__initial">Various textual corrections and
       notes entered before <date>2014-07-14</date> by
-      <persName>Patrick Mc Allister</persName>.</change>
+      <persName>Patrick McAllister</persName>.</change>
     </revisionDesc>
   </teiHeader>
 

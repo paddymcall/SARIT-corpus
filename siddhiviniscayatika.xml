@@ -96,7 +96,6 @@
 	  <item>The signs † and § where encoded as anchor-elements.</item>
         </list>
       </p>
-<p><hi rend="bold">Note:</hi> Some syllables were illegible in the scans available to SARIT, these have been encoded either as gap- (164 occurrences) or unclear-elements (5 occurrences). The agent-attribute "scan" indicates that the scan available was not clear enough, whereas "print" means that the passage was already illegible in the print edition. Note-elements belonging to unclear passages (5 occurrences) have been left at the end of the page and have been assigned the ana-attribute "gap".</p>
 </editorialDecl>
     </encodingDesc>
     <profileDesc>
@@ -105,6 +104,9 @@
     <revisionDesc>
       <change who="https://viaf.org/viaf/308710472/" when="2017-03-24">Replaced seg-tags (before or after † and §) with anchor-elements. Resolved some gaps unclear passages.</change>
       <change who="https://viaf.org/viaf/308710472/" when="2017-03-25">For a complete history of the changes in this file go to <ref target="https://github.com/sarit/SARIT-corpus/commits/master/siddhiviniscayatika.xml">SARIT GitHub Repository</ref>.</change>
+      <change who="https://viaf.org/viaf/308710472/" when="2020-10-04">Resolved unclear-elements that had been used to tag illegible characters in the scans available to SARIT when this file was created.</change>
+      <change who="https://viaf.org/viaf/308710472/" when="2020-10-04">Resolved 164 gap-elements that had been used to mark illegible characters in the scans available to SARIT when this file was created, relocated notes belonging to these passages, and updated editorial declaration.</change>
+      <change who="https://viaf.org/viaf/308710472/" when="2020-10-04">Corrected typos on p. 561.</change>
     </revisionDesc>
   </teiHeader>
   <text xml:lang="sa-Deva">
@@ -6347,7 +6349,7 @@
 सः<note n="201-5"><p>प्रज्ञाकरः ।</p></note> ध र्म की र्त्तेः अभिप्रायमज्ञात्त्वैव मन्यते, तथा तदभिप्रायाऽभावात्, अन्यथा <hi rend="bold"><quote ana="from-other-text">मन्त्राद्युप<lb break="no" ed="mkj"/>प्लुताक्षाणाम्</quote></hi> <ref cRef="">प्र॰ वा॰ २ । ३५५</ref> इत्यादि निदर्शनमप्रेक्षाकारितां तस्य सूचयेत् । नहि नाम<lb ed="mkj"/>
 सविभ्रमे अक्षविभ्रमो निदर्शनम्, ईश्वरादिविभ्रमस्य तज्जातीयस्य भावात् । न <note n="201-6"><p>धर्मकीर्तेः ।</p></note>चास्य द्विचन्द्रादि<lb break="no" ed="mkj"/>भ्रान्तिरपि इन्द्रियजा इति सिध्यति । शक्यं हि वक्तुम्--प्रथमम् एकेन्दुदर्शनम्, पुनस्तस्य<lb ed="mkj"/>
 विकल्पेन द्वित्वाध्यवसाय इति । तथा च <note n="201-7"><p>द्विचन्द्रादिभ्रान्तः ।</p></note>तस्या इन्द्रियजत्वं साधयतो<note n="201-8"><p><quote>नीलद्विचन्द्रादिधियां हेतुरक्षाण्यपीत्ययम् ॥...किं वैन्द्रियं यदक्षाणां भावाभावानुरोधि चेत् । तत्तुल्यं<lb ed="mkj"/>
-विक्रियावच्चेत् सैवेयं किं निषिध्यते ॥</quote>--प्र॰ वा॰ २ । २९०--९६ इत्यादिना भ्रान्तेरिन्द्रियजत्वं <gap reason="illegible" agent="scan" extent="1 akṣara"/>धयतः ।</p></note> ध र्म की र्त्तेः <supplied resp="#siviṭ-mkj-supp">अकीर्तिः</supplied><lb ed="mkj"/>
+विक्रियावच्चेत् सैवेयं किं निषिध्यते ॥</quote>--प्र॰ वा॰ २ । २९०--९६ इत्यादिना भ्रान्तेरिन्द्रियजत्वं साधयतः ।</p></note> ध र्म की र्त्तेः <supplied resp="#siviṭ-mkj-supp">अकीर्तिः</supplied><lb ed="mkj"/>
 आयाता । शेषमत्र प्रथमपरिच्छेदेऽभिहितं प्रकृतेऽपि द्रष्टव्यम् । ततो यत्किञ्चिदेतत् ।</p>
         <lb ed="mkj"/>
         <p>एतेन नैयायिकादिरपि जैनं प्रति <hi rend="bold"><quote ana="from-other-text">कार्यकारणयोः</quote></hi> इत्यादि वदन् निवारितो द्रष्टव्यः ।<lb ed="mkj"/>
@@ -6356,7 +6358,7 @@
 अनन्तरोक्तम् <hi rend="bold">अन्यत्रापि</hi> अर्थेऽपि समानं <hi rend="bold">कल्पयन्</hi> केन <hi rend="bold">वार्यते ।</hi> कुत एतत् ? इत्यत्राह—<lb ed="mkj"/>
 <hi rend="bold">परिणाम</hi> इत्यादि । <note n="201-10"><p>दृष्टान्तसहितम् ।</p></note>सनिदर्शनमत्रैव हेतुमाह--<hi rend="bold">चित्र</hi> इत्यादिना ।</p>
         <lb ed="mkj"/>
-        <p>यत्पुनः परेण<note n="201-11"><p><quote>अहेतुत्वाद्विनाशस्य स्वभावादनुब<gap reason="illegible" agent="scan" extent="2 akṣaras"/>ता । न<lb ed="mkj"/>
+        <p>यत्पुनः परेण<note n="201-11"><p><quote>अहेतुत्वाद्विनाशस्य स्वभावादनुबन्धिता । न<lb ed="mkj"/>
 हि विनश्वरं तद्भावे हेतुमपेक्षते स्वहेतोरेव विनश्वराणां भावात् ।</quote>--प्र॰ वा॰ स्व॰ पृ॰ ३६० । <quote>विनाशं<lb ed="mkj"/>
 प्रति सर्वेषामनपेक्षतया स्थितेः ।...सर्वत्रैवानपेक्षाश्च विनाशे जन्मिनोऽखिलाः । सर्वथा नाशहेतूना तत्राकि<lb break="no" ed="mkj"/>च्चित्करत्वतः ॥</quote>--तत्त्वसं॰ श्लो॰ ३५३, ३५७ ।</p></note> भावविनाशयोरपि<note type="correction" resp="#siviṭ-mkj-corr">रवि</note>नाभावसाधने उक्तम्--</p>
         <lb ed="mkj"/>
@@ -6973,7 +6975,7 @@
 क्षीराम्भःप्रविवेचनतुण्डो हंसः</q> इत्याद्यागमाहितसंस्कारस्य च नैयायिकाद्युपमानादिज्ञानं तद<hi rend="bold">पि</hi><lb ed="mkj"/>
 द्रव्यादिविषयं सत् <hi rend="bold"><note n="219-11"><p>मतिज्ञानप्रभेदलक्षणम् ।</p></note>तत्प्रभेदलक्षणं प्रमाणं वादादिति <note type="correction" resp="#siviṭ-mkj-corr">णमविसंवादादिति</note></hi> सम्बन्धः ।</p>
         <lb ed="mkj"/>
-        <p>साम्प्रतमप्रमाणं दर्शयन्नाह--<hi rend="bold">मिथ्याऽज्ञानम्</hi> इति । <hi rend="bold">मिथ्या</hi> <q>अ<gap reason="illegible" agent="scan" extent="1 akṣara"/>ग्रहादिमतिस्मृतिसंज्ञा<lb break="no" ed="mkj"/>चिन्ताभिनिबोधात्मकं ज्ञानम्</q> इति <hi rend="bold">अज्ञानम् अप्रमाणम्</hi> प्रमाणं न भवति <q>मत्यज्ञानत्वात्</q> इति<lb ed="mkj"/>
+        <p>साम्प्रतमप्रमाणं दर्शयन्नाह--<hi rend="bold">मिथ्याऽज्ञानम्</hi> इति । <hi rend="bold">मिथ्या</hi> <q>अवग्रहादिमतिस्मृतिसंज्ञा<lb break="no" ed="mkj"/>चिन्ताभिनिबोधात्मकं ज्ञानम्</q> इति <hi rend="bold">अज्ञानम् अप्रमाणम्</hi> प्रमाणं न भवति <q>मत्यज्ञानत्वात्</q> इति<lb ed="mkj"/>
 द्रष्टव्यम् । अत्र निदर्शनमाह--<hi rend="bold">यथा</hi> इत्यादि । <hi rend="bold">एकान्तस्य विषयस्य</hi> सम्बन्धि <hi rend="bold">दर्शनाऽनु माना<lb break="no" ed="mkj"/>दिकम्</hi> आदि <pb ed="ms" n="१७९ ख"/> शब्देन आगमपरिग्रहं तद्यवेति <note type="correction" resp="#siviṭ-mkj-corr">हः तदिवेति</note> । <hi rend="bold">अन्यद्वा</hi> स्वप्नादि<lb break="no" ed="mkj"/>ज्ञानं वा । अनेन लौकिकशास्त्रीयदृष्टान्तद्वयं दर्शयति ।</p>
         <lb ed="mkj"/>
         <p>यदि वा, अन्यथा पूर्वपक्षयित्वा एतद् ज्ञातव्यम्, तद्यथा पूर्वप्रस्तावद्वये यदवग्रहादि<lb break="no" ed="mkj"/>धारणापर्यन्तं ज्ञानं चिन्तितम्, यच्च <hi rend="bold"><q>प्रमाणम् अविसंवादिस्मृतिः</q></hi> इत्यादिना स्मरणम् अस्मिन्<note n="219-12"><p>तृतीयप्रस्तावे ।</p></note>,<lb ed="mkj"/>
@@ -8888,24 +8890,24 @@
 तस्य तादृशस्य वा दर्शनात् सम्बन्धस्मृतौ प्रत्यभिज्ञाने चिन्तायां दृश्यमानस्य तत्कारणस्वभाव<lb break="no" ed="mkj"/>प्रतिपत्तौ प्रवृत्तिरिति प्रायिकमेतत् । तदुक्तमत्रैव--<hi rend="bold"><quote ana="from-other-text">अक्षज्ञानम् <note type="correction" resp="#siviṭ-mkj-corr">नैः</note></quote></hi> <ref cRef="">सिद्धिवि॰ १ । २७</ref> <lb ed="mkj"/>
 इत्यादि । न चैतत् पृथिव्यादेर्युक्तम्, पूर्वज्ञानस्य उत्तरज्ञानाकारपरिणामदर्शनात् गृत्पिण्डस्य<lb ed="mkj"/>
 स्थासपरिणामवत् । तदास्तां तिष्ठतु न विचारणीयम् । कुतः ? इत्याह--<hi rend="bold">प्रत्यक्षं यतः ।</hi> न<lb ed="mkj"/>
-वै खलु पृथिव्याद्यसंभविगुणपर्यायोपचिततया प्रत्यक्षं तत्त्वं पृथिव्यादिभ्यो भिन्नम् <gap reason="illegible" agent="scan" extent="1 akṣara"/>न्यद्वा इति<lb ed="mkj"/>
+वै खलु पृथिव्याद्यसंभविगुणपर्यायोपचिततया प्रत्यक्षं तत्त्वं पृथिव्यादिभ्यो भिन्नम् अन्यद्वा इति<lb ed="mkj"/>
 विचारमर्हति, तेषामपि परस्परं तत्प्रसङ्गात् । किं तर्हि विचारणीयम् ? इत्याह--<hi rend="bold">भूतगोचरम्</hi><lb ed="mkj"/>
 इत्यादि । पृथिव्यादिविषयं ज्ञानं <hi rend="bold">प्रत्यक्षम्</hi> इन्द्रियज्ञानम् इत्यर्थः ।</p>
           <lb ed="mkj"/>
           <p>ननु अस्य आध्यात्मिकज्ञानादा <note type="correction" resp="#siviṭ-mkj-corr">ज्ञानपदोपादाना</note>त्तत्परिहारेणैव परिहृतं तत् किमर्थं<lb ed="mkj"/>
 पृथगेतदुच्यते ? सत्यम्; तथापि पूर्वं सामान्येन अयं विशेषेण उच्यते इति विभागः ।</p>
           <lb ed="mkj"/>
-          <p>अत्र परस्य<note n="281-3"><p>चार्वाकस्य ।</p></note> अनेकं दर्शनम्--भूतस्वभावः तद्<note n="281-4"><p><gap reason="illegible" agent="scan" extent="2 akṣaras"/>यज्ञानम् ।</p></note> इत्येकम् । तत्परिणाम इत्यपरम् । तेभ्यो<lb ed="mkj"/>
-भिन्नमतत्त्वं मरीचिकाजलवत् इति अन्यत् तत्त्वम् इति परम् । तत्कार्यत्वात् <note n="281-5"><p>भूते एव ।</p></note>तत्रैव <gap reason="illegible" agent="scan" extent="1 akṣara"/>न्तर्भवति<lb ed="mkj"/>
+          <p>अत्र परस्य<note n="281-3"><p>चार्वाकस्य ।</p></note> अनेकं दर्शनम्--भूतस्वभावः तद्<note n="281-4"><p>इन्द्रियज्ञानम् ।</p></note> इत्येकम् । तत्परिणाम इत्यपरम् । तेभ्यो<lb ed="mkj"/>
+भिन्नमतत्त्वं मरीचिकाजलवत् इति अन्यत् तत्त्वम् इति परम् । तत्कार्यत्वात् <note n="281-5"><p>भूते एव ।</p></note>तत्रैव अन्तर्भवति<lb ed="mkj"/>
 इति पृथक् । तत्र अनेकं वाक्यम्--<hi rend="bold">भूतं</hi> पृथिव्यादि <hi rend="bold">भूतरूपं चेत्</hi> यदि <hi rend="bold">भूतगोचरं ज्ञानं<lb ed="mkj"/>
 प्रत्यक्षम् आस्तां</hi> पर्याप्तम् तेनेत्यः<note type="correction" resp="#siviṭ-mkj-corr">त्यर्थः</note> । कुतः ? <pb ed="ms" n="२३१ क"/> इत्याह--<hi rend="bold">अभूतं स्यात्<lb ed="mkj"/>
-यतः</hi> अभूतस्वभावं भवेत् । नहि सर्वभूतानि चेतनारूपाणि संविद्रते जगतः प्राणिम<unclear reason="illegible" agent="scan">त्व</unclear>प्रसङ्गात् ।<lb ed="mkj"/>
+यतः</hi> अभूतस्वभावं भवेत् । नहि सर्वभूतानि चेतनारूपाणि संविद्रते जगतः प्राणिमयत्वप्रसङ्गात् ।<lb ed="mkj"/>
 क्वचित् त<note n="281-6"><p>सांख्यकल्पित ।</p></note>दाविर्भावतिरोभावकल्पनापि पापीयसी सांख्याविशेषात्, भूतव्यवस्था भूतरूपैव स्यादिति ।</p>
           <lb ed="mkj"/>
           <p>तथा <hi rend="bold">अभूतम्</hi> ईषद्भूतरूपं परिणाममस्य कथञ्चित् परिणामिरूपत्वात् <hi rend="bold">चेत्</hi> यदि<lb ed="mkj"/>
-तदपि <hi rend="bold">आस्ताम् अभूतं स्यात्</hi> यतः कथञ्चिदपि <note n="281-7"><p>सत्यार्थम् ।</p></note>भूतरूपं न भवेत् अचेत<gap reason="illegible" agent="scan" extent="2 akṣaras"/>य चेतन<lb break="no" ed="mkj"/>परिणामविरोधात् ।</p>
+तदपि <hi rend="bold">आस्ताम् अभूतं स्यात्</hi> यतः कथञ्चिदपि <note n="281-7"><p>सत्यार्थम् ।</p></note>भूतरूपं न भवेत् अचेतनस्य चेतन<lb break="no" ed="mkj"/>परिणामविरोधात् ।</p>
           <lb ed="mkj"/>
-          <p>तथा <hi rend="bold">अभूतं</hi> भूताद् अन्यत् <hi rend="bold">चेद्</hi> अस्वतं <hi rend="bold"><note type="correction" resp="#siviṭ-mkj-corr">आस्ताम्</note></hi> मरीचिकाजलवद<gap reason="illegible" agent="scan" extent="1 akṣara"/>त् स्यात् ।<lb ed="mkj"/>
+          <p>तथा <hi rend="bold">अभूतं</hi> भूताद् अन्यत् <hi rend="bold">चेद्</hi> अस्वतं <hi rend="bold"><note type="correction" resp="#siviṭ-mkj-corr">आस्ताम्</note></hi> मरीचिकाजलवदसत् स्यात् ।<lb ed="mkj"/>
 <hi rend="bold">चेत्</hi> इत्येतद् अत्रापि सम्बन्धनीयम् । तदप्या<hi rend="bold">स्ताम् ।</hi> <note n="281-8"><p>असद्रूपात् ।</p></note>ततः कस्यचित् विधानप्रतिषेधाऽभावात्<lb ed="mkj"/>
 इत्युक्तत्वात् ।</p>
           <lb ed="mkj"/>
@@ -10024,24 +10026,23 @@
 छलजातिनिग्रहस्थानसाधनोपालम्भो जल्पः</quote>--न्यायसू॰ १ । २ । २ ।</p></note> इ</hi>त्येवम् वादात् पृथगेव जल्पस्य <hi rend="bold">कैश्चित्</hi> नैया<lb ed="mkj" break="no"/>
 यिकादिभिः <hi rend="bold">लक्षणात्,</hi> <pb ed="ms" n="२२६ ख"/> <q>ताभ्यां तं प्रतिपक्षिपतां दर्शनाद्</q> इति सम्बन्धः ।</p>
         <lb ed="mkj"/>
-        <p>छ<note n="315-6"><p>तुलना--<quote>तत्त्वरक्षणार्थं सद्भिरुपह<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-व्यमेव छलादि विजिगीषुभिरिति चेत्; नखचपेटशस्त्रप्रहारादीपनादिभिरपि इति वक्तव्यम् । तस्म<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-ज्यायानयं तत्त्वरक्षणोपायः ।</quote>--वादन्या॰ पृ॰ ७१ । <quote>लकुटचपेटादिभिस्तन्न्यक्कारस्यापि तत्त्वाध्यवसा<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-संरक्षणार्थत्वानुषङ्गात् ।</quote>--न्यायकुमु॰ पृ॰ ३३८ ।</p></note>लादीनाम् आक्रोशचपेटादिसमत्वादिति मन्यते । तथाहि--<q>आ<note n="315-7"><p><quote>नवकम्बलोऽयं माणवक इति प्रयोगः । अत्र <gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-कम्बलोऽस्येति वक्तुरभिप्रायः । विग्रहे तु विशेषो न समासे । तत्रायं छलवादी वक्तुरभिप्रायादविवक्षि<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-मन्यार्थम्--नव कम्बला अस्येति तावदभिहितं भवता इति कल्पयति । कल्पयित्वा चासंभवेन प्रतिषे<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
+        <p>छ<note n="315-6"><p>तुलना--<quote>तत्त्वरक्षणार्थं सद्भिरुपहर्त्त<lb ed="mkj" break="no"/>
+व्यमेव छलादि विजिगीषुभिरिति चेत्; नखचपेटशस्त्रप्रहारादीपनादिभिरपि इति वक्तव्यम् । तस्मान्न<lb ed="mkj"/>
+ज्यायानयं तत्त्वरक्षणोपायः ।</quote>--वादन्या॰ पृ॰ ७१ । <quote>लकुटचपेटादिभिस्तन्न्यक्कारस्यापि तत्त्वाध्यवसाय<lb ed="mkj" break="no"/>
+संरक्षणार्थत्वानुषङ्गात् ।</quote>--न्यायकुमु॰ पृ॰ ३३८ ।</p></note>लादीनाम् आक्रोशचपेटादिसमत्वादिति मन्यते । तथाहि--<q>आ<note n="315-7"><p><quote>नवकम्बलोऽयं माणवक इति प्रयोगः । अत्र नवः<lb ed="mkj"/>
+कम्बलोऽस्येति वक्तुरभिप्रायः । विग्रहे तु विशेषो न समासे । तत्रायं छलवादी वक्तुरभिप्रायादविवक्षित<lb ed="mkj" break="no"/>
+मन्यार्थम्--नव कम्बला अस्येति तावदभिहितं भवता इति कल्पयति । कल्पयित्वा चासंभवेन प्रतिषेधति<lb ed="mkj"/>
 एकोऽस्य कम्बलः कुतो नव कम्बलाः इति ? तदिदं सामान्यशब्दे वाचि छलं वाक्छलमिति । अस्य<lb ed="mkj"/>
 प्रत्यवस्थानम्...। सोऽयमनुपपद्यमानार्थकल्पनया परवाक्योपालम्भो न कल्पते इति ।</quote>--न्यायभा॰<lb ed="mkj"/>
-१ । २ । १२ । चरकसं॰ पृ॰ २६६ । उपायहृ॰ पृ॰ १५ । न्यायासा॰ पृ॰ १६ । न्यायकालि॰ पृ॰ १६ ।</p></note>ढ्योऽयं नवकम्बलवत्त्व<gap reason="illegible" agent="scan" extent="2 akṣaras"/></q><lb ed="mkj"/>
-इत्युक्ते स प्रतिवादी उद्भावयति <q>मा अस्य नव कम्बलाः किन्तु एकः</q> इत्यसिद्धो हेतुरिति; त<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-चिन्त्यते--किं सम्यक् साधनप्रयोगे पुरः स ए <note type="correction" resp="#siviṭ-mkj-corr">प्रयोगपुरस्सरे</note> तदुद्भावने<note n="315-8"><p>छलाद्युद्भावने ।</p></note> प्रतिवादिनः पराज<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-विपरीते वा ? तत्राद्यपक्षे स्वपक्षसिद्ध्यैव वादी प्रतिवादिनं विजयते किमन्येन ? यदि पु<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-<q>द्विर्बद्धं सुबद्धं भवति</q> इति तदुद्भावनेनापि;<note n="315-9"><p>प्रयोजनम् ।</p></note> तदसत्यम्; युक्त्या निगृहीते<note n="315-10"><p>प्रतिवादिनि ।</p></note> तद्वैफल्यात्, <note n="315-11"><p>छलादिप्रयोगवैयर्थ्यात् ।</p></note>वि<gap reason="illegible" agent="scan" extent="2 akṣaras"/><note n="315-12"><p><quote>अविशेषोक्ते हेतौ प्रतिषिद्धे विशेषमिच्छतो हेत्वन्तरम्</quote>--न्यायसू॰ ५ । २ । ६ ।</p></note><lb ed="mkj"/>
-पयोगमृते सत्तोमहि <note type="correction" resp="#siviṭ-mkj-corr">शत्रौ नहि</note> तद्व्यापादनाय स्वल्पचपेटादिकं युञ्जते । कथञ्चैवं हेत्वन्त<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-निग्रहस्थानं न दूषणान्तरोद्भावनम्<note n="315-13"><p>निग्रहस्थानमिति ।</p></note> इति विभागः, यतो वादिनो युगपत् जयपराजयौ <gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-स्याताम् ? तस्मात् नवकम्बलत्वादि <supplied resp="#siviṭ-mkj-supp">ति</supplied>हेत्वर्थस्य विवक्षितत्वात् नायमसिद्धो हेतुः । प्रकरणा<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-भिश्च अनेकार्थेषु शब्देषु नियतार्थसंप्रत्ययः कर्त्तव्यः, अन्यथा सर्वशब्दानामनेकार्थत्वात् सर्वो<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
-एवं हेत्वादिः दुष्टः स्यात् <q>नास्त्यत्र सीतस्यसो <note type="correction" resp="#siviṭ-mkj-corr">शीतस्पर्शो</note> धूमकेतोः<note n="315-14"><p><q>अग्नेः</q> इत्यस्यार्थे <q>शिखिनः</q> इति प्रयोगे क्रियमाणे कश्चित् शिखिशब्दं मयूरार्थकं मत्त्वा दूषयेत् ।</p></note>--शिखिनः</q> इत्यादि प्र<gap reason="illegible" agent="scan" extent="2 akṣaras"/><lb ed="mkj"/>
+१ । २ । १२ । चरकसं॰ पृ॰ २६६ । उपायहृ॰ पृ॰ १५ । न्यायासा॰ पृ॰ १६ । न्यायकालि॰ पृ॰ १६ ।</p></note>ढ्योऽयं नवकम्बलवत्त्वत्</q><lb ed="mkj"/>
+इत्युक्ते स प्रतिवादी उद्भावयति <q>मा अस्य नव कम्बलाः किन्तु एकः</q> इत्यसिद्धो हेतुरिति; तत्रेदं<lb ed="mkj"/>
+चिन्त्यते--किं सम्यक् साधनप्रयोगे पुरः स ए <note type="correction" resp="#siviṭ-mkj-corr">प्रयोगपुरस्सरे</note> तदुद्भावने<note n="315-8"><p>छलाद्युद्भावने ।</p></note> प्रतिवादिनः पराजयः,<lb ed="mkj"/>
+विपरीते वा ? तत्राद्यपक्षे स्वपक्षसिद्ध्यैव वादी प्रतिवादिनं विजयते किमन्येन ? यदि पुनः<lb ed="mkj"/>
+<q>द्विर्बद्धं सुबद्धं भवति</q> इति तदुद्भावनेनापि;<note n="315-9"><p>प्रयोजनम् ।</p></note> तदसत्यम्; युक्त्या निगृहीते<note n="315-10"><p>प्रतिवादिनि ।</p></note> तद्वैफल्यात्, <note n="315-11"><p>छलादिप्रयोगवैयर्थ्यात् ।</p></note>विषो<lb ed="mkj" break="no"/>पयोगमृते सत्तोमहि <note type="correction" resp="#siviṭ-mkj-corr">शत्रौ नहि</note> तद्व्यापादनाय स्वल्पचपेटादिकं युञ्जते । कथञ्चैवं हेत्वन्तरं<note n="315-12"><p><quote>अविशेषोक्ते हेतौ प्रतिषिद्धे विशेषमिच्छतो हेत्वन्तरम्</quote>--न्यायसू॰ ५ । २ । ६ ।</p></note><lb ed="mkj"/>
+निग्रहस्थानं न दूषणान्तरोद्भावनम्<note n="315-13"><p>निग्रहस्थानमिति ।</p></note> इति विभागः, यतो वादिनो युगपत् जयपराजयौ न<lb ed="mkj"/>
+स्याताम् ? तस्मात् नवकम्बलत्वादि <supplied resp="#siviṭ-mkj-supp">ति</supplied>हेत्वर्थस्य विवक्षितत्वात् नायमसिद्धो हेतुः । प्रकरणादि<lb ed="mkj" break="no"/>
+भिश्च अनेकार्थेषु शब्देषु नियतार्थसंप्रत्ययः कर्त्तव्यः, अन्यथा सर्वशब्दानामनेकार्थत्वात् सर्वोऽपि<lb ed="mkj"/>
+एवं हेत्वादिः दुष्टः स्यात् <q>नास्त्यत्र सीतस्यसो <note type="correction" resp="#siviṭ-mkj-corr">शीतस्पर्शो</note> धूमकेतोः<note n="315-14"><p><q>अग्नेः</q> इत्यस्यार्थे <q>शिखिनः</q> इति प्रयोगे क्रियमाणे कश्चित् शिखिशब्दं मयूरार्थकं मत्त्वा दूषयेत् ।</p></note>--शिखिनः</q> इत्यादि प्रयो<lb ed="mkj" break="no"/>
 
 
 
@@ -10203,37 +10204,37 @@
 अनुषङ्गी इति ।</p>
         <lb ed="mkj"/>
         <pb ed="mkj" n="321"/>
-        <p>स्यान्मतम्-- <quote ana="from-other-text"><hi rend="bold">न ततः<note n="321-1"><p>शब्दात् । तुलना--<quote>अनेन एतदपि निराकृतम्--अद्वैते कथं <gap reason="illegible" agent="scan" extent="3 akṣaras"/>तिबोधनाय प्रवर्तते इति ।<lb ed="mkj"/>
-स्वपरयोरस्यार्थस्यासिद्धेः । अयं परोऽहं न परः इति स्वसंवेदनमेवैतद् <gap reason="illegible" agent="scan" extent="3 akṣaras"/>सादयति । नात्र परमार्थतो<lb ed="mkj"/>
-विभागः--अहं प्रश्नयिता परः कथयति । द्वयोरपि स्वाकारोपरक्तप्रत्ययसं<gap reason="illegible" agent="scan" extent="3 akṣaras"/>वैतत् न तु विभागः स्वप्न<lb break="no" ed="mkj"/>प्रत्ययवत् उन्मत्तप्रत्ययप्रलापवच्च । उन्मत्तस्तर्हि वादी कथं ततोऽद्वैतप्र<gap reason="illegible" agent="scan" extent="3 akṣaras"/>रपि ? ननु सर्वप्रत्ययप्रलय<lb ed="mkj"/>
-एवायं प्रवर्तते नात्र प्रतीतेरुदयः । किं तर्हि प्रतिवादिनाऽन्येन वा कर्त्तव्यम् ? <gap reason="illegible" agent="scan" extent="3 akṣaras"/> क्रियमाणं किञ्चिद् दृश्यते ?</quote><lb ed="mkj"/>
+        <p>स्यान्मतम्-- <quote ana="from-other-text"><hi rend="bold">न ततः<note n="321-1"><p>शब्दात् । तुलना--<quote>अनेन एतदपि निराकृतम्--अद्वैते कथं परप्रतिबोधनाय प्रवर्तते इति ।<lb ed="mkj"/>
+स्वपरयोरस्यार्थस्यासिद्धेः । अयं परोऽहं न परः इति स्वसंवेदनमेवैतद् उदयमासादयति । नात्र परमार्थतो<lb ed="mkj"/>
+विभागः--अहं प्रश्नयिता परः कथयति । द्वयोरपि स्वाकारोपरक्तप्रत्ययसंवेदनमेवैतत् न तु विभागः स्वप्न<lb break="no" ed="mkj"/>प्रत्ययवत् उन्मत्तप्रत्ययप्रलापवच्च । उन्मत्तस्तर्हि वादी कथं ततोऽद्वैतप्रतीतिरपि ? ननु सर्वप्रत्ययप्रलय<lb ed="mkj"/>
+एवायं प्रवर्तते नात्र प्रतीतेरुदयः । किं तर्हि प्रतिवादिनाऽन्येन वा कर्त्तव्यम् ? किं क्रियमाणं किञ्चिद् दृश्यते ?</quote><lb ed="mkj"/>
 --प्र॰ वार्तिकाल॰ पृ॰ २९३ ।</p></note> किञ्चित् कश्चित् प्रतिपादप्रति प्रतिपद्यते</hi><pb ed="ms" n="२६१ क"/><hi rend="bold">वा<lb ed="mkj"/>
 केवलं तैमिरिकद्वयवद् भ्रान्त्या शब्दत इदं मया अयं प्रतिपादितः अहं च प्रतिपन्नः इति<lb ed="mkj"/>
-वक्तुः प्रतिपत्तुश्च बुद्धिः जायते</hi></quote> इति; तन्न सारम्; यतः कथमेवं स्वयं जानन्नेव शाब्द<lb break="no" ed="mkj"/>व्यवहारम् अनुबाधेत संयोग्यादिव्यवहारवत् ? यथैवायं <gap reason="illegible" agent="scan" extent="3 akṣaras"/>ग्यादिलिङ्गं<note n="321-2"><p>वैशेषिकाभिमतं । <quote>संयोगि समवा<gap reason="illegible" agent="scan" extent="3 akṣaras"/>र्थसमवायि विरोधि च ।</quote><lb ed="mkj"/>
+वक्तुः प्रतिपत्तुश्च बुद्धिः जायते</hi></quote> इति; तन्न सारम्; यतः कथमेवं स्वयं जानन्नेव शाब्द<lb break="no" ed="mkj"/>व्यवहारम् अनुबाधेत संयोग्यादिव्यवहारवत् ? यथैवायं संयोग्यादिलिङ्गं<note n="321-2"><p>वैशेषिकाभिमतं । <quote>संयोगि समवाय्येकार्थसमवायि विरोधि च ।</quote><lb ed="mkj"/>
 --वैशे॰ सू॰ ३ । १ । ९ ।</p></note> प्र<note n="321-3"><p>अविनाभावाभावेन ।</p></note>तिबन्धाभावेन<lb ed="mkj"/>
-सव्यभिचारमुपलभ्य परिहृतवान् तथा शब्दं परिहरेत् । अथ <gap reason="illegible" agent="scan" extent="3 akṣaras"/>रित्यागे क्षणमपि जीवितुं न<lb ed="mkj"/>
-शक्यते इति तत्पामः <note type="correction" resp="#siviṭ-mkj-corr">न तत्त्यागः</note> तत एव भविष्यच्छकटाद्यनु<gap reason="illegible" agent="scan" extent="3 akṣaras"/> <note n="321-5"><p><quote>भविष्यत्प्रतिपद्येत शकटं<lb ed="mkj"/>
-कृत्तिकोदयात् । श्व आदित्य उदेतेति ग्रहणं वा भविष्यति ॥</quote>--लघी॰ <gap reason="illegible" agent="scan" extent="3 akṣaras"/> १४ । कृत्तिकोदयमालक्ष्य<lb ed="mkj"/>
+सव्यभिचारमुपलभ्य परिहृतवान् तथा शब्दं परिहरेत् । अथ त<note n="321-4"><p>शब्दत्यागे ।</p></note>त्परित्यागे क्षणमपि जीवितुं न<lb ed="mkj"/>
+शक्यते इति तत्पामः <note type="correction" resp="#siviṭ-mkj-corr">न तत्त्यागः</note> तत एव भविष्यच्छकटाद्यनुमाने <note n="321-5"><p><quote>भविष्यत्प्रतिपद्येत शकटं<lb ed="mkj"/>
+कृत्तिकोदयात् । श्व आदित्य उदेतेति ग्रहणं वा भविष्यति ॥</quote>--लघी॰ श्लो॰ १४ । कृत्तिकोदयमालक्ष्य<lb ed="mkj"/>
 रोहिण्यासत्तिकॢप्तिवत् ।<unclear resp="#siviṭ-q">"</unclear>--मी॰ श्लो॰ पृ॰ ३५१ ।</p></note>कृत्तिकाद्युदयपरित्यागोऽपि<lb ed="mkj"/>
-मा भूत् । तथा च <hi rend="bold"><quote ana="from-other-text">अद्य आदित्योदयात् श्व आदित्य उदे<gap reason="illegible" agent="scan" extent="3 akṣaras"/> इति नानुमानं व्यभिचार<lb break="no" ed="mkj"/>संभवात्</quote></hi> इति प्लवते । यदि पुनः व्यवहारी त<note n="321-6"><p>व्यभिचा<gap reason="illegible" agent="scan" extent="3 akṣaras"/> ।</p></note>थाविधादपि <gap reason="illegible" agent="scan" extent="3 akṣaras"/> लिङ्गादिकं प्रतिपद्यते इति<lb ed="mkj"/>
-तदर्था <note type="correction" resp="#siviṭ-mkj-corr">र्थं</note> तदङ्गीकरणम्; अत एव संयोग्याद्यङ्गीकरणमस्तु । <gap reason="illegible" agent="scan" extent="3 akṣaras"/>यम्<note n="321-7"><p>बौद्धः ।</p></note> अप्रतिबद्धादपि शब्दात्<lb ed="mkj"/>
-लिङ्गं प्रतिपादयति न त<note n="321-8"><p>अविनाभावशून्यात् ।</p></note>थाविधाल्लिङ्गात् लिङ्गिनमिति प्राकृतश<gap reason="illegible" agent="scan" extent="3 akṣaras"/> । तैमिरिकोऽपि विज्ञाततैमिर<lb break="no" ed="mkj"/>ज्ञानमिथ्यात्वो न ततो व्यवहारमारचयति, इतरथा विभ्रमज्ञाने <gap reason="illegible" agent="scan" extent="3 akṣaras"/>ज्ञा क र स्य पक्षत्रयस्थापन<note n="321-9"><p><quote>पीतशङ्खादिविज्ञानं तु न प्रमाणमेव तथा<gap reason="illegible" agent="scan" extent="3 akṣaras"/>यावाप्तेरभावात् । संस्थान<lb break="no" ed="mkj"/>मात्रार्थक्रियाप्रसिद्धावन्यदेव ज्ञानं प्रमाणमनुमानं । तथाहि--प्रतिभास एवं <gap reason="illegible" agent="scan" extent="3 akṣaras"/> यः स न संस्थानवर्जितः ।<lb ed="mkj"/>
-एवमन्यत्र दृष्टत्वादनुमानं तथा च तत् ॥ येन न कदाचिद् व्यभिचार उपल<gap reason="illegible" agent="scan" extent="3 akṣaras"/> स यथाभिप्रेते विसंवादात्<lb ed="mkj"/>
-विसंवाद्यत एव । यस्तु व्यभिचारसंवेदी स विचार्य प्रवर्तते--संस्थानमात्रं <gap reason="illegible" agent="scan" extent="3 akṣaras"/>वत् प्राप्यते परत्र संदेहो<lb ed="mkj"/>
-विपर्ययो वा, ततोऽनुमानं संस्थाने संशयः परत्रेति प्रत्ययद्वयमेतत् प्रमा<gap reason="illegible" agent="scan" extent="3 akṣaras"/>माणं च ।...शब्दविषयं तु<lb ed="mkj"/>
-ज्ञानमभिप्रायनिवेदनात् प्रमाणं...</quote>--प्र॰ वार्तिकाल॰ पृ॰ ५ ।</p></note><lb break="no" ed="mkj"/>मयुक्तं स्यात्--प्रतिपन्नव्यभिचारो न ततः प्रवर्त्तते अपि तु <gap reason="illegible" agent="scan" extent="3 akṣaras"/>मानात्, अन्यस्य जातवि<lb break="no" ed="mkj"/>प्रलम्भस्य तरस्यत <note type="correction" resp="#siviṭ-mkj-corr">नरस्य न</note> प्रमाणम् इति ।</p>
+मा भूत् । तथा च <hi rend="bold"><quote ana="from-other-text">अद्य आदित्योदयात् श्व आदित्य उदेता इति नानुमानं व्यभिचार<lb break="no" ed="mkj"/>संभवात्</quote></hi> इति प्लवते । यदि पुनः व्यवहारी त<note n="321-6"><p>व्यभिचारिणोऽपि ।</p></note>थाविधादपि शब्दात् लिङ्गादिकं प्रतिपद्यते इति<lb ed="mkj"/>
+तदर्था <note type="correction" resp="#siviṭ-mkj-corr">र्थं</note> तदङ्गीकरणम्; अत एव संयोग्याद्यङ्गीकरणमस्तु । तदयम्<note n="321-7"><p>बौद्धः ।</p></note> अप्रतिबद्धादपि शब्दात्<lb ed="mkj"/>
+लिङ्गं प्रतिपादयति न त<note n="321-8"><p>अविनाभावशून्यात् ।</p></note>थाविधाल्लिङ्गात् लिङ्गिनमिति प्राकृतशक्तिः । तैमिरिकोऽपि विज्ञाततैमिर<lb break="no" ed="mkj"/>ज्ञानमिथ्यात्वो न ततो व्यवहारमारचयति, इतरथा विभ्रमज्ञाने प्र ज्ञा क र स्य पक्षत्रयस्थापन<note n="321-9"><p><quote>पीतशङ्खादिविज्ञानं तु न प्रमाणमेव तथार्थक्रियावाप्तेरभावात् । संस्थान<lb break="no" ed="mkj"/>मात्रार्थक्रियाप्रसिद्धावन्यदेव ज्ञानं प्रमाणमनुमानं । तथाहि--प्रतिभास एवं भूतो यः स न संस्थानवर्जितः ।<lb ed="mkj"/>
+एवमन्यत्र दृष्टत्वादनुमानं तथा च तत् ॥ येन न कदाचिद् व्यभिचार उपलब्धः स यथाभिप्रेते विसंवादात्<lb ed="mkj"/>
+विसंवाद्यत एव । यस्तु व्यभिचारसंवेदी स विचार्य प्रवर्तते--संस्थानमात्रं तावत् प्राप्यते परत्र संदेहो<lb ed="mkj"/>
+विपर्ययो वा, ततोऽनुमानं संस्थाने संशयः परत्रेति प्रत्ययद्वयमेतत् प्रमाणमप्रमाणं च ।...शब्दविषयं तु<lb ed="mkj"/>
+ज्ञानमभिप्रायनिवेदनात् प्रमाणं...</quote>--प्र॰ वार्तिकाल॰ पृ॰ ५ ।</p></note><lb break="no" ed="mkj"/>मयुक्तं स्यात्--प्रतिपन्नव्यभिचारो न ततः प्रवर्त्तते अपि तु अनुमानात्, अन्यस्य जातवि<lb break="no" ed="mkj"/>प्रलम्भस्य तरस्यत <note type="correction" resp="#siviṭ-mkj-corr">नरस्य न</note> प्रमाणम् इति ।</p>
         <lb ed="mkj"/>
-        <p>ननु तस्य शब्दादपि वस्तुप्रतिपत्तिं ततः तत्प्राप्तिं मन्यमा<gap reason="illegible" agent="scan" extent="3 akṣaras"/> तत् ज्ञानं प्रमाणं स्यात्,<lb ed="mkj"/>
-अयमस्यैव दोषोऽस्तु, अतो लिङ्गादिवत् शब्दादपि अनेन व्यवहारं <gap reason="illegible" agent="scan" extent="3 akṣaras"/> <note n="321-10"><p><gap reason="illegible" agent="scan" extent="3 akṣaras"/>दिवत् ।</p></note>तद्वत् <note n="321-11"><p>शब्दस्य ।</p></note>तस्य <pb ed="ms" n="२६१ ख"/> <lb ed="mkj"/>
+        <p>ननु तस्य शब्दादपि वस्तुप्रतिपत्तिं ततः तत्प्राप्तिं मन्यमानस्य तत् ज्ञानं प्रमाणं स्यात्,<lb ed="mkj"/>
+अयमस्यैव दोषोऽस्तु, अतो लिङ्गादिवत् शब्दादपि अनेन व्यवहारं कुर्वता <note n="321-10"><p>लिङ्गादिवत् ।</p></note>तद्वत् <note n="321-11"><p>शब्दस्य ।</p></note>तस्य <pb ed="ms" n="२६१ ख"/> <lb ed="mkj"/>
 वस्तुतत्त्वप्रतिबन्धोऽभ्युपगन्तव्य इति स्थितम् ।</p>
         <lb ed="mkj"/>
-        <p>भवत्वेतत्, तथापि शब्दो लि<supplied resp="#siviṭ-mkj-supp">ङ्गं</supplied> गमयति न साध्यमिति <gap reason="illegible" agent="scan" extent="3 akṣaras"/> अत्राह--<hi rend="bold"><q>शक्तस्य सूच<lb break="no" ed="mkj"/>नम्</q></hi> इत्यादि । <hi rend="bold">शक्तस्य</hi> साध्यज्ञापने लिङ्गस्य समर्थस्य <hi rend="bold">सूचनम् ।</hi> किम् ? इत्याह--<hi rend="bold">हेतुवचनं</hi><lb ed="mkj"/>
-त्रिरूपलिङ्गवाक्यम् । किम्भूतम् ? इत्याह--<hi rend="bold">अशक्तमपि</hi> साध्यज्ञा<gap reason="illegible" agent="scan" extent="3 akṣaras"/> मर्थमपि <hi rend="bold">स्वयम्</hi> आत्मना<lb ed="mkj"/>
-इति । साध्यं<note type="correction" resp="#siviṭ-mkj-corr">ध्य</note>वचनं किंभूतम् ? इत्याह--<hi rend="bold">साध्योक्तिः</hi> अनि<gap reason="illegible" agent="scan" extent="3 akṣaras"/> शब्दः इति प्रतिज्ञावचनम्<lb ed="mkj"/>
+        <p>भवत्वेतत्, तथापि शब्दो लि<supplied resp="#siviṭ-mkj-supp">ङ्गं</supplied> गमयति न साध्यमिति चेत् ; अत्राह--<hi rend="bold"><q>शक्तस्य सूच<lb break="no" ed="mkj"/>नम्</q></hi> इत्यादि । <hi rend="bold">शक्तस्य</hi> साध्यज्ञापने लिङ्गस्य समर्थस्य <hi rend="bold">सूचनम् ।</hi> किम् ? इत्याह--<hi rend="bold">हेतुवचनं</hi><lb ed="mkj"/>
+त्रिरूपलिङ्गवाक्यम् । किम्भूतम् ? इत्याह--<hi rend="bold">अशक्तमपि</hi> साध्यज्ञापनेऽसमर्थमपि <hi rend="bold">स्वयम्</hi> आत्मना<lb ed="mkj"/>
+इति । साध्यं<note type="correction" resp="#siviṭ-mkj-corr">ध्य</note>वचनं किंभूतम् ? इत्याह--<hi rend="bold">साध्योक्तिः</hi> अनित्यः शब्दः इति प्रतिज्ञावचनम्<lb ed="mkj"/>
 
 
 
-<note n="321-4" ana="gap"><p>शब्दत्यागे ।</p></note>
+
 <pb ed="mkj" n="322"/>
 <hi rend="bold">पुनः</hi> न केवलं साधनात् साध्यसिद्धेः साक्षाद् अपि तु वचनवत् <hi rend="bold">पारम्पर्येणापि नाऽलं</hi> साध्य<lb break="no" ed="mkj"/>प्रतिपादने न समर्था <note type="correction" resp="#siviṭ-mkj-corr">र्थम्</note> साध्य<note type="correction" resp="#siviṭ-mkj-corr">ध्या</note>प्रतिपादनाद् इत्येवं <hi rend="bold">परः प्राकृतशक्तिः</hi> प्राकृता प्राकृते<lb ed="mkj"/>
 वा शक्तिः अस्य, शक्तवत् साध्यप्रतिपादनसंभवादिति मन्यते ।</p>
@@ -10563,30 +10564,30 @@
         <lb ed="mkj"/>
         <p>स्यान्मतम्--काष्ठादिजन्मना पावकेन मण्यादिजन्यस्य तस्य<note n="330-12"><p>पावकस्य ।</p></note> न सादृश्यं कारणवैसादृश्यात्,<lb ed="mkj"/>
 <pb ed="mkj" n="331"/>
-न <supplied resp="#siviṭ-mkj-supp">तादृशात्</supplied> । तादृशाद्धि जायमानं तादृशं नान्यथा । <anchor xml:id="siviṭ-331-1-a"/><note n="331-1"><p><span from="#siviṭ-331-1-a" to="#siviṭ-331-1-b">एतदन्तर्गतः पाठः पुनर्लिखितः ।</span></p></note> तादृशान्यादृशव्यद्वि जायमानं <gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
-शन्नमधा <anchor xml:id="siviṭ-331-1-b"/> तादृशान्यादृशव्यवस्थैव न स्यादिति । तदेतदुत्तरं शब्देऽपि समानम् । यथैव <gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
+न <supplied resp="#siviṭ-mkj-supp">तादृशात्</supplied> । तादृशाद्धि जायमानं तादृशं नान्यथा । <anchor xml:id="siviṭ-331-1-a"/><note n="331-1"><p><span from="#siviṭ-331-1-a" to="#siviṭ-331-1-b">एतदन्तर्गतः पाठः पुनर्लिखितः ।</span></p></note> तादृशान्यादृशव्यद्वि जायमानं तादृ<lb ed="mkj" break="no"/>
+शन्नमधा <anchor xml:id="siviṭ-331-1-b"/> तादृशान्यादृशव्यवस्थैव न स्यादिति । तदेतदुत्तरं शब्देऽपि समानम् । यथैव च<lb ed="mkj"/>
 घटशब्दं समानं सर्वत्र जनो मन्यते तथा काष्ठमणिजनितं वह्निम्, सदृशव्यवहारदर्शनात् ।</p>
         <lb ed="mkj"/>
-        <p>यस्तु मन्यते--इन्धनात् पावको जायते, तदिन्धनं काष्ठवत् मणिरपि, तत्र तादृशा<gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
-तादृशोद्भव इति । तत्र किमिदमिन्धनम् ? पावकजननयोग्यं वस्तु इति चेत्; तर्हि धूमोऽ<gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
-तज्जननयोग्यात् <note n="331-2"><p>वल्मीकात् ।</p></note>शक्रमूर्धादेर्भवन् तादृशात् तादृशः स्यात् । न चैतावता<note n="331-3"><p>धूमोत्पादकत्वात् ।</p></note> शक्रमूर्धादिः अग्निर्भव<gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
+        <p>यस्तु मन्यते—इन्धनात् पावको जायते, तदिन्धनं काष्ठवत् मणिरपि, तत्र तादृशादेव<lb ed="mkj"/>
+तादृशोद्भव इति । तत्र किमिदमिन्धनम् ? पावकजननयोग्यं वस्तु इति चेत्; तर्हि धूमोऽपि<lb ed="mkj"/>
+तज्जननयोग्यात् <note n="331-2"><p>वल्मीकात् ।</p></note>शक्रमूर्धादेर्भवन् तादृशात् तादृशः स्यात् । न चैतावता<note n="331-3"><p>धूमोत्पादकत्वात् ।</p></note> शक्रमूर्धादिः अग्निर्भवति,<lb ed="mkj"/>
 इतरथा काष्ठं मणिः <note n="331-4"><p>अग्न्यु<lb break="no" ed="mkj"/>त्पादकत्वाविशेषात् ।</p></note>स्यादविशेषात् ।</p>
         <lb ed="mkj"/>
         <p>अन्येषां तु दर्शनम्--वक्तरि शब्दः देशान्तरादौ अर्थः तत्कथं स<note n="331-5"><p>शब्दः ।</p></note> लिङ्गम् । न हि महान्<lb ed="mkj"/>
 सधूमो महोदधिदहनस्य लिङ्गम् । कथं तर्हि पर्णकाद्या<note type="correction" resp="#siviṭ-mkj-corr">ष्ठादि</note> देशान्तरादि तल्ली<note type="correction" resp="#siviṭ-mkj-corr">वल्ली</note>
-दाहस्य कथं वा अन्यत्र प्रसुप्तस्य अन्यत्र प्रबोधस्थानान्तरादिचेतसो यतः प्र ज्ञा क र <gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
+दाहस्य कथं वा अन्यत्र प्रसुप्तस्य अन्यत्र प्रबोधस्थानान्तरादिचेतसो यतः प्र ज्ञा क र स्य<lb ed="mkj"/>
 निरुपादानः प्रबोधो न भवेत् । स्वयं च जलचन्द्रादेः चन्द्रादेरनुमानमिच्छति, <supplied resp="#siviṭ-mkj-supp">यदि</supplied> दं <pb ed="ms" n="२६९ ख"/> <lb ed="mkj"/>
 दर्शनमवतिष्ठत <note type="correction" resp="#siviṭ-mkj-corr">ते</note> ततो यत्किञ्चिदेतत् ।</p>
         <lb ed="mkj"/>
-        <p>ननु यदि कार्यं कारणं व्यभिचरति मा भूत् ततस्तदनुमानमिति चेत्; एतदेवाह--<hi rend="bold">सामग्रीभ्य<gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
+        <p>ननु यदि कार्यं कारणं व्यभिचरति मा भूत् ततस्तदनुमानमिति चेत्; एतदेवाह--<hi rend="bold">सामग्रीभ्यः<lb ed="mkj"/>
 विचित्राभ्यः काष्ठादिभ्योऽग्निसंभवे</hi> सति कार्यलिङ्गं तल्लिङ्गमेव <supplied resp="#siviṭ-mkj-supp">न</supplied> भवति ।<lb ed="mkj"/>
-तत्रोत्तरमाह--<hi rend="bold">शब्द<supplied resp="#siviṭ-mkj-supp">म्</supplied></hi> इत्यादि । <hi rend="bold">यतः</hi> शब्दात् <hi rend="bold">तत्त्वम्</hi> अभिमतं वस्तु <hi rend="bold">प्रतिपद्यते</hi> सौग<gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
+तत्रोत्तरमाह--<hi rend="bold">शब्द<supplied resp="#siviṭ-mkj-supp">म्</supplied></hi> इत्यादि । <hi rend="bold">यतः</hi> शब्दात् <hi rend="bold">तत्त्वम्</hi> अभिमतं वस्तु <hi rend="bold">प्रतिपद्यते</hi> सौगतः<lb ed="mkj"/>
 चार्वाको वा स शब्दः किम् ? अयमत्राऽभिप्रायः--उक्तदोषादनुमानं त्यजन्नपि <hi rend="bold">न शब्दं<lb ed="mkj"/>
-त्यक्तुमर्हति</hi> मूकताप्राप्तेः । तदपरित्यागे कम <note type="correction" resp="#siviṭ-mkj-corr">प्रत्यक्षादिकं</note> यद्यप्रमाणं न ततः<note n="331-6"><p>अप्रमाणभूतप्रत्यक्षादेः ।</p></note> तत्त्वं प्रतिपद्ये<gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
+त्यक्तुमर्हति</hi> मूकताप्राप्तेः । तदपरित्यागे कम <note type="correction" resp="#siviṭ-mkj-corr">प्रत्यक्षादिकं</note> यद्यप्रमाणं न ततः<note n="331-6"><p>अप्रमाणभूतप्रत्यक्षादेः ।</p></note> तत्त्वं प्रतिपद्येत,<lb ed="mkj"/>
 अन्यथा कथं प्रेक्षावान् किमर्थं वा अन्यत्र प्रमाणान्वेषणम् ? प्रमाणं चेत्; सिद्धं नः समीहितम् ।<lb ed="mkj"/>
 एवमर्थं चशब्दः । <hi rend="bold"><q>किम्</q></hi> इति सामान्यवचनम् ।</p>
         <lb ed="mkj"/>
-        <p>कारिकायाः प्रथमार्धस्य तात्पर्यमाह--<hi rend="bold"><q>तत्त्वप्रतिपत्तेः</q></hi> इत्यादिना । द्वितीयस्य<note n="331-7"><p>द्वितीयार्धस्य तात्पर्यमाह ।</p></note> आ<gap reason="illegible" agent="scan" extent="1 akṣara"/><lb ed="mkj"/>
+        <p>कारिकायाः प्रथमार्धस्य तात्पर्यमाह--<hi rend="bold"><q>तत्त्वप्रतिपत्तेः</q></hi> इत्यादिना । द्वितीयस्य<note n="331-7"><p>द्वितीयार्धस्य तात्पर्यमाह ।</p></note> आह<lb ed="mkj"/>
 <hi rend="bold"><q>शाब्दम्</q></hi> इत्यादिना ।</p>
         <lb ed="mkj"/>
         <p>ननु शब्दात् तत्त्वप्रतिपत्तेरभावादसिद्धो हेतुरिति चेत्; अत्राह--<supplied resp="#siviṭ-mkj-supp"><hi rend="bold">स्वार्थानुमानेऽपि</hi><lb ed="mkj"/>
@@ -10695,35 +10696,35 @@
         <lb ed="mkj"/>
         <p>कथं परोपन्यस्तमजान <supplied resp="#siviṭ-mkj-supp">न्</supplied> तैः पुनः पुनः प्रतिपाद्यते न पुनः स्वसाधनम् इति कोऽयं<lb ed="mkj"/>
 नियोगः--अन्यः सर्वः प्रतिपाद्यते न वादी प्रतिवादी वेति च । <q>दस्युत्वात्</q> इति चेत्; कथं<lb ed="mkj"/> <pb ed="mkj" n="335"/>
-दस्युता ? समयान्तरावेशात्<note n="335-1"><p>चेत्; ।</p></note>; त<note n="335-2"><p>समयान्तरप्रवेशार्थमेव ।</p></note>त एव प्रतिपाद्यते तदा<gap reason="illegible" agent="scan" extent="3 akṣaras"/>रित्यागेन प्रतिपादकसमये समावेशो<lb ed="mkj"/>
-यथा स्यात् । दृश्यन्ते हि समयान्तरानुषङ्गिणोऽपि <gap reason="illegible" agent="scan" extent="3 akṣaras"/> विशेषप्रतिपादनवशाद् अन्यमार्गानु<lb break="no" ed="mkj"/>सारिणो भवन्तः । केचित् न सर्वे इति चेत्; न तर्हि <gap reason="illegible" agent="scan" extent="3 akṣaras"/> प्रतिपाद्यः, नहि अन्योऽपि प्रति<lb break="no" ed="mkj"/>पाद्यमानोऽभीष्टसमय एव वर्तते, तत्राप्रवर्त्तनस्य कस्यचि<gap reason="illegible" agent="scan" extent="3 akṣaras"/> समयान्तरे प्रवर्त्तनस्य च दर्शनात् ।<lb ed="mkj"/>
-कथमेवं शिष्टादिः दस्युर्न भवेत् वादप्रवृत्तिकाले त<note n="335-3"><p>स्वम<gap reason="illegible" agent="scan" extent="3 akṣaras"/>शात् ।</p></note>त्समा<gap reason="illegible" agent="scan" extent="3 akṣaras"/>, इतरथा त<note n="335-4"><p>वादे ।</p></note>त्र प्रवृत्तिः कुतः ?<lb ed="mkj"/>
-सर्वदा नेति चेत्; अन्ययोपि <note type="correction" resp="#siviṭ-mkj-corr">अन्यस्यापि</note> सर्वदा <gap reason="illegible" agent="scan" extent="3 akṣaras"/>ति कुतो निश्चयः ? एतेन चोद्यकृत्<lb ed="mkj"/>
-शिष्योऽपि दस्युः स्यादिति विज्ञेयम् । अथ निग्रहबुद्ध्या <gap reason="illegible" agent="scan" extent="3 akṣaras"/> तेर्दस्युता; उक्तमत्र शिष्टादेः स्यात् ।</p>
+दस्युता ? समयान्तरावेशात्<note n="335-1"><p>चेत्; ।</p></note>; त<note n="335-2"><p>समयान्तरप्रवेशार्थमेव ।</p></note>त एव प्रतिपाद्यते तदावेशपरित्यागेन प्रतिपादकसमये समावेशो<lb ed="mkj"/>
+यथा स्यात् । दृश्यन्ते हि समयान्तरानुषङ्गिणोऽपि तत्र विशेषप्रतिपादनवशाद् अन्यमार्गानु<lb break="no" ed="mkj"/>सारिणो भवन्तः । केचित् न सर्वे इति चेत्; न तर्हि कश्चित् प्रतिपाद्यः, नहि अन्योऽपि प्रति<lb break="no" ed="mkj"/>पाद्यमानोऽभीष्टसमय एव वर्तते, तत्राप्रवर्त्तनस्य कस्यचित् समयान्तरे प्रवर्त्तनस्य च दर्शनात् ।<lb ed="mkj"/>
+कथमेवं शिष्टादिः दस्युर्न भवेत् वादप्रवृत्तिकाले त<note n="335-3"><p>स्वमतावेशात् ।</p></note>त्समावेशात्, इतरथा त<note n="335-4"><p>वादे ।</p></note>त्र प्रवृत्तिः कुतः ?<lb ed="mkj"/>
+सर्वदा नेति चेत्; अन्ययोपि <note type="correction" resp="#siviṭ-mkj-corr">अन्यस्यापि</note> सर्वदा स इति कुतो निश्चयः ? एतेन चोद्यकृत्<lb ed="mkj"/>
+शिष्योऽपि दस्युः स्यादिति विज्ञेयम् । अथ निग्रहबुद्ध्या प्रवृत्तेर्दस्युता; उक्तमत्र शिष्टादेः स्यात् ।</p>
         <lb ed="mkj"/>
-        <p>किञ्च, तूष्णमासीनो यदि वादी दस्युत्वान्न प्र<gap reason="illegible" agent="scan" extent="3 akṣaras"/>यते, केवलं न <note type="correction" resp="#siviṭ-mkj-corr">नि</note>गृह्यते; तर्हि<lb ed="mkj"/>
-वादिनाऽपि अनेन प<note n="335-5"><p>प्रतिवादी ।</p></note>रोऽत एव न समीचीनसाधनात् प्र<gap reason="illegible" agent="scan" extent="3 akṣaras"/>धनीयः, तं प्रति मौनं <pb ed="ms" n="२७२ ख"/> <lb ed="mkj"/>
-विधातव्यं यत्किञ्चिद्वा भाषणीयम् । एवं सति स एव <gap reason="illegible" agent="scan" extent="3 akṣaras"/>गृहीति <note type="correction" resp="#siviṭ-mkj-corr">निगृह्णातीति</note> चेत्; तत्र<lb ed="mkj"/>
-ठकप्रयोगः कर्त्तव्यः यतोऽसौ वि<note n="335-6"><p>मूकः ।</p></note>मुखो भवति, तत्परिज्ञा<gap reason="illegible" agent="scan" extent="3 akṣaras"/> च ठकाः सेवनीयाः वादं चिकीर्षुभिः,<lb ed="mkj"/>
-न साधनपरिज्ञानार्थं तत्त्ववादिनः । ततस्तत्प्रयोगात्<note n="335-7"><p>ठकप्रयोगात् ।</p></note> नि<gap reason="illegible" agent="scan" extent="3 akṣaras"/>भूत एवं वक्तव्यः पर्यनुयोज्योऽपि<lb ed="mkj"/>
-अहमुपेक्षितस्त्वया ततो निगृहीतोऽसि इति । तया असा<gap reason="illegible" agent="scan" extent="3 akṣaras"/> स्यादिति चेत्; न; दस्युनिग्रहे<lb ed="mkj"/>
+        <p>किञ्च, तूष्णमासीनो यदि वादी दस्युत्वान्न प्रतिबोध्यते, केवलं न <note type="correction" resp="#siviṭ-mkj-corr">नि</note>गृह्यते; तर्हि<lb ed="mkj"/>
+वादिनाऽपि अनेन प<note n="335-5"><p>प्रतिवादी ।</p></note>रोऽत एव न समीचीनसाधनात् प्रतिबोधनीयः, तं प्रति मौनं <pb ed="ms" n="२७२ ख"/> <lb ed="mkj"/>
+विधातव्यं यत्किञ्चिद्वा भाषणीयम् । एवं सति स एव निगृहीति <note type="correction" resp="#siviṭ-mkj-corr">निगृह्णातीति</note> चेत्; तत्र<lb ed="mkj"/>
+ठकप्रयोगः कर्त्तव्यः यतोऽसौ वि<note n="335-6"><p>मूकः ।</p></note>मुखो भवति, तत्परिज्ञानाय च ठकाः सेवनीयाः वादं चिकीर्षुभिः,<lb ed="mkj"/>
+न साधनपरिज्ञानार्थं तत्त्ववादिनः । ततस्तत्प्रयोगात्<note n="335-7"><p>ठकप्रयोगात् ।</p></note> निर्मुखीभूत एवं वक्तव्यः पर्यनुयोज्योऽपि<lb ed="mkj"/>
+अहमुपेक्षितस्त्वया ततो निगृहीतोऽसि इति । तया असाधुता स्यादिति चेत्; न; दस्युनिग्रहे<lb ed="mkj"/>
 तदयोगात्, अन्यत्र समत्वात् ।</p>
         <lb ed="mkj"/>
-        <p>इदमपरं व्याख्यानम्--<hi rend="bold">साधनाङ्गं यन्न</hi> भवति <gap reason="illegible" agent="scan" extent="3 akṣaras"/> <hi rend="bold">वचनम्, दोषो</hi> यो <hi rend="bold">न</hi> भवति<lb ed="mkj"/>
+        <p>इदमपरं व्याख्यानम्--<hi rend="bold">साधनाङ्गं यन्न</hi> भवति तस्य <hi rend="bold">वचनम्, दोषो</hi> यो <hi rend="bold">न</hi> भवति<lb ed="mkj"/>
 तस्य <hi rend="bold">उद्भावनं द्व<note n="335-8"><p>वादिप्रतिवादिनोः ।</p></note>योर्निग्रहस्थानम् इष्टं चेत् किं पुनः साध्यसाधनैः</hi> इति ।<lb ed="mkj"/>
-तथाहि--प्रतिज्ञादिवचनम् असिद्धादिवचनं च भूतदो<gap reason="illegible" agent="scan" extent="3 akṣaras"/>व्य वादिनि निगृहीते पुनः पुनः<lb ed="mkj"/>
-स्वपक्षसाधनाय प्रतिवादिनः प्रयासो निग्रहस्थानं स्यात् । <gap reason="illegible" agent="scan" extent="3 akṣaras"/> भूतदोषोद्भावनमुद्भाव्य प्रतिवादिनि<lb ed="mkj"/>
-वादिना निर्जिते पुनः त<note n="335-9"><p><gap reason="illegible" agent="scan" extent="3 akṣaras"/>दिनः ।</p></note>स्य स्वपक्षसाधनं <note n="335-10"><p>निग्रहायैव ।</p></note>तादृशमेवेति ।</p>
+तथाहि--प्रतिज्ञादिवचनम् असिद्धादिवचनं च भूतदोषमुद्भाव्य वादिनि निगृहीते पुनः पुनः<lb ed="mkj"/>
+स्वपक्षसाधनाय प्रतिवादिनः प्रयासो निग्रहस्थानं स्यात् । तथाऽभूतदोषोद्भावनमुद्भाव्य प्रतिवादिनि<lb ed="mkj"/>
+वादिना निर्जिते पुनः त<note n="335-9"><p>वादिनः ।</p></note>स्य स्वपक्षसाधनं <note n="335-10"><p>निग्रहायैव ।</p></note>तादृशमेवेति ।</p>
         <lb ed="mkj"/>
-        <p>परः पुनरेतत् परिहरति--नैव कश्चित् निग्रहोत्तरका<gap reason="illegible" agent="scan" extent="3 akṣaras"/> विपक्षसिद्धये यतते प्रयोजनाभावात्,<lb ed="mkj"/>
-<hi rend="bold"><quote ana="from-other-text">वादिना उभयं कर्त्तव्यम् स्वपक्षसाधनं परपक्षदूषण<gap reason="illegible" agent="scan" extent="3 akṣaras"/></quote></hi> इति<note n="335-11"><p><quote>तस्माज्जिगीषता स्वपक्षश्च स्थापनीयः परपक्षश्च निराकर्तव्यः ।</quote><gap reason="illegible" agent="scan" extent="3 akṣaras"/>दन्या॰ पृ॰ ७२ ।</p></note> तु वादिप्रवृत्तिनियमार्थम् ।<lb ed="mkj"/>
-वादिना हि <supplied resp="#siviṭ-mkj-supp">न</supplied> यत्किञ्चन भाषणीयम् अपि तु स्वप<gap reason="illegible" agent="scan" extent="3 akṣaras"/>योः साधनदूषणे, <q>वादिना</q> इति<lb ed="mkj"/>
-वचनात्, इतरथा तस्य निग्रहः स्यादिति; तन्न सारम्; <gap reason="illegible" agent="scan" extent="3 akṣaras"/>साधनाङ्गं विरुद्धसाधनमत्र गृह्यते,<lb ed="mkj"/>
-तस्य पक्षसाधनंकत्वेन <note type="correction" resp="#siviṭ-mkj-corr">परपक्षसाधकत्वेन</note> साधनाङ्गत्वात् <gap reason="illegible" agent="scan" extent="3 akṣaras"/>तो निग्रहस्याभिमतत्वात्, <hi rend="bold"><q>तस्मात्<lb ed="mkj"/>
-निराकृतपक्षत्वमेव निग्रहस्थानम्</q></hi> इति वचनात्, अपि<gap reason="illegible" agent="scan" extent="3 akṣaras"/>  <quote ana="from-other-text"><hi rend="bold"><note n="335-12"><p><quote>साधनस्य<lb ed="mkj"/>
-सिद्धेर्यन्नाङ्गम् असिद्धो विरुद्धोऽनैकान्तिको वा हेत्वाभासः तस्य <gap reason="illegible" agent="scan" extent="3 akṣaras"/> वचनं वादिनो निग्रहस्थानम् असम<lb break="no" ed="mkj"/>र्थोपादानात् ।</quote>--वादन्या॰ पृ॰ ६६ ।</p></note>असिद्धानैकान्तिकप्रतिज्ञादि</hi><lb break="no" ed="mkj"/><pb ed="ms" n="२७३ क"/><hi rend="bold">तद्वचनम् असाधनाङ्गवचनं वादिनो नि<gap reason="illegible" agent="scan" extent="3 akṣaras"/>नम् ।</hi></quote> <ref cRef="">वादन्या॰ पृ॰ ६६</ref> <lb ed="mkj"/>
-कुत एतत् ? ततः तत्पक्षासिद्धेरिति चेत्; किं पुनः पर<gap reason="illegible" agent="scan" extent="3 akṣaras"/> पक्षसिद्धिरस्ति यतोऽसौ विजयी ?<lb ed="mkj"/>
-न च तज्जयमन्तरेण इतरस्य निग्रहो नाम, परस्परापेक्षत्वा<gap reason="illegible" agent="scan" extent="3 akṣaras"/> यपराजययोः । न स्वपक्षसिद्ध्या<lb ed="mkj"/> <pb ed="mkj" n="336"/>
+        <p>परः पुनरेतत् परिहरति--नैव कश्चित् निग्रहोत्तरकालं स्वपक्षसिद्धये यतते प्रयोजनाभावात्,<lb ed="mkj"/>
+<hi rend="bold"><quote ana="from-other-text">वादिना उभयं कर्त्तव्यम् स्वपक्षसाधनं परपक्षदूषणम्</quote></hi> इति<note n="335-11"><p><quote>तस्माज्जिगीषता स्वपक्षश्च स्थापनीयः परपक्षश्च निराकर्तव्यः ।</quote>—<ref cRef="">वादन्या॰ पृ॰ ७२ ।</ref></p></note> तु वादिप्रवृत्तिनियमार्थम् ।<lb ed="mkj"/>
+वादिना हि <supplied resp="#siviṭ-mkj-supp">न</supplied> यत्किञ्चन भाषणीयम् अपि तु स्वपरपक्षयोः साधनदूषणे, <q>वादिना</q> इति<lb ed="mkj"/>
+वचनात्, इतरथा तस्य निग्रहः स्यादिति; तन्न सारम्; यतः नासाधनाङ्गं विरुद्धसाधनमत्र गृह्यते,<lb ed="mkj"/>
+तस्य पक्षसाधनंकत्वेन <note type="correction" resp="#siviṭ-mkj-corr">परपक्षसाधकत्वेन</note> साधनाङ्गत्वात्, ततो निग्रहस्याभिमतत्वात्, <hi rend="bold"><q>तस्मात्<lb ed="mkj"/>
+निराकृतपक्षत्वमेव निग्रहस्थानम्</q></hi> इति वचनात्, अपि तु <quote ana="from-other-text"><hi rend="bold"><note n="335-12"><p><quote>साधनस्य<lb ed="mkj"/>
+सिद्धेर्यन्नाङ्गम् असिद्धो विरुद्धोऽनैकान्तिको वा हेत्वाभासः तस्यापि वचनं वादिनो निग्रहस्थानम् असम<lb break="no" ed="mkj"/>र्थोपादानात् ।</quote>--वादन्या॰ पृ॰ ६६ ।</p></note>असिद्धानैकान्तिकप्रतिज्ञादि</hi><lb break="no" ed="mkj"/><pb ed="ms" n="२७३ क"/><hi rend="bold">तद्वचनम् असाधनाङ्गवचनं वादिनो निग्रहस्थानम् ।</hi></quote> <ref cRef="">वादन्या॰ पृ॰ ६६</ref> <lb ed="mkj"/>
+कुत एतत् ? ततः तत्पक्षासिद्धेरिति चेत्; किं पुनः परस्य पक्षसिद्धिरस्ति यतोऽसौ विजयी ?<lb ed="mkj"/>
+न च तज्जयमन्तरेण इतरस्य निग्रहो नाम, परस्परापेक्षत्वात् जयपराजययोः । न स्वपक्षसिद्ध्या<lb ed="mkj"/> <pb ed="mkj" n="336"/>
 परो वादिनमभिभवति किन्तु तद्वचनदोषमात्रात् । न चैवं भ्रूनर्त्तनादेरपि अभिभवेद् अविशेषात् ।<lb ed="mkj"/>
 भवत्येव त<note n="336-1"><p>वादिपक्षे दोषोद्भावनात् ।</p></note>तः परपक्षसिद्धिरिति चेत्; न; इतरदोषमात्रात् तदयोगात्, अन्यथा साध्यस्य यानि<lb ed="mkj"/>
 साधनानि तदविनाभावीनि तैः किम् ? कथं चैवं वादिनो असिद्धादिः विरुद्धाद् विशिष्येत ?</p>
@@ -11100,39 +11101,38 @@
 <ref cRef="">प्र॰ वार्तिकाल॰ १ । १</ref> इत्यादि वचनात् साध्ये प्रतिपन्ने प्रतीयेत नान्यथा । <note n="346-7"><p>साध्यप्रतिपत्तिश्च ।</p></note>तत्प्रतिपत्तिश्च<lb ed="mkj"/>
 यदि प्रमाणान्तरात्; अस्य<note n="346-8"><p>अनुमानस्य ।</p></note> वैकल्यम् । <supplied resp="#siviṭ-mkj-supp"><note n="346-9"><p>अनुमानात् ।</p></note>अस्मादेव;</supplied> इति चेत्; अन्योऽन्यसंश्रयः--सिद्धे<lb ed="mkj"/> 
 <pb ed="mkj" n="347"/>
-अतः साध्ये अस्य अन्तर्व्याप्तिसिद्धिः, अस्याञ्च <gap reason="illegible" agent="scan" extent="3 akṣaras"/>सिद्धिः । ततः साकल्यव्याप्तिः<note n="347-1"><p>पक्षे सपक्षे च सर्वत्र साध्यसाधनयोः व्या<gap reason="illegible" agent="scan" extent="3 akṣaras"/> सकलव्याप्तिः ।</p></note> श्रेयसी<lb ed="mkj"/>
+अतः साध्ये अस्य अन्तर्व्याप्तिसिद्धिः, अस्याञ्च साध्यसिद्धिः । ततः साकल्यव्याप्तिः<note n="347-1"><p>पक्षे सपक्षे च सर्वत्र साध्यसाधनयोः व्याप्तिः सकलव्याप्तिः ।</p></note> श्रेयसी<lb ed="mkj"/>
 इति चेत्; अत्राह--<hi rend="bold">साकल्येन</hi> इत्यादि ।</p>
         <lb ed="mkj"/>
         <quote type="commentary1" ana="sivi-v" rend="squarebrackets">
           <quote type="base-text" ana="sivi">
             <lg>
-              <l>साकल्येन कथं व्याप्तिरन्त<gap reason="illegible" agent="scan" extent="3 akṣaras"/>प्त्या विना भवेत् । <supplied resp="#siviṭ-mkj-supp">१/२</supplied> ।</l>
+              <l>साकल्येन कथं व्याप्तिरन्तर्व्याप्त्या विना भवेत् । <supplied resp="#siviṭ-mkj-supp">१/२</supplied> ।</l>
             </lg>
           </quote>
           <lb ed="mkj"/>
-          <p>बहिर्व्याप्तिमात्रं न साधनम्, साकल्य<gap reason="illegible" agent="scan" extent="3 akṣaras"/> साध्यसिद्धिमाक्षिपत्येव, ततः श्रेयान्<lb ed="mkj"/>
-साध्यनिर्देशः । क्रम...शब्दत्व...। ततोऽ<gap reason="illegible" agent="scan" extent="3 akṣaras"/>प्तिरेव श्रेयसी, तदभावे साकल्येन<lb ed="mkj"/>
-व्याप्तिसाधने बहिर्दृष्टान्ताभावात् न कश्चित् <gap reason="illegible" agent="scan" extent="3 akṣaras"/> स्यात् । पक्षकल्पना फलवती । तद्भाव<lb break="no" ed="mkj"/>हेतुभावयोरवाच्यत्वाद् किं विदुषः प्रति ताद<gap reason="illegible" agent="scan" extent="3 akṣaras"/>तदुत्पत्तिप्रदर्शनेन दृष्टान्तेन ? यदुक्त<lb break="no" ed="mkj"/>स्यासमर्थने साधनस्य निग्रहस्थानं स्यात् । <gap reason="illegible" agent="scan" extent="3 akṣaras"/> साधनस्य दोषवत्त्वान्निग्रहस्थानमिति<lb ed="mkj"/>
-युक्तम् ।  <quote ana="from-other-text">दोषवत्त्वेऽपि यथा वाद्युक्तदोषो<gap reason="illegible" agent="scan" extent="3 akṣaras"/>वनायां प्रतिवादिनः सामर्थ्यान्निग्रह<lb break="no" ed="mkj"/>स्थानम् ।</quote> इति परस्य बालभाषितम् अन<gap reason="illegible" agent="scan" extent="3 akṣaras"/>प्रसङ्गात् । तन्न व्याप्तिवचनं प्रतिज्ञा<lb break="no" ed="mkj"/>मतिशेते ।</p>
+          <p>बहिर्व्याप्तिमात्रं न साधनम्, साकल्यव्याप्तिः साध्यसिद्धिमाक्षिपत्येव, ततः श्रेयान्<lb ed="mkj"/>
+साध्यनिर्देशः । क्रम...शब्दत्व...। ततोऽन्तर्व्याप्तिरेव श्रेयसी, तदभावे साकल्येन<lb ed="mkj"/>
+व्याप्तिसाधने बहिर्दृष्टान्ताभावात् न कश्चित् हेतुः स्यात् । पक्षकल्पना फलवती । तद्भाव<lb break="no" ed="mkj"/>हेतुभावयोरवाच्यत्वाद् किं विदुषः प्रति तादात्म्यतदुत्पत्तिप्रदर्शनेन दृष्टान्तेन ? यदुक्त<lb break="no" ed="mkj"/>स्यासमर्थने साधनस्य निग्रहस्थानं स्यात् । तत्र साधनस्य दोषवत्त्वान्निग्रहस्थानमिति<lb ed="mkj"/>
+युक्तम् ।  <quote ana="from-other-text">दोषवत्त्वेऽपि यथा वाद्युक्तदोषोद्भावनायां प्रतिवादिनः सामर्थ्यान्निग्रह<lb break="no" ed="mkj"/>स्थानम् ।</quote> इति परस्य बालभाषितम् अनवस्थाप्रसङ्गात् । तन्न व्याप्तिवचनं प्रतिज्ञा<lb break="no" ed="mkj"/>मतिशेते ।</p>
         </quote>
         <lb ed="mkj"/>
-        <p>साध्यधर्मिणि अत्र <note type="correction" resp="#siviṭ-mkj-corr">अन्यत्र</note> च साध्येन <gap reason="illegible" agent="scan" extent="3 akṣaras"/>नस्य व्याप्तिः <hi rend="bold">साकल्येन व्याप्तिः कथं</hi><lb ed="mkj"/>
-न कथञ्चिद् <hi rend="bold">भवेत् अन्तर्व्याप्त्या विना</hi> <gap reason="illegible" agent="scan" extent="3 akṣaras"/> स्याद् इति यावत् । बहिरिव साध्य<lb break="no" ed="mkj"/>धर्मिण्यपि व्याप्तेःर्वाद्<note type="correction" resp="#siviṭ-mkj-corr">प्तिः सर्वत्र</note>इतरथा प्रा<gap reason="illegible" agent="scan" extent="3 akṣaras"/>त्यु <note type="correction" resp="#siviṭ-mkj-corr">शिकी</note> व्याप्तिः स्यात् । तयैव<lb ed="mkj"/>
-भवतु सेति चेत्; तत्प्रतिपत्तौ कथमात्मदोषम् आ<gap reason="illegible" agent="scan" extent="3 akṣaras"/> परिहरेत् ? अथ पक्षे सा<note n="347-2"><p>व्याप्तिः ।</p></note> न प्रतीयते अपि<lb ed="mkj"/>
-तु सपक्षे; न तर्हि तत्प्रतिपत्तिः साकल्यव्याप्तिप्रति<gap reason="illegible" agent="scan" extent="3 akṣaras"/> अतद्रूपत्वात् । यदि पुनस्तत्र तत्प्रतिपशे<lb break="no" ed="mkj"/><supplied resp="#siviṭ-mkj-supp">पत्तिर्ने</supplied> ष्यते; कथमेवम् अतिप्रसङ्गो न भवेत् ।</p>
+        <p>साध्यधर्मिणि अत्र <note type="correction" resp="#siviṭ-mkj-corr">अन्यत्र</note> च साध्येन साधनस्य व्याप्तिः <hi rend="bold">साकल्येन व्याप्तिः कथं</hi><lb ed="mkj"/>
+न कथञ्चिद् <hi rend="bold">भवेत् अन्तर्व्याप्त्या विना</hi> तया स्याद् इति यावत् । बहिरिव साध्य<lb break="no" ed="mkj"/>धर्मिण्यपि व्याप्तेःर्वाद्<note type="correction" resp="#siviṭ-mkj-corr">प्तिः सर्वत्र</note>इतरथा प्रादेशित्यु <note type="correction" resp="#siviṭ-mkj-corr">शिकी</note> व्याप्तिः स्यात् । तयैव<lb ed="mkj"/>
+भवतु सेति चेत्; तत्प्रतिपत्तौ कथमात्मदोषम् आत्मनि परिहरेत् ? अथ पक्षे सा<note n="347-2"><p>व्याप्तिः ।</p></note> न प्रतीयते अपि<lb ed="mkj"/>
+तु सपक्षे; न तर्हि तत्प्रतिपत्तिः साकल्यव्याप्तिप्रतिपत्तेः अतद्रूपत्वात् । यदि पुनस्तत्र तत्प्रतिपशे<lb break="no" ed="mkj"/><supplied resp="#siviṭ-mkj-supp">पत्तिर्ने</supplied> ष्यते; कथमेवम् अतिप्रसङ्गो न भवेत् ।</p>
         <lb ed="mkj"/>
-        <p>कारिकार्धं व्याचष्टे--<hi rend="bold">बहिर्व्याप्तिमात्रम्</hi> इत्यादिना । वज्रस्य लोहलेख्यत्वसाधने प्रत्यक्ष<lb break="no" ed="mkj"/>विरोधात् तन्मात्रं <hi rend="bold"><supplied resp="#siviṭ-mkj-supp">न</supplied> साधनम् ।</hi> यत्र तु न त<gap reason="illegible" agent="scan" extent="3 akṣaras"/> तत्र साधनमेव इति परः; न; तादात्म्य<lb break="no" ed="mkj"/>प्रतिबंध्यभ्यवेपि <note type="correction" resp="#siviṭ-mkj-corr">प्रतिबन्धसद्भावेऽपि</note> तद्विरोधस<gap reason="illegible" agent="scan" extent="3 akṣaras"/> अन्यत्र कः समाश्वासः ? ल<note n="347-5"><p>तुलना--<quote>लक्षणयुक्ते बाधासंभवे तल्लक्षणमेव दूषितं स्यादिति<lb ed="mkj"/>
-सर्वत्रानाश्वासः ॥</quote>--प्र॰ वा॰ स्ववृ॰ १ । २२ । प्र॰ <gap reason="illegible" agent="scan" extent="3 akṣaras"/>काल॰ ३ । ७१ ।</p></note>क्षणयुक्ते<lb ed="mkj"/>
-बाधासंभवे तल्लक्षणमेव दूषितं स्यात् । तत्प्रति<gap reason="illegible" agent="scan" extent="3 akṣaras"/>वः पुनः काष्ठादौ य <supplied resp="#siviṭ-mkj-supp">त</supplied> एव पार्थिवत्वं<lb ed="mkj"/>
-तत एव लोहलेख्यत्वदर्शनात् । नहि तद्भावे हेत्वं<gap reason="illegible" agent="scan" extent="3 akṣaras"/> <note type="correction" resp="#siviṭ-mkj-corr">हेत्वन्तरापक्षा</note> नाम । तत एव तस्य<lb ed="mkj"/>
-सद्भावे नित्यं तदभाव <note type="correction" resp="#siviṭ-mkj-corr">तद्भाव</note>प्रसङ्गो नाशवत् <pb ed="ms" n="२८२ क"/> इति चेत्; न; योग्यताया नित्य<lb break="no" ed="mkj"/>मविरोधात् । काष्ठादेः पार्थिवस्य लोहलेख्यत्वेऽपि <gap reason="illegible" agent="scan" extent="3 akṣaras"/> सर्वस्य त<note n="347-6"><p>लोहलेख्यत्वम् ।</p></note>द्भावो विपर्यये बाधकाभावादिति<lb ed="mkj"/>
-चेत्; तर्हि सकलव्याप्तिः अभ्युपगता स्यात् । <gap reason="illegible" agent="scan" extent="3 akṣaras"/> चेत्; अत्राह--<hi rend="bold">साकल्येन व्याप्तिः<lb ed="mkj"/>
-साध्यसिद्धिम् आक्षिपत्येव,</hi> तदभावे त<note n="347-7"><p>साकल्यव्याप्तिप्रतिपत्त्यसंभवात् ।</p></note>त्प्रतिपत्ते<gap reason="illegible" agent="scan" extent="3 akṣaras"/> इति मन्यते ।</p>
+        <p>कारिकार्धं व्याचष्टे--<hi rend="bold">बहिर्व्याप्तिमात्रम्</hi> इत्यादिना । वज्रस्य लोहलेख्यत्वसाधने प्रत्यक्ष<lb break="no" ed="mkj"/>विरोधात् तन्मात्रं <hi rend="bold"><supplied resp="#siviṭ-mkj-supp">न</supplied> साधनम् ।</hi> यत्र तु न तद्विरोधः<note n="347-3"><p>प्रत्यक्ष<lb break="no" ed="mkj"/>विरोधः ।</p></note> तत्र साधनमेव इति परः; न; तादात्म्य<lb break="no" ed="mkj"/>प्रतिबंध्यभ्यवेपि <note type="correction" resp="#siviṭ-mkj-corr">प्रतिबन्धसद्भावेऽपि</note> तद्विरोधसंभवे<note n="347-4"><p>प्रत्यक्षविरोधसंभवे ।</p></note> अन्यत्र कः समाश्वासः ? ल<note n="347-5"><p>तुलना--<quote>लक्षणयुक्ते बाधासंभवे तल्लक्षणमेव दूषितं स्यादिति<lb ed="mkj"/>
+सर्वत्रानाश्वासः ॥</quote>--<ref cRef="">प्र॰ वा॰ स्ववृ॰ १ । २२ ।</ref> <ref cRef="">प्र॰ वार्तिकाल॰ ३ । ७१ ।</ref></p></note>क्षणयुक्ते<lb ed="mkj"/>
+बाधासंभवे तल्लक्षणमेव दूषितं स्यात् । तत्प्रतिबन्धभावः पुनः काष्ठादौ य <supplied resp="#siviṭ-mkj-supp">त</supplied> एव पार्थिवत्वं<lb ed="mkj"/>
+तत एव लोहलेख्यत्वदर्शनात् । नहि तद्भावे हेत्वंगपेक्षा <note type="correction" resp="#siviṭ-mkj-corr">हेत्वन्तरापक्षा</note> नाम । तत एव तस्य<lb ed="mkj"/>
+सद्भावे नित्यं तदभाव <note type="correction" resp="#siviṭ-mkj-corr">तद्भाव</note>प्रसङ्गो नाशवत् <pb ed="ms" n="२८२ क"/> इति चेत्; न; योग्यताया नित्य<lb break="no" ed="mkj"/>मविरोधात् । काष्ठादेः पार्थिवस्य लोहलेख्यत्वेऽपि न सर्वस्य त<note n="347-6"><p>लोहलेख्यत्वम् ।</p></note>द्भावो विपर्यये बाधकाभावादिति<lb ed="mkj"/>
+चेत्; तर्हि सकलव्याप्तिः अभ्युपगता स्यात् । तथेति चेत्; अत्राह--<hi rend="bold">साकल्येन व्याप्तिः<lb ed="mkj"/>
+साध्यसिद्धिम् आक्षिपत्येव,</hi> तदभावे त<note n="347-7"><p>साकल्यव्याप्तिप्रतिपत्त्यसंभवात् ।</p></note>त्प्रतिपत्तेरयोगात् इति मन्यते ।</p>
         <lb ed="mkj"/>
-        <p>प्रकृतमुपसंहरन्नाह--<hi rend="bold">तत</hi> इत्यादि । यत एवं <hi rend="bold">ततः</hi> तस्मात् <hi rend="bold">श्रेयान् साध्यनिर्देशः</hi> प्रति<lb break="no" ed="mkj"/>ज्ञावचनम्, अन्यथानुपपन्नत्वोपेतहेतुनिर्देशे त<note n="347-8"><p>साध्यानिर्देशः ।</p></note>द<gap reason="illegible" agent="scan" extent="3 akṣaras"/> प्रशस्यः, ततोऽपि तन्निर्देशो<note n="347-9"><p>साध्यनिर्देशः ।</p></note> बालबुद्ध्य<lb break="no" ed="mkj"/>
+        <p>प्रकृतमुपसंहरन्नाह--<hi rend="bold">तत</hi> इत्यादि । यत एवं <hi rend="bold">ततः</hi> तस्मात् <hi rend="bold">श्रेयान् साध्यनिर्देशः</hi> प्रति<lb break="no" ed="mkj"/>ज्ञावचनम्, अन्यथानुपपन्नत्वोपेतहेतुनिर्देशे त<note n="347-8"><p>साध्यानिर्देशः ।</p></note>दनिर्देशः प्रशस्यः, ततोऽपि तन्निर्देशो<note n="347-9"><p>साध्यनिर्देशः ।</p></note> बालबुद्ध्य<lb break="no" ed="mkj"/>
 
-<note n="347-3" ana="gap"><p>प्रत्यक्ष<lb break="no" ed="mkj"/>विरोधः ।</p></note>
-<note n="347-4" ana="gap"><p>प्रत्यक्षविरोधसंभवे ।</p></note> <pb ed="mkj" n="348"/>
+<pb ed="mkj" n="348"/>
 नुग्रहार्थत्वात् प्रशस्यत<supplied resp="#siviṭ-mkj-supp">र</supplied> इति <hi rend="bold">श्रेयान्</hi> इत्युच्यते । यदि वा, तस्मात् <hi rend="bold">साकल्येन व्याप्तिः</hi><lb ed="mkj"/>
 तद्गृहीतिः विषयिणि विषयोपचारात् <hi rend="bold">साध्यसिद्धिम् आक्षिपत्येव ततः श्रेयान् साध्यनिर्देशः ।</hi></p>
         <lb ed="mkj"/>
@@ -11413,7 +11413,7 @@
           </quote>
           <lb ed="mkj"/>
           <p>वादिनः...साधन<supplied resp="#siviṭ-mkj-supp">नाङ्गवचनात्</supplied> प्रतिवादिनो निग्रहस्थानप्राप्तेः तथानुप<lb break="no" ed="mkj"/>पत्तेरिति फल्गुप्रायमिति; साधनप्रत्युच्चारणवत् दोषान्तरोक्ति-अनुक्तिप्रभृतिभिः दोष<lb break="no" ed="mkj"/>वत्साधनवादिनापि पुनर्निगृह्येत । तदेतेन अप्रतिभादिः प्रत्युक्तः । कस्यचिद् विप्रति<lb break="no" ed="mkj"/>पत्तौ अप्रतिपत्तौ वा परस्य स्वपक्षसिद्धिमन्तरेण जयाभावात् कः केन निगृह्यते ? यत्पुनः<lb ed="mkj"/>
-इष्टस्य अर्थसिद्धिः साधनं च तदङ्गं पक्षधर्मत्वादित्रिलक्षणास्त्रयो हेतवो गमकाः त<gap reason="illegible" agent="scan" extent="1 akṣara"/><lb break="no" ed="mkj"/>विनाभावनियमात्; तत्र पक्षधर्मत्वकार्यत्वपूर्वत्वादिलक्षणम् असाधनम्, अन्यथानुपप<lb break="no" ed="mkj"/>त्तिमनिश्चिन्वानः साध्यसाधनयोस्तादात्म्यतदुत्पत्ती कथं प्रतिपद्येत ? तत्प्रतिपत्तौ किं<lb ed="mkj"/>
+इष्टस्य अर्थसिद्धिः साधनं च तदङ्गं पक्षधर्मत्वादित्रिलक्षणास्त्रयो हेतवो गमकाः तद<lb break="no" ed="mkj"/>विनाभावनियमात्; तत्र पक्षधर्मत्वकार्यत्वपूर्वत्वादिलक्षणम् असाधनम्, अन्यथानुपप<lb break="no" ed="mkj"/>त्तिमनिश्चिन्वानः साध्यसाधनयोस्तादात्म्यतदुत्पत्ती कथं प्रतिपद्येत ? तत्प्रतिपत्तौ किं<lb ed="mkj"/>
 सम्बन्धान्तरेण अन्तर्गडुना ?</p>
         </quote>
         <lb ed="mkj"/>
@@ -11713,34 +11713,34 @@
         <p>कारिकां विवृण्वन्नाह--<hi rend="bold">निर्विषयम्</hi> इत्यादि । विषयान्निष्क्रान्तम् निरस्तविषयं वा <hi rend="bold">मिथ्या<lb break="no" ed="mkj"/>ज्ञानम् अनुमानम् अध्यक्षं च स्थूलैकाकारगोचरं व्यवहारेण प्रमाणीकृत्य</hi> स्वयमप्रमाणं<lb ed="mkj"/>
 प्रमाणयता भ्य <note type="correction" resp="#siviṭ-mkj-corr">अन्य</note> <hi rend="bold">तत्त्वं व्यावर्णयितुं</hi> व्यवस्थापयितुम् <hi rend="bold">इच्छति</hi> सौगतः । न च तद्व्य<lb break="no" ed="mkj"/>वस्था, मरीचिकाजलज्ञानात् सत्यजलव्यवस्थावदिति मन्यते । स्योदतत्--माभूत् प्रत्यक्षात् <note n="364-4"><p>स्थूलैकाकारविषयात् ।</p></note>तदा<lb break="no" ed="mkj"/> <pb ed="mkj" n="365"/>
 कारगोचरात् तद्व्यवस्था अनुमानात् स्यात् परम्परया तत्प्रतिबद्धात् <hi rend="bold"><quote ana="from-other-text">भ्रान्तिरपि सम्बन्धतः<lb ed="mkj"/>
-प्रमा</quote></hi> <note n="365-1"><p>द्रष्टव्यम्--पृ॰ ८२ टि॰ ४ ।</p></note>इति वचनादिति; तत्राह--<hi rend="bold">प्रतिबन्धादि</hi> इत्यादि । लिङ्गलिङ्गिनोः अविना<gap reason="illegible" agent="scan" extent="3 akṣaras"/> <hi rend="bold">प्रति<lb break="no" ed="mkj"/>बन्धः आदि</hi>र्यस्य पक्षधर्मत्वादेः तस्य <hi rend="bold">यो विकल्पः</hi> तद्ग्राही निश्चयः, अविकल्पस्य <gap reason="illegible" agent="scan" extent="3 akṣaras"/>प्रवृत्तेः<lb ed="mkj"/>
-स्वयमविष<supplied resp="#siviṭ-mkj-supp">ये तद</supplied>योगात् । नहि <q>इदमतो जातम्, अयमस्य स्वभावो अस्य <gap reason="illegible" agent="scan" extent="3 akṣaras"/></q> इति<lb ed="mkj"/>
-व्यापारो <note type="correction" resp="#siviṭ-mkj-corr">रे</note> <note n="365-3"><p>निर्विकल्पकप्रत्यक्षसाम<gap reason="illegible" agent="scan" extent="3 akṣaras"/> ।</p></note>तत्सामर्थ्यम्; कारणादिपरमाणुदर्शनव्यापारस्य <note n="365-4"><p>जैनादिकं ।</p></note>परं प्रत्यसिद्धेः । तस्य <hi rend="bold"><gap reason="illegible" agent="scan" extent="3 akṣaras"/>तिशया<lb break="no" ed="mkj"/>भावाद्</hi> अनुमानाद् भेदाभावात् । केन ? इत्याह--<hi rend="bold">असमीक्षित</hi> इत्यादि । किं कस्य<gap reason="illegible" agent="scan" extent="3 akṣaras"/> ? न;<lb ed="mkj"/>
-इत्याह <hi rend="bold">सर्वस्यैव ।</hi> एवमुक्तं भवति--प्रतिबन्धादिविकल्पस्य मिथ्यात्वे अनुमानस्य <gap reason="illegible" agent="scan" extent="3 akṣaras"/>नि पार<lb break="no" ed="mkj"/>म्पर्येणापि न प्रतिबन्धः इति न युक्तम् <hi rend="bold"><quote ana="from-other-text">लिङ्गलिङ्गिधियोरेवम्</quote></hi> <ref cRef="">प्र॰ वा॰ २ । ८२</ref> <lb ed="mkj"/>
-<note n="365-6"><p><q>पारम्पर्येण वस्तुनि । प्रतिबन्धात् तदाभा<gap reason="illegible" agent="scan" extent="3 akṣaras"/> योरप्य<lb break="no" ed="mkj"/>वञ्चनम् ।</q> इति शेषः ।</p></note>इत्यादि, <hi rend="bold"><quote ana="from-other-text">मणिप्रदीपप्रभयोर्मणिबुद्ध्या</quote></hi> <ref cRef="">प्र॰ वा॰ २ । ५७</ref> इ<note n="365-7"><p><q>अभिधावतोः । मिथ्याज्ञानाविशेषेऽपि विशेषोऽर्थक्रियां प्रति ।</q><gap reason="illegible" agent="scan" extent="3 akṣaras"/>त शेषः ।</p></note>त्यादि च ।</p>
+प्रमा</quote></hi> <note n="365-1"><p>द्रष्टव्यम्--पृ॰ ८२ टि॰ ४ ।</p></note>इति वचनादिति; तत्राह--<hi rend="bold">प्रतिबन्धादि</hi> इत्यादि । लिङ्गलिङ्गिनोः अविनाभावः <hi rend="bold">प्रति<lb break="no" ed="mkj"/>बन्धः आदि</hi>र्यस्य पक्षधर्मत्वादेः तस्य <hi rend="bold">यो विकल्पः</hi> तद्ग्राही निश्चयः, अविकल्पस्य <note n="365-2"><p>सम्बन्धादौ ।</p></note>तत्राप्रवृत्तेः<lb ed="mkj"/>
+स्वयमविष<supplied resp="#siviṭ-mkj-supp">ये तद</supplied>योगात् । नहि <q>इदमतो जातम्, अयमस्य स्वभावो अस्य धर्मो वा</q> इति<lb ed="mkj"/>
+व्यापारो <note type="correction" resp="#siviṭ-mkj-corr">रे</note> <note n="365-3"><p>निर्विकल्पकप्रत्यक्षसामर्थ्यम् ।</p></note>तत्सामर्थ्यम्; कारणादिपरमाणुदर्शनव्यापारस्य <note n="365-4"><p>जैनादिकं ।</p></note>परं प्रत्यसिद्धेः । तस्य<note n="365-5"><p>प्रतिबन्धादिविकल्पस्य ।</p></note> <hi rend="bold">अतिशया<lb break="no" ed="mkj"/>भावाद्</hi> अनुमानाद् भेदाभावात् । केन ? इत्याह--<hi rend="bold">असमीक्षित</hi> इत्यादि । किं कस्यचित्? न;<lb ed="mkj"/>
+इत्याह <hi rend="bold">सर्वस्यैव ।</hi> एवमुक्तं भवति--प्रतिबन्धादिविकल्पस्य मिथ्यात्वे अनुमानस्य वस्तुनि पार<lb break="no" ed="mkj"/>म्पर्येणापि न प्रतिबन्धः इति न युक्तम् <hi rend="bold"><quote ana="from-other-text">लिङ्गलिङ्गिधियोरेवम्</quote></hi> <ref cRef="">प्र॰ वा॰ २ । ८२</ref> <lb ed="mkj"/>
+<note n="365-6"><p><q>पारम्पर्येण वस्तुनि । प्रतिबन्धात् तदाभासशून्ययोरप्य<lb break="no" ed="mkj"/>वञ्चनम् ।</q> इति शेषः ।</p></note>इत्यादि, <hi rend="bold"><quote ana="from-other-text">मणिप्रदीपप्रभयोर्मणिबुद्ध्या</quote></hi> <ref cRef="">प्र॰ वा॰ २ । ५७</ref> इ<note n="365-7"><p><q>अभिधावतोः । मिथ्याज्ञानाविशेषेऽपि विशेषोऽर्थक्रियां प्रति ।</q> इति शेषः ।</p></note>त्यादि च ।</p>
         <lb ed="mkj"/>
-        <p>यदि पुनरेतन्मतम्--न परमाणुदर्शनम् अग्निधूमयोः वृक्षशिंशपयोः, <note n="365-8"><p>एवं सति धूमपर्वतयोः अदर्शनं स्यादिति भावः ।</p></note>धूमपर्वतस्य <gap reason="illegible" agent="scan" extent="3 akṣaras"/>दर्शनम्,<lb ed="mkj"/>
-अपि तु स्थूलैकत्वदर्शनमेव लोकस्य त<note n="365-9"><p>स्थूलैकत्वदर्शन एव ।</p></note>त्रैव प्रमाणादिव्यवहारात् इति, तदप्रमाणं <supplied resp="#siviṭ-mkj-supp">प्रमाण</supplied> <gap reason="illegible" agent="scan" extent="3 akṣaras"/> भवतः<lb ed="mkj"/>
+        <p>यदि पुनरेतन्मतम्--न परमाणुदर्शनम् अग्निधूमयोः वृक्षशिंशपयोः, <note n="365-8"><p>एवं सति धूमपर्वतयोः अदर्शनं स्यादिति भावः ।</p></note>धूमपर्वतस्य अदर्शनम्,<lb ed="mkj"/>
+अपि तु स्थूलैकत्वदर्शनमेव लोकस्य त<note n="365-9"><p>स्थूलैकत्वदर्शन एव ।</p></note>त्रैव प्रमाणादिव्यवहारात् इति, तदप्रमाणं <supplied resp="#siviṭ-mkj-supp">प्रमाणं</supplied> वा भवतः<lb ed="mkj"/>
 स्यात् ? प्रथमपक्षे दोषमाह--<hi rend="bold">लोक</hi> इत्यादि । <hi rend="bold">लोकप्रतीतिं</hi> स्थूलैकाकारसंवित्तिम <pb ed="ms" n="२९५ ख"/> <lb ed="mkj"/>
-किंभूता <note type="correction" resp="#siviṭ-mkj-corr">ताम् ?</note> <hi rend="bold">न प्रमाणं समाश्रयति ।</hi> किमर्थम् ? इत्याह--<hi rend="bold">परमार्थावत<gap reason="illegible" agent="scan" extent="3 akṣaras"/></hi> इति ।<lb ed="mkj"/>
-द्वितीयेऽप्याह--<hi rend="bold">तत्प्रमाणत्वे, क्षणक्षयादेः</hi> आदिशब्देन निरंशत्वादिपरिग्रहः । <hi rend="bold"><gap reason="illegible" agent="scan" extent="3 akṣaras"/>मणाव<lb ed="mkj"/>
-<note type="correction" resp="#siviṭ-mkj-corr">बाधनम्, अक्रमवत्</note></hi> क्रमेणापि एकस्य अनेकाकारसिद्धेः सविकल्पकं प्रमाणं स्यादि<gap reason="illegible" agent="scan" extent="3 akṣaras"/> भावः ।<lb ed="mkj"/>
-परमार्थावताराय <note n="365-10"><p>लो<gap reason="illegible" agent="scan" extent="3 akṣaras"/>तीतिम् ।</p></note>तामप्रमाणं समाश्रयतः को दोषः ? इत्यत्राह--<hi rend="bold">तदप्रमाणस्य</hi> इत्यादि । वा चासौ<lb ed="mkj"/>
-लोकप्रतीतिः अप्रमाणं च तदप्रमाणं तस्य <hi rend="bold">परमार्थसाधनत्वे</hi> अभ्युपगम्यमाने <hi rend="bold">कु<gap reason="illegible" agent="scan" extent="3 akṣaras"/>चत्</hi> तत<lb ed="mkj"/>
+किंभूता <note type="correction" resp="#siviṭ-mkj-corr">ताम् ?</note> <hi rend="bold">न प्रमाणं समाश्रयति ।</hi> किमर्थम् ? इत्याह--<hi rend="bold">परमार्थावताराय</hi> इति ।<lb ed="mkj"/>
+द्वितीयेऽप्याह--<hi rend="bold">तत्प्रमाणत्वे, क्षणक्षयादेः</hi> आदिशब्देन निरंशत्वादिपरिग्रहः । <hi rend="bold">वाधनमणाव<lb ed="mkj"/>
+<note type="correction" resp="#siviṭ-mkj-corr">बाधनम्, अक्रमवत्</note></hi> क्रमेणापि एकस्य अनेकाकारसिद्धेः सविकल्पकं प्रमाणं स्यादिति भावः ।<lb ed="mkj"/>
+परमार्थावताराय <note n="365-10"><p>लोकप्रतीतिम् ।</p></note>तामप्रमाणं समाश्रयतः को दोषः ? इत्यत्राह--<hi rend="bold">तदप्रमाणस्य</hi> इत्यादि । वा चासौ<lb ed="mkj"/>
+लोकप्रतीतिः अप्रमाणं च तदप्रमाणं तस्य <hi rend="bold">परमार्थसाधनत्वे</hi> अभ्युपगम्यमाने <hi rend="bold">कुतश्चित्</hi> तत<lb ed="mkj"/>
 एव लोकव्यवहारमिथ्यादेः <hi rend="bold">अन्यत्रापि</hi> नित्यत्रापि<note n="365-11"><p><q>नित्यत्रापि</q> इति व्यर्थम् ।</p></note> नित्यत्वादावपि <hi rend="bold">प्रमाणान्वेषणं कमर्थक्यं<lb ed="mkj"/>
-प्रतिपद्यते</hi> प्रमाणमन्तरेण <note n="365-12"><p>नैयायिकादेरपि नित्यतत्त्वसिद्धिः स्यात् ।</p></note>अन्यस्यापि सिद्धेरिति । एतदेव दर्शयन्नाह--<hi rend="bold">साकल्ये<gap reason="illegible" agent="scan" extent="3 akṣaras"/></hi> इत्यादि ।<lb ed="mkj"/>
-<hi rend="bold">तत्त्वावताराय</hi> आत्मेश्वरादितत्त्वप्रवेशार्थम् अप्रमाणं सार्थकम् <q><note type="correction" resp="#siviṭ-mkj-corr">सात्मकं</note><gap reason="illegible" agent="scan" extent="3 akṣaras"/> छरीरम्</q><lb ed="mkj"/>
-इत्यादि, <q>विमत्यधिकरणभावापन्नं तन्वादि बुद्धिमत्कारणम्</q> इत्यादि वा अनुमानम् । मिथ्या<lb break="no" ed="mkj"/>ज्ञानाद् अनुमानान्न क्षणक्षयादिसिद्धिः । <q>अग्निरत्र</q> <supplied resp="#siviṭ-mkj-supp">इत्यनु</supplied>मानात् कथम<gap reason="illegible" agent="scan" extent="3 akṣaras"/>रिति ?<lb ed="mkj"/>
-तथा परेणाप्युच्यते--ततो मिथ्याज्ञानाद् आत्माद्य सिद्धौ कथं क्षणक्षयादिसिद्धिरिति <gap reason="illegible" agent="scan" extent="3 akṣaras"/>नु यथा<lb ed="mkj"/>
-लोकतः क्षणक्षयादौ सत्त्वादिप्रतिबन्धसिद्धिः<note n="365-13"><p>अवि<gap reason="illegible" agent="scan" extent="3 akṣaras"/>व ।</p></note> नैवम् आत्मादौ प्राणादिमत्त्वादेः <gap reason="illegible" agent="scan" extent="3 akṣaras"/> चेत्;<lb ed="mkj"/>
+प्रतिपद्यते</hi> प्रमाणमन्तरेण <note n="365-12"><p>नैयायिकादेरपि नित्यतत्त्वसिद्धिः स्यात् ।</p></note>अन्यस्यापि सिद्धेरिति । एतदेव दर्शयन्नाह--<hi rend="bold">साकल्येन</hi> इत्यादि ।<lb ed="mkj"/>
+<hi rend="bold">तत्त्वावताराय</hi> आत्मेश्वरादितत्त्वप्रवेशार्थम् अप्रमाणं सार्थकम् <q><note type="correction" resp="#siviṭ-mkj-corr">सात्मकं</note>जीवच्छरीरम्</q><lb ed="mkj"/>
+इत्यादि, <q>विमत्यधिकरणभावापन्नं तन्वादि बुद्धिमत्कारणम्</q> इत्यादि वा अनुमानम् । मिथ्या<lb break="no" ed="mkj"/>ज्ञानाद् अनुमानान्न क्षणक्षयादिसिद्धिः । <q>अग्निरत्र</q> <supplied resp="#siviṭ-mkj-supp">इत्यनु</supplied>मानात् कथमग्निसिद्धिरिति ?<lb ed="mkj"/>
+तथा परेणाप्युच्यते—ततो मिथ्याज्ञानाद् आत्माद्य सिद्धौ कथं क्षणक्षयादिसिद्धिरिति ननु यथा<lb ed="mkj"/>
+लोकतः क्षणक्षयादौ सत्त्वादिप्रतिबन्धसिद्धिः<note n="365-13"><p>अविनाभाव ।</p></note> नैवम् आत्मादौ प्राणादिमत्त्वादेः इति चेत्;<lb ed="mkj"/>
 उक्तमत्र--<hi rend="bold">प्रतिबन्धे</hi>त्यादि ।</p>
         <lb ed="mkj"/>
-        <p>अपरमप्युच्यते--<hi rend="bold">शब्दैः</hi> इत्यादि । <hi rend="bold">तत्त्वस्य</hi> क्षणक्षयादेः सम्बन्धि <hi rend="bold">साधनं</hi> लिङ्गं <hi rend="bold"><gap reason="illegible" agent="scan" extent="3 akṣaras"/>तपिपा<lb break="no" ed="mkj"/>दयिपति परं</hi> प्रति । कैः ? इत्याह <hi rend="bold">शब्दैः ।</hi> किंभूतैः ? इत्याह--<hi rend="bold">वक्त्र</hi> इत्यादि । <gap reason="illegible" agent="scan" extent="3 akṣaras"/>प्रतिब<lb break="no" ed="mkj"/>द्धैरिति भावः । <hi rend="bold">किं पुनः तत्त्वं न साधयेत् ?</hi> साधयेदेव । कैः ? इत्याह--<hi rend="bold">असाधनै</hi> <pb ed="ms" n="२९६ क"/> <lb ed="mkj"/>
-
-<note n="365-2" ana="gap"><p>सम्बन्धादौ ।</p></note>
+        <p>अपरमप्युच्यते--<hi rend="bold">शब्दैः</hi> इत्यादि । <hi rend="bold">तत्त्वस्य</hi> क्षणक्षयादेः सम्बन्धि <hi rend="bold">साधनं</hi> लिङ्गं <hi rend="bold">प्रतिपिपा<lb break="no" ed="mkj"/>दयिषति परं</hi> प्रति । कैः ? इत्याह <hi rend="bold">शब्दैः ।</hi> किंभूतैः ? इत्याह—<hi rend="bold">वक्त्र</hi> इत्यादि । साधनाप्रतिब<lb break="no" ed="mkj"/>द्धैरिति भावः । <hi rend="bold">किं पुनः तत्त्वं न साधयेत् ?</hi> साधयेदेव । कैः ? इत्याह--<hi rend="bold">असाधनै</hi> <pb ed="ms" n="२९६ क"/> <lb ed="mkj"/>
 
 
-<note n="365-5" ana="gap"><p>प्रतिबन्धादिविकल्पस्य ।</p></note> <pb ed="mkj" n="366"/>
+
+
+<pb ed="mkj" n="366"/>
 साध्या <supplied resp="#siviṭ-mkj-supp">प्रतिबद्धैः</supplied> प्राणादिमत्त्वादिभिः <hi rend="bold">यतो</hi> <supplied resp="#siviṭ-mkj-supp">ऽ</supplied>साधनैः तत्त्वसाधनं <hi rend="bold">तेन निगृह्येत वादी ।<lb ed="mkj"/>
 यत</hi> इति वा आक्षेपे नैव इति ।</p>
         <lb ed="mkj"/>
@@ -12702,7 +12702,7 @@
               </lg>
             </quote>
             <lb ed="mkj"/>
-            <p>प्रतिबन्धपरिसंख्यायाम् <note n="394-1"><p>तुलना--<quote>भविष्यत्प्रतिपद्येत <gap reason="illegible" agent="scan" extent="2 akṣaras"/> कृत्तिकोदयात् । श्व आदित्य उदेतेति ग्रहणं वा भविष्य<lb break="no" ed="mkj"/>ति ॥ तदेतत् भविष्यद्विषयमविसंवादकं <gap reason="illegible" agent="scan" extent="2 akṣaras"/> प्रतिबन्धसंख्यां प्रमाणसंख्यां च प्रतिरुणद्धि ।</quote>--लघी॰<lb ed="mkj"/>
+            <p>प्रतिबन्धपरिसंख्यायाम् <note n="394-1"><p>तुलना--<quote>भविष्यत्प्रतिपद्येत शकटं कृत्तिकोदयात् । श्व आदित्य उदेतेति ग्रहणं वा भविष्य<lb break="no" ed="mkj"/>ति ॥ तदेतत् भविष्यद्विषयमविसंवादकं ज्ञानं प्रतिबन्धसंख्यां प्रमाणसंख्यां च प्रतिरुणद्धि ।</quote>--लघी॰<lb ed="mkj"/>
 स्व॰ श्लो॰ १४ ।</p></note>उदेष्यति शकटं कृत्तिकोदयादिति किं प्रमाणम् ? न चात्र<lb ed="mkj"/>
 कश्चिद् व्यभिचारोऽस्ति । नो चेत्; प्रमाणसंख्या प्रतिबन्धपरिसंख्याघातिनीव लक्ष्यते ।<lb ed="mkj"/>
 ज्योतिषामनागतोदयास्तमयादिफलज्ञानमनुमानमनिच्छतः प्रमाणान्तरप्रसङ्गात् । तादा<lb break="no" ed="mkj"/>त्म्येन कुतश्चित्  <quote ana="from-other-text">अतीतैककालानां गतिर्नानागतानां व्यभिचारात्</quote> <supplied resp="#siviṭ-mkj-supp">प्र॰ वा॰ स्ववृ॰<lb ed="mkj"/>
@@ -12714,11 +12714,11 @@
 नैव भवेत् ? <hi rend="bold"><quote ana="from-other-text">अतीतैककालानां गतिः</quote></hi> <ref cRef="">प्र॰ वा॰ स्ववृ॰ पृ॰ ४९</ref> प्रतिपत्तिः नो चेत्;<lb ed="mkj"/>
 न यदि भविष्यतां व्यभिचारादिति व्यबहारानुसारिणोऽपि तद्व्यवहारविलोपः ।</p>
           <lb ed="mkj"/>
-          <p>न कृत्तिकोदयात् भविष्यच्छ<gap reason="illegible" agent="scan" extent="2 akṣaras"/>नुमानम् अपि तु द्वयोः कारणभूतयोः सामग्र्या इत्येके ।<lb ed="mkj"/>
+          <p>न कृत्तिकोदयात् भविष्यच्छकटाद्यनुमानम् अपि तु द्वयोः कारणभूतयोः सामग्र्या इत्येके ।<lb ed="mkj"/>
 तेषां तयोः यौगपद्यम्, इतरथा रसादीनामपि तु न स्यादिति निरर्थकम्--<hi rend="bold"><quote ana="from-other-text">अतीतैककालानां<lb ed="mkj"/>
 गतिः</quote></hi> <ref cRef="">प्र॰ वा॰ स्ववृ॰</ref> इति ।</p>
           <lb ed="mkj"/>
-          <p>किञ्च, एकसामग्र्यधीनत्वेऽपि <note n="394-2"><p>कृत्तिकोदय-शकटोद<gap reason="illegible" agent="scan" extent="2 akṣaras"/> ।</p></note>दयोरयौगपद्ये मानसाध्यक्षविषय<note n="394-3"><p>इन्द्रियज्ञानविषयस्य अनन्तरो विषयः इन्द्रियज्ञा<lb break="no" ed="mkj"/>नस्य सहकारी भवन् मनोविज्ञानमुत्पादयति <gap reason="illegible" agent="scan" extent="2 akṣaras"/> स्यादिति भावः ।</p></note> इन्द्रियज्ञानसहकारी<lb break="no" ed="mkj"/>न स्यात् ।</p>
+          <p>किञ्च, एकसामग्र्यधीनत्वेऽपि <note n="394-2"><p>कृत्तिकोदय-शकटोदययोः ।</p></note>दयोरयौगपद्ये मानसाध्यक्षविषय<note n="394-3"><p>इन्द्रियज्ञानविषयस्य अनन्तरो विषयः इन्द्रियज्ञा<lb break="no" ed="mkj"/>नस्य सहकारी भवन् मनोविज्ञानमुत्पादयति, तन्न स्यादिति भावः ।</p></note> इन्द्रियज्ञानसहकारी<lb break="no" ed="mkj"/>न स्यात् ।</p>
           <lb ed="mkj"/>
           <p>ननु कथञ्चित् सामग्रीस्वभावानुमानेऽपि न भाविशकटोदयात्<note type="correction" resp="#siviṭ-mkj-corr">नु</note>मानम् <hi rend="bold"><quote ana="from-other-text">अती<lb break="no" ed="mkj"/>तैककालानां गतिः</quote></hi> <ref cRef="">प्र॰ वा॰ स्ववृ॰</ref> इत्यस्य विरोधा वे विदं <note type="correction" resp="#siviṭ-mkj-corr">धादिति चेत्; इदं</note> स<lb ed="mkj"/>
 एव जानाति य एवं वदन्ति <note type="correction" resp="#siviṭ-mkj-corr">ति</note> ।</p>
@@ -15473,7 +15473,7 @@
 तज्जननात्</q> इत्यपि नोत्तरम्; गाढसुप्तेन स्वव्यापारव्याहारहेतुना व्यभिचारः । <q>सर्वव्यामोह<lb break="no" ed="mkj"/>रितत्त्वे <note type="correction" resp="#siviṭ-mkj-corr">रहितत्वे</note> सति</q> इति चेत्; तदपि कुतः ? सर्वज्ञानात्; अन्योऽन्यसंश्रयः--सर्वव्या<lb break="no" ed="mkj"/>मोहविरहसिद्धौ तत्परिज्ञानम्, अतः तत्सिद्धिरिति । तन्न कालादेरस्य<note n="475-12"><p>ईश्वरस्य ।</p></note> विशेषः । भवतु वा<lb ed="mkj"/>
 तत्परिज्ञानम्, तथापि <note n="475-13"><p>कालादेः ।</p></note>ततोऽस्य<note n="475-14"><p>ईश्वरस्य ।</p></note> न विशेषः अकिञ्चित्करत्वात्तत्परिज्ञानस्य । यो हि कर्मवशात्<lb ed="mkj"/>
 अकर्त्तव्ये प्रवर्त्तमानमज्ञं ज्ञात्त्वा कर्त्तव्ये प्रवर्तयति जनम्, तस्य परिज्ञानं फलवत्, <note n="475-15"><p>ईश्वरः ।</p></note>अयं पुनः<lb ed="mkj"/>
-<note n="475-16"><p><gap reason="illegible" agent="print" extent="1 akṣara"/> प्रवर्तयति इति सम्बन्धः ।</p></note>तत्रैव । यदि यादिव <note type="correction" resp="#siviṭ-mkj-corr">यदि वा</note> <hi rend="bold">यथाकर्मसम्बन्ध<note type="correction" resp="#siviṭ-mkj-corr">न्धं</note> प्रवर्त्तने</hi> सर्वज्ञत्वादिना गुणेन यत्<lb ed="mkj"/>
+<note n="475-16"><p>तं प्रवर्तयति इति सम्बन्धः ।</p></note>तत्रैव । यदि यादिव <note type="correction" resp="#siviṭ-mkj-corr">यदि वा</note> <hi rend="bold">यथाकर्मसम्बन्ध<note type="correction" resp="#siviṭ-mkj-corr">न्धं</note> प्रवर्त्तने</hi> सर्वज्ञत्वादिना गुणेन यत्<lb ed="mkj"/>
 <hi rend="bold">पारमैश्वर्यं</hi> तस्याऽ<hi rend="bold">नुपपत्तेः कर्मैव तन्निमित्तम् ।</hi></p>
           <lb ed="mkj"/>
           <p>अत्र <hi rend="bold"><q>अतिप्रसङ्गात्</q></hi> इति नापेक्षणीयम् । तथाहि--कर्म अचेतनमपि यदि यथाकालं<lb ed="mkj"/>
@@ -17051,8 +17051,8 @@
 इति यावत् । अतीतानागतयोरसतोः प्रवर्त्तमान<note type="correction" resp="#siviṭ-mkj-corr">नं</note> निर्विषयं तदप्रमाणम्; तत्राह--<hi rend="bold">सर्वज्ञैः<lb ed="mkj"/>
 सह तश्चेतः<note type="correction" resp="#siviṭ-mkj-corr">चेतसः</note>प्रमाणम् ।</hi> एव<note type="correction" resp="#siviṭ-mkj-corr">वं</note>मन्यते--यथा सर्वज्ञात्म<note type="correction" resp="#siviṭ-mkj-corr">सर्वज्ञज्ञानम</note>तीतादौ<lb ed="mkj"/>
 प्रवर्त्तमाना अपि<note type="correction" resp="#siviṭ-mkj-corr">नमपि</note>स्वतः प्रमाण<note type="correction" resp="#siviṭ-mkj-corr">णं</note>परमार्थतः तथा इदमपि इति । ततः <q>यदि च सामान्यं<lb ed="mkj"/>
-व्यक्तिर्वा<supplied resp="#siviṭ-mkj-supp">वा</supplied>च्यं शब्दानां भवेद् अतीतानागतं वाच्यं न स्यात्</q> इति<note n="519-3"><p><quote>अतीतःनागतं वाच्यं न स्यादर्थेन तत्क्षयात्</quote>--प्र॰<lb ed="mkj"/>
-<gap reason="illegible" agent="print" extent="1 akṣara"/>॰ २ । १८ ।</p></note>; तन्निरस्तम्; सर्व<lb break="no" ed="mkj"/>ज्ञानवक्षा वृतस्यापि तत्रातिधारणात् <note type="correction" resp="#siviṭ-mkj-corr">सर्वज्ञज्ञानवत् अतीतानागतस्यापि तत्रावधारणात्</note> ।</p>
+व्यक्तिर्वा<supplied resp="#siviṭ-mkj-supp">वा</supplied>च्यं शब्दानां भवेद् अतीतानागतं वाच्यं न स्यात्</q> इति<note n="519-3"><p><quote>अतीतःनागतं वाच्यं न स्यादर्थेन तत्क्षयात्</quote>--<ref cRef="">प्र॰<lb ed="mkj"/>
+वा॰ २ । १८ ।</ref></p></note>; तन्निरस्तम्; सर्व<lb break="no" ed="mkj"/>ज्ञानवक्षा वृतस्यापि तत्रातिधारणात् <note type="correction" resp="#siviṭ-mkj-corr">सर्वज्ञज्ञानवत् अतीतानागतस्यापि तत्रावधारणात्</note> ।</p>
         <lb ed="mkj"/>
         <p>यत्पुनरेतत्--</p>
         <lb ed="mkj"/>
@@ -17065,8 +17065,8 @@
         </quote>
         <lb ed="mkj"/>
         <p><ref cRef="">प्र॰ वा॰ २ । ३४</ref> इति<note n="519-4"><p><quote>अतीतानागतेऽप्यर्थे सामान्यनिबन्धनाः सामान्याश्रयाः श्रुतयो निविशन्ते व्यवतिष्ठन्ते—<lb ed="mkj"/>
-<gap reason="illegible" agent="print" extent="1 akṣara"/> सीत् घटो भविष्यतीत्यादयः । तथा चासतो घटस्य सामान्यं धर्म इत्युक्तं स्यात् तच्च सामान्यं सत्<lb ed="mkj"/>
-<gap reason="illegible" agent="print" extent="2 akṣaras"/>ऽतीतादेर्धर्मः कथं भवेत् ? न हि तैक्ष्ण्यं शशविषाणस्य भवति ।</quote>--प्र॰ वा॰ मनोरथ॰ ।</p></note>;</p>
+आसीत् घटो भविष्यतीत्यादयः । तथा चासतो घटस्य सामान्यं धर्म इत्युक्तं स्यात् तच्च सामान्यं सत्<lb ed="mkj"/>
+असतोऽतीतादेर्धर्मः कथं भवेत् ? न हि तैक्ष्ण्यं शशविषाणस्य भवति ।</quote>--<ref cRef="">प्र॰ वा॰ मनोरथ॰ ।</ref></p></note>;</p>
         <lb ed="mkj"/>
         <p>तत्रेदं चिन्त्यते--कुतोऽतीतानागतयोर्न तद्धर्मः ? तयोरसत्त्वात् । कदाऽसत्त्वम् ? स्व<lb break="no" ed="mkj"/> <pb ed="mkj" n="520"/>
 काले; वर्त्तमानमपि<note type="correction" resp="#siviṭ-mkj-corr">नेऽपि</note>तदनुषङ्गः, तस्याप्यने<note type="correction" resp="#siviṭ-mkj-corr">प्यन्य</note>कालापेक्षयोऽतीतानाततत्रा <note type="correction" resp="#siviṭ-mkj-corr">पेक्षया<lb ed="mkj"/>
@@ -17757,7 +17757,7 @@
         <p>माभूदनुपलम्भात् तदभावसिद्धिः प्रत्यक्षात्तु स्यात् । अभावप्रमाणवैफल्यमिति चेत्;<lb ed="mkj"/>
 तदिष्यत एव, प्रत्यक्षाविशेषत्वात्तस्य<note n="539-2"><p>अभावप्रमाणस्य ।</p></note> इति परः । तं प्रत्याह--<hi rend="bold">साकल्येन</hi> इत्यादि । प्रत्यक्षतः<lb ed="mkj"/>
 तदभावसाधने द्वैतं<note n="539-3"><p>द्वौ विकल्पौ ।</p></note> भवति क्वविशा<note type="correction" resp="#siviṭ-mkj-corr">क्वचित्, सा</note>कल्येन वा ? प्रथमपक्षे<note type="correction" resp="#siviṭ-mkj-corr">क्षोऽ</note>भिमतत्वान्न<lb ed="mkj"/>
-दूषयितुमाशङ्कितः सर्वभावसत्त्वस्य सप्रतिपक्षत्वात्<note n="539-4"><p>प्रतिप<unclear reason="illegible" agent="print">क्षस</unclear>पेक्षत्वात् असत्त्वसापेक्ष<lb break="no" ed="mkj"/>सत्त्ववत् ।</p></note> । द्वितीयेऽपि पक्षे द्वेतसेद्वैत<note type="correction" resp="#siviṭ-mkj-corr">द्वैतम्--</note>
+दूषयितुमाशङ्कितः सर्वभावसत्त्वस्य सप्रतिपक्षत्वात्<note n="539-4"><p>प्रतिपक्षसापेक्षत्वात् असत्त्वसापेक्ष<lb break="no" ed="mkj"/>सत्त्ववत् ।</p></note> । द्वितीयेऽपि पक्षे द्वेतसेद्वैत<note type="correction" resp="#siviṭ-mkj-corr">द्वैतम्--</note>
 सेन्द्रियाद्, अन्यतो वा ? अत्रापि प्रथमपक्षः श्रोत्रियस्य अनभिमतः सन्निहितमात्रे चक्षुरादि<lb break="no" ed="mkj"/>व्यापारोपगमना<note n="539-5"><p><quote>सम्बद्धं वर्तमानं च गृह्यते चक्षुरादिना</quote>--मी॰ श्लो॰ सू॰ ४ श्लो॰ ८४ ।</p></note>त् नासंकिं<note type="correction" resp="#siviṭ-mkj-corr">नाशङ्कि</note>तः । केवलं<pb ed="ms" n="४२२ क"/>द्वैतद्वये त्य<note type="correction" resp="#siviṭ-mkj-corr">अन्त्य</note>पक्षद्वयमवशिष्यते ।<lb ed="mkj"/>
 तत्र <hi rend="bold">साकल्येन</hi> अनवयवेन <hi rend="bold">स्वयम्</hi> आत्मना <hi rend="bold">लिङ्गेन्द्रियादिनिरपेक्षस्य</hi> मीमांसकादे<supplied resp="#siviṭ-mkj-supp">ः</supplied><lb ed="mkj"/>
 <hi rend="bold">भावप्रतिपत्तेः सर्वज्ञाभावप्रतिपत्तेः विरोधात्</hi> तत्प्रतिपत्तेः इति भावः । तथाहि--साकल्येन<lb ed="mkj"/>
@@ -17785,7 +17785,7 @@
         <p><hi rend="bold">ज्ञानस्य विभुत्वं</hi> सकलज्ञेययसाक्षात्करणलक्षणं <hi rend="bold">सिध्येत् ।</hi> क्व ? <hi rend="bold">क्वचित्</hi> मलविप<lb break="no" ed="mkj"/>क्षभावनापर्यन्तवति पुरुष<note type="correction" resp="#siviṭ-mkj-corr">षे</note> । कुतः ? इत्याह--<hi rend="bold">अतिशयाद्</hi> वृद्धे<supplied resp="#siviṭ-mkj-supp">ः</supplied>ज्ञानस्येति । कस्य वा<note n="539-15"><p><q>वा</q> इवार्थः ।</p></note> ?<lb ed="mkj"/>
 इत्याह--<hi rend="bold">परिणाम<note type="correction" resp="#siviṭ-mkj-corr">परिमाण</note>वद्</hi> इति । एतेन तत्र सुगतादेरपि विभुत्वं व्याख्यातम् ।</p>
         <lb ed="mkj"/>
-        <p>ननु तस्य भवतु विभुत्वम्, न च सकलव्याप्तिज्ञानस्य वा<supplied resp="#siviṭ-mkj-supp">ऽ</supplied>विश<gap reason="illegible" agent="scan" extent="1 akṣara"/>स्य सकलस्य वा स्यादिति<lb ed="mkj"/>
+        <p>ननु तस्य भवतु विभुत्वम्, न च सकलव्याप्तिज्ञानस्य वा<supplied resp="#siviṭ-mkj-supp">ऽ</supplied>विशदस्य सकलस्य वा स्यादिति<lb ed="mkj"/>
 चेत्; अत्राह--<hi rend="bold">वैशद्यम्</hi> इत्यादि । <hi rend="bold"><q>ज्ञानस्य</q><q>अतिशयात्</q></hi> इति चानुवर्तते । तयोरति<lb break="no" ed="mkj"/>शयात् । अत्र निदर्शननिः <note type="correction" resp="#siviṭ-mkj-corr">नं <hi rend="bold">मलहानेः</hi></note><hi rend="bold">तिमिराक्षस्येव</hi> तद्वत् ।</p>
         <lb ed="mkj"/>
         <pb ed="mkj" n="540"/>
@@ -17837,23 +17837,23 @@
 मीमांसको लौकायतिको वा <hi rend="bold">लोकान्</hi> जगन्ति<pb ed="ms" n="४२३ क"/>किंभूतान् ? इत्याह--<hi rend="bold">सर्वज्ञविक<lb break="no" ed="mkj"/> <pb ed="mkj" n="541"/>
 लानीति<note type="correction" resp="#siviṭ-mkj-corr">निति</note> ।</hi> यदि वा <hi rend="bold">लोकान्</hi> पुरुषान् <hi rend="bold">सर्वज्ञविकलान्</hi> इति द्रष्टव्यम् ? <hi rend="bold">वेदान<lb break="no" ed="mkj"/>कृत्रिमान</hi>नादिनिधनान् <hi rend="bold">कुतो वेद ?</hi> नहि तथाविधज्ञानमन्तरेण तद्वेद<supplied resp="#siviṭ-mkj-supp">न</supplied>संभवः इन्द्रिय<lb break="no" ed="mkj"/>ज्ञानस्य तत्रासामर्थ्यात्, अनुमानाभावात् ।</p>
         <lb ed="mkj"/>
-        <p>ननु <note n="541-1"><p><quote>अतीतोऽपि कालः सर्वज्ञशून्यः कालत्वात् <gap reason="illegible" agent="scan" extent="2 akṣaras"/>नीन्तनकालवत् ॥</quote>--मी॰ श्लो॰ ता॰ पृ॰ ७५ ।</p></note>इदमस्ति--विवादगोचरौ <supplied resp="#siviṭ-mkj-supp">दे</supplied>शकालौ सर्वज्ञविकक्तो<note type="correction" resp="#siviṭ-mkj-corr">लौ</note>तत्राद <note type="correction" resp="#siviṭ-mkj-corr"><note n="541-2"><p>देशत्वात् कालत्वाद्वा ।</p></note>तत्त्वात् आ</note>सन्न<lb break="no" ed="mkj"/>देशकालवदिति चेत्; न; उक्तमत्र--अन्यथानुपपत्तिरहितत्वादहेतव इति, अन्यथा कंचिद्देश<lb ed="mkj"/>
-<note type="correction" resp="#siviṭ-mkj-corr">शं</note>कालं वा पण्डितपुरुषरहितं स्वमातृविवाहर<unclear reason="illegible" agent="print">हित</unclear>स्योपलंभस्य<note type="correction" resp="#siviṭ-mkj-corr">रहितं वोपलभ्य</note>सर्वे<note type="correction" resp="#siviṭ-mkj-corr"><note n="541-3"><p>पारसीकदेशान् स्वमातुविवाहशून्यान्, कालांश्च पण्डितरहितान् ।</p></note>सर्वान्</note>
-तथा किन्न साधयेतु<note type="correction" resp="#siviṭ-mkj-corr">त्</note> ? पर्यायेण<note n="541-4"><p>क्रमशः, कालान्तरे कश्चिदपण्डितोऽपि पण्डितो भवति ।</p></note> नरान्तरेण वा <gap reason="illegible" agent="scan" extent="1 akṣara"/>स्य दर्शनं<supplied resp="#siviṭ-mkj-supp">न</supplied>सर्वज्ञस्येति किंकृतमेतत् ? आग<lb break="no" ed="mkj"/>मस्य <note n="541-5"><p>सर्वज्ञाभावे ।</p></note>तदभावे अप्रमाणत्वात्, <note n="541-6"><p>वेदागमस्य कार्येऽर्थे<lb ed="mkj"/>
+        <p>ननु <note n="541-1"><p><quote>अतीतोऽपि कालः सर्वज्ञशून्यः कालत्वात् इदानीन्तनकालवत् ॥</quote>--<ref cRef="">मी॰ श्लो॰ ता॰ पृ॰ ७५ ।</ref></p></note>इदमस्ति--विवादगोचरौ <supplied resp="#siviṭ-mkj-supp">दे</supplied>शकालौ सर्वज्ञविकक्तो<note type="correction" resp="#siviṭ-mkj-corr">लौ</note>तत्राद <note type="correction" resp="#siviṭ-mkj-corr"><note n="541-2"><p>देशत्वात् कालत्वाद्वा ।</p></note>तत्त्वात् आ</note>सन्न<lb break="no" ed="mkj"/>देशकालवदिति चेत्; न; उक्तमत्र--अन्यथानुपपत्तिरहितत्वादहेतव इति, अन्यथा कंचिद्देश<lb ed="mkj"/>
+<note type="correction" resp="#siviṭ-mkj-corr">शं</note>कालं वा पण्डितपुरुषरहितं स्वमातृविवाहरहितस्योपलंभस्य<note type="correction" resp="#siviṭ-mkj-corr">रहितं वोपलभ्य</note>सर्वे<note type="correction" resp="#siviṭ-mkj-corr"><note n="541-3"><p>पारसीकदेशान् स्वमातुविवाहशून्यान्, कालांश्च पण्डितरहितान् ।</p></note>सर्वान्</note>
+तथा किन्न साधयेतु<note type="correction" resp="#siviṭ-mkj-corr">त्</note> ? पर्यायेण<note n="541-4"><p>क्रमशः, कालान्तरे कश्चिदपण्डितोऽपि पण्डितो भवति ।</p></note> नरान्तरेण वा तस्य दर्शनं<supplied resp="#siviṭ-mkj-supp">न</supplied>सर्वज्ञस्येति किंकृतमेतत् ? आग<lb break="no" ed="mkj"/>मस्य <note n="541-5"><p>सर्वज्ञाभावे ।</p></note>तदभावे अप्रमाणत्वात्, <note n="541-6"><p>वेदागमस्य कार्येऽर्थे<lb ed="mkj"/>
 प्रामाण्यात् न तु स्वरूपे ।</p></note>विद्या<note type="correction" resp="#siviṭ-mkj-corr">ध्या</note>दिविषयत्वाच्च । उपमानन्तु भूतं<note type="correction" resp="#siviṭ-mkj-corr">त</note>देशकालं<note type="correction" resp="#siviṭ-mkj-corr">ल</note>न<lb break="no" ed="mkj"/>रसाक्षात्करणमन्तरेण दूरोत्सारितमेव, सर्वोपमानोपमेये तदयोगात् । अर्थापत्तिः पुनः सर्वज्ञ<note type="correction" resp="#siviṭ-mkj-corr">ज्ञा</note><lb break="no" ed="mkj"/>भावमन्तरेण कस्यचिदनुपजायमानस्य अर्थस्य अभावात् अयुक्त वा<note type="correction" resp="#siviṭ-mkj-corr">क्तैव</note> ।</p>
         <lb ed="mkj"/>
         <p>एतेन वेदानादित्वमपि चिन्तितम् । नहि तत्रानुमानम्; लिङ्गाभावात् । कर्तुरस्मरणादयः<lb ed="mkj"/>
 कृतोत्तराः । आगमात्र<note type="correction" resp="#siviṭ-mkj-corr">मात्तद</note>कृत्रिमत्वसिद्धिरिति चेत्; कुतः तस्य प्रामाण्यम् ? <note n="541-7"><p>अकृत्रिममत्वादेव ।</p></note>तत एव इति<lb ed="mkj"/>
 चेत्; अन्योऽन्यसंश्रयः--सिद्धे तदकृत्रिमत्वे ततः प्रामाण्यम्, अतश्च तत्सिद्धिरिति । न चापरं<lb ed="mkj"/>
 वाक्यं तथाविधमस्ति येन तत्सादृश्याद् वेदस्य तत्सिद्धि<supplied resp="#siviṭ-mkj-supp">ः</supplied>स्यात् । नापि तदन्तरेण किञ्चित्<lb ed="mkj"/>
-<note n="541-8"><p>प्रमाणसिद्धं वस्तु ।</p></note>प्रतिपन्नमनुपपन्नमस्ति<pb ed="ms" n="४२२ ख"/>येन अर्थापत्त्या<supplied resp="#siviṭ-mkj-supp">अ</supplied>कृत्रिमत्वप्रतिपत्तिः स्यात् । केवले<note type="correction" resp="#siviṭ-mkj-corr">लं</note>
-प्रत्यक्षमवशिष्यते । तच्चेद्<note type="correction" resp="#siviṭ-mkj-corr">दं</note> अनाद्यनन्तकालवि<gap reason="illegible" agent="scan" extent="1 akṣara"/>करणेऽसमर्थं चेत्; तत्ततः कुतः तत्प्र<lb break="no" ed="mkj"/>तिपत्ति<supplied resp="#siviṭ-mkj-supp">रिति</supplied> ?</p>
+<note n="541-8"><p>प्रमाणसिद्धं वस्तु ।</p></note>प्रतिपन्नमनुपपन्नमस्ति<pb ed="ms" n="४२२ ख"/>येन अर्थापत्त्या<supplied resp="#siviṭ-mkj-supp">अ</supplied>कृत्रिमत्वप्रतिपत्तिः स्यात् । केवले<note type="correction" resp="#siviṭ-mkj-corr">लं</note><lb ed="mkj"/>
+प्रत्यक्षमवशिष्यते । तच्चेद्<note type="correction" resp="#siviṭ-mkj-corr">दं</note> अनाद्यनन्तकालविषयीकरणेऽसमर्थं चेत्; तत्ततः कुतः तत्प्र<lb break="no" ed="mkj"/>तिपत्ति<supplied resp="#siviṭ-mkj-supp">रिति</supplied> ?</p>
         <lb ed="mkj"/>
         <p><hi rend="bold"><q>ज्ञानं निरुपमं सर्वगतमस्ति</q></hi> इत्येतद् व्याख्यातुमाह--<hi rend="bold">कृतमेतद्</hi> इत्यादि । <hi rend="bold">कृतं</hi><lb ed="mkj"/>
 निश्चित<hi rend="bold">मेतत् ।</hi> किम् ? इत्याह--<hi rend="bold">उत्पाद</hi> इत्यादि । निगमयन्नाह--<hi rend="bold">अत</hi> इत्यादि । <hi rend="bold">अतो</hi> न्यायात्<lb ed="mkj"/>
 <hi rend="bold">ज्ञानं</hi> कर्तृ <hi rend="bold">व्याप्नोति एव</hi> विषयीकरोत्येव । किम् ? <hi rend="bold">द्रव्यम् ।</hi> किंभूतम् ? इत्याह--<hi rend="bold">स्वभाव</hi><lb ed="mkj"/>
 इत्यादि । <note n="541-9"><p>सर्वात्मनां स्वभाव<lb break="no" ed="mkj"/>सद्भावात् ।</p></note>सर्वस्याविशेषात् तत्तद् व्याप्नुयादिति चेत्; अत्राह--<hi rend="bold">स्वविषय<note type="correction" resp="#siviṭ-mkj-corr">ये</note></hi>लोकालोकरूपे<lb ed="mkj"/>
-<hi rend="bold">तद्विपर्ययः</hi> तस्य ज्ञानस्य अप्रवृत्ति-अवैशद्य-मिथ्या<gap reason="illegible" agent="scan" extent="1 akṣara"/>लक्षणो <hi rend="bold">विपर्ययः</hi> <q>जायते</q> इत्यध्याहारः ।<lb ed="mkj"/>
+<hi rend="bold">तद्विपर्ययः</hi> तस्य ज्ञानस्य अप्रवृत्ति-अवैशद्य-मिथ्यात्वलक्षणो <hi rend="bold">विपर्ययः</hi> <q>जायते</q> इत्यध्याहारः ।<lb ed="mkj"/>
 कुतः ? इत्याह--<hi rend="bold">परतः</hi> कर्मणः । <hi rend="bold"><q>तिमिरादेः</q></hi> इत्यादि अत्र निदर्शन<note type="correction" resp="#siviṭ-mkj-corr">नम्</note> । कुतः तत्प<lb break="no" ed="mkj"/>रिक्षयलक्षणा सिद्धिः ? इत्याह--<hi rend="bold">प्रतिपक्ष</hi> इत्यादि । दोषावरणयोः <hi rend="bold">प्रतिपक्षः</hi> सम्यग्दर्शनादिः<lb ed="mkj"/>
 <hi rend="bold">तस्मिन् सति रागाद्यपकर्षदर्शनात्</hi> <note n="541-10"><p>सर्वथा नूतनपदार्थदर्शनात् ।</p></note>अदृष्टपूर्वार्थदर्शनाद् उपनिबन्धादेः अनन्यकर्तृकस्य प्रवर्त<lb break="no" ed="mkj"/>नात् । न चावरणविगमाभावे स्वविषयोन्मुखता ज्ञानस्य, तिमिरोपहतलोचनस्य तथा<supplied resp="#siviṭ-mkj-supp">ऽ</supplied>दर्शनात् ।<lb ed="mkj"/>
 <hi rend="bold"><note n="541-11"><p>प्रतिपक्षस्य सम्यग्दर्शनादेः ।</p></note>तस्य प्रयोगः</hi> समग्रता तस्या<hi rend="bold">तिस+एवसात्<note type="correction" resp="#siviṭ-mkj-corr">तियवशात्</note> दोषो</hi> रागादिः व्याख्यातः प्र मा ण<lb ed="mkj"/> <pb ed="mkj" n="542"/>
@@ -18412,12 +18412,12 @@
 चेत्; अत्राह--<hi rend="bold">नचेत्यात्म्यं</hi> <note type="correction" resp="#siviṭ-mkj-corr"><hi rend="bold">न च</hi> इत्यादि । <hi rend="bold"><note n="557-1"><p>त्र्यात्मनो भावः त्र्यात्म्यम्, अत्पादादित्रयात्मकत्वमित्यर्थः ।</p></note>त्र्यात्म्यं</hi></note>त्र्यात्मकत्वं तस्य <hi rend="bold">व्यतिरेको</hi>ऽभावः<lb ed="mkj"/>
 तेन <hi rend="bold">उत्पत्तिः</hi> नहि । उत्पत्तिस्वभावरहितं खरविषाणादि कारणाभावादनुत्पत्तिमत् न घटादिर्विप<note n="557-2"><p>कारणसद्भावात् ।</p></note><lb break="no" ed="mkj"/>र्ययादिति चेत्; उक्तमत्र ।</p>
         <lb ed="mkj"/>
-        <p>किं च, सदधि<note type="correction" resp="#siviṭ-mkj-corr">सदपि</note>कारणम् अनुत्पित्सुस्वभावं नोत्पादयति, अन्यथा <note n="557-3"><p><gap reason="illegible" agent="print" extent="2 akṣaras"/>स्वभावरहितम् ।</p></note>अविनश्वर<note type="correction" resp="#siviṭ-mkj-corr">रं</note>
+        <p>किं च, सदधि<note type="correction" resp="#siviṭ-mkj-corr">सदपि</note>कारणम् अनुत्पित्सुस्वभावं नोत्पादयति, अन्यथा <note n="557-3"><p>नाशस्वभावरहितम् ।</p></note>अविनश्वर<note type="correction" resp="#siviṭ-mkj-corr">रं</note>
 विनाशयेत् । न कस्यचिदुत्पत्तिरिति चेत्; उक्तमत्र चक्रादिवैफल्यम् इति । तथा <note n="557-4"><p>त्र्यात्मकत्वव्यतिरेकेण ।</p></note>तद्व्यतिरेकेण<lb ed="mkj"/>
 <hi rend="bold">न स्थितिः ।</hi> न खलु स्थितिस्वभावगर्हितं<note n="557-5a"><p>रहितम् इत्यर्थः ।</p></note> कुतचित् स्थाव न <note type="correction" resp="#siviṭ-mkj-corr">कुतश्चित् स्थापन</note>मर्हति ।<lb ed="mkj"/>
 नहि <note n="557-5b"><p>अदृष्टं धर्माधर्मादि ।</p></note>कर्म दत्तफलम्<pb ed="ms" n="४३५ क"/>ईश्वरेणापि स्थापयितुं शक्यधि<note type="correction" resp="#siviṭ-mkj-corr">शक्यमिति</note> <hi rend="bold"><quote ana="from-other-text">कार्यविरोधि</quote></hi><lb ed="mkj"/>
 <ref cRef="">वैशे॰ १ । १ । १४</ref><note n="557-6"><p><q>कार्यविरोधि कर्म</q>--कर्म स्वकार्येण फलेन विरुध्यते विनाश्यते इत्यर्थः ।</p></note>इत्यस्य विरोधात् । अथ ईश्वरस्य तत्स्थापनशक्तिः नास्ति; <note n="557-7"><p>तन्वाद्युत्पादने ।</p></note>अन्यत्र कथम् ?<lb ed="mkj"/>
-अन्यथा <note n="557-8" resp="#siviṭ-note"><p><gap reason="illegible" agent="print" extent="2 akṣaras"/>शक्तरूपता ।</p></note>उभयरूपता ईशस्य । यथा वा<supplied resp="#siviṭ-mkj-supp">ऽ</supplied>शक्तो न स्थापकः तथा स्थितिशक्तिरहितो न कुत<lb break="no" ed="mkj"/>श्चित् तिष्ठति इति समानम् । एतेन स्थापने तद्वा<note type="correction" resp="#siviṭ-mkj-corr">तद्व्यव</note>स्थापि निरस्ता ।</p>
+अन्यथा <note n="557-8" resp="#siviṭ-note"><p>शक्ताशक्तरूपता ।</p></note>उभयरूपता ईशस्य । यथा वा<supplied resp="#siviṭ-mkj-supp">ऽ</supplied>शक्तो न स्थापकः तथा स्थितिशक्तिरहितो न कुत<lb break="no" ed="mkj"/>श्चित् तिष्ठति इति समानम् । एतेन स्थापने तद्वा<note type="correction" resp="#siviṭ-mkj-corr">तद्व्यव</note>स्थापि निरस्ता ।</p>
         <lb ed="mkj"/>
         <p>ननु न स्थितिस्वभावताप्रयुक्ता स्थितिः, तस्यामपि विनोश्रुत्यय<note type="correction" resp="#siviṭ-mkj-corr">विनाशप्रत्यय</note>प्रणि<lb break="no" ed="mkj"/>धाने<note n="557-9"><p>सन्निधाने ।</p></note> घटादेर्विनाशदर्शनादिति चेत्; न; तस्य<note n="557-10"><p>घटादेः ।</p></note> विनश्वरस्वभावत्वात् । सर्वदा कुतो न नाश+ए<lb ed="mkj"/>
 <note type="correction" resp="#siviṭ-mkj-corr">नाशमे</note>ति चेत् ? क एवमाह--ने तीति<note type="correction" resp="#siviṭ-mkj-corr"><q>न एति</q> इति</note> ? केवलं तिरोधाना<supplied resp="#siviṭ-mkj-supp">द</supplied>नुपलक्षणं <note n="557-11"><p>तेजोद्रव्यात्मके सुवर्णे उष्णस्पर्शानुद्भवो यथा ।</p></note>सुवर्णे<lb ed="mkj"/>
@@ -18552,20 +18552,20 @@
 आत्मगुणानाम् आत्मान्तरगुणाकारणत्वादिति । किं पुनः ईश्वरज्ञानं न किंचित् करोति ?<lb ed="mkj"/>
 तथा चेत्; कुतोऽशेषकार्यजन्म ? महेश्वराच्चेत्; न । बुद्धिनिरपेक्षस्य पुंसः कार्यव्यापारे<lb ed="mkj"/>
 अचेतनकर्मणोऽविशेषः<note n="561-5"><p>विशेषाभावः ।</p></note> । सत्यपि बुद्धिः अनुपयोगिनी । अथ पदार्थग्रहणे<supplied resp="#siviṭ-mkj-supp">न</supplied>तज्जन्मनि<note n="561-6"><p>कार्योत्पादे व्यापारः ।</p></note>; सर्व<lb break="no" ed="mkj"/>स्यापि बुद्धेः तत्रैव<note n="561-7"><p>पदार्थग्रहणे एव ।</p></note> व्यापारो न कार्यजन्मनि, इति <q>इदं बुद्धिपूर्वम्, इदमथा<note type="correction" resp="#siviṭ-mkj-corr">मन्यथा</note>कार्यम्</q><lb ed="mkj"/>
-इति व्यवहारविलोपः । अथ <q><note n="561-8"><p>बुद्धि<unclear reason="illegible" agent="scan">सहितेन</unclear> ।</p></note>तत्सहितेन पुंसा कृतम्</q> इति उपचारेण <q>बुद्धिकृतम्</q> इत्युच्यते;<lb ed="mkj"/>
+इति व्यवहारविलोपः । अथ <q><note n="561-8"><p>बुद्धिसहितेन ।</p></note>तत्सहितेन पुंसा कृतम्</q> इति उपचारेण <q>बुद्धिकृतम्</q> इत्युच्यते;<lb ed="mkj"/>
 <note n="561-9"><p>बुद्ध्यैव ।</p></note>तयापि तत्करणे को विरोधः ?</p>
         <lb ed="mkj"/>
         <p>किं च, यदि नान्यात्मगुणः अन्यात्मगुणनिमित्तं कथं मन्त्रिण<note type="correction" resp="#siviṭ-mkj-corr">णो</note>ध्यानाद् अन्ययोषितः<lb ed="mkj"/>
 तं प्रति प्रत्यो<note type="correction" resp="#siviṭ-mkj-corr">प्रत्याकर्षणम् ?</note>अन्यमन्त्रोऽपि<note type="correction" resp="#siviṭ-mkj-corr">मन्त्रेऽपि</note>आत्मन एव तच्च<note type="correction" resp="#siviṭ-mkj-corr">तद्धे</note>तुत्वमिति चेत्;<lb ed="mkj"/>
 न; धर्मादेः सर्वत्रानुपयोगापत्तेः, आत्मन एव उपयोगात् । अथ मन्त्रिणो ध्यानं चित्तविकारकार<lb break="no" ed="mkj"/>णम्; ईश्वरज्ञानमपि तथैव स्यात् । भवतु को दोष इति चेत्; तद्वद् अन्यधर्मादिः <note n="561-10"><p>ईश्वरज्ञानो<lb break="no" ed="mkj"/>त्पत्तिकारणम् ।</p></note>तत्कार<lb break="no" ed="mkj"/>णम् इति कारणाभावोऽसिद्धः । तन्नानुमानमत्र<note n="561-11"><p>प्रमाणम् ।</p></note> ।</p>
         <lb ed="mkj"/>
-        <p>ननु यथा भवदीये मते सर्वज्ञः तेन<note n="561-12"><p>स्वेन ।</p></note> तदन्तरेण<note n="561-13"><p>सर्वा<gap reason="illegible" agent="scan" extent="2 akṣaras"/>रेण ।</p></note> वा ज्ञायते, तथा मदीये तदेव ज्ञानम्<lb ed="mkj"/>
-आत्मनित्यत्यत्वमवैति तदन्तरे स्वोत्<note type="correction" resp="#siviṭ-mkj-corr"><note n="561-14"><p>ईश्वरज्ञानान्तराभावात् ।</p></note>तदन्तराभावादिति</note> चेत्; न; एकत्वसंवेदनतापत्तेः, ईश्वर<lb break="no" ed="mkj"/>कल्पनमनर्थकम्, तावतैव<note n="561-15"><p>ज्ञानमात्रेणैव ।</p></note> तत्प्रयोजनसिद्धेः । <note n="561-16"><p>ननु निराश्रयं ज्ञानं कथं स्या<gap reason="illegible" agent="scan" extent="2 akṣaras"/>शङ्कायामाह ।</p></note>यथा ज्ञानत्वाऽविशेषेऽपि तदेव नित्यं तथा गुण<lb break="no" ed="mkj"/>त्वाविशेषेऽपि तदेव<note n="561-17"><p>ईश्वरज्ञानमेव ।</p></note> अनाश्रयम् इति । <note n="561-18"><p>ज्ञानसामान्ये ।</p></note>अन्यत्र अनित्यामित्यत्वा<note type="correction" resp="#siviṭ-mkj-corr">अनित्यत्वनित्यत्व</note> <note n="561-19"><p>द्वै विकल्पौ इत्यर्थः ।</p></note>दर्शन<lb break="no" ed="mkj"/>द्वयम् । एकत्र उक्तो दोषे<note type="correction" resp="#siviṭ-mkj-corr">षः</note>अन्यत्र<supplied resp="#siviṭ-mkj-supp">सत्</supplied>सम्प्रयोगजत्वेन इत्यादिकः । <pb ed="ms" n="४३८ ख"/>तन्न नित्यं<lb ed="mkj"/>
+        <p>ननु यथा भवदीये मते सर्वज्ञः तेन<note n="561-12"><p>स्वेन ।</p></note> तदन्तरेण<note n="561-13"><p>सर्वज्ञान्तरेण ।</p></note> वा ज्ञायते, तथा मदीये तदेव ज्ञानम्<lb ed="mkj"/>
+आत्मनित्यत्वमवैति तदन्तरे स्वोत्<note type="correction" resp="#siviṭ-mkj-corr"><note n="561-14"><p>ईश्वरज्ञानान्तराभावात् ।</p></note>तदन्तराभावादिति</note> चेत्; न; एकत्वसंवेदनतापत्तेः, ईश्वर<lb break="no" ed="mkj"/>कल्पनमनर्थकम्, तावतैव<note n="561-15"><p>ज्ञानमात्रेणैव ।</p></note> तत्प्रयोजनसिद्धेः । <note n="561-16"><p>ननु निराश्रयं ज्ञानं कथं स्यादित्याशङ्कायामाह ।</p></note>यथा ज्ञानत्वाऽविशेषेऽपि तदेव नित्यं तथा गुण<lb break="no" ed="mkj"/>त्वाविशेषेऽपि तदेव<note n="561-17"><p>ईश्वरज्ञानमेव ।</p></note> अनाश्रयम् इति । <note n="561-18"><p>ज्ञानसामान्ये ।</p></note>अन्यत्र अनित्यानित्यत्वा<note type="correction" resp="#siviṭ-mkj-corr">अनित्यत्वनित्यत्व</note> <note n="561-19"><p>द्वौ विकल्पौ इत्यर्थः ।</p></note>दर्शन<lb break="no" ed="mkj"/>द्वयम् । एकत्र उक्तो दोषे<note type="correction" resp="#siviṭ-mkj-corr">षः</note>अन्यत्र<supplied resp="#siviṭ-mkj-supp">सत्</supplied>सम्प्रयोगजत्वेन इत्यादिकः । <pb ed="ms" n="४३८ ख"/>तन्न नित्यं<lb ed="mkj"/>
 ज्ञानम् इत्यवशिष्यते ।</p>
         <lb ed="mkj"/>
-        <p>तत्र <hi rend="bold">सता</hi> अर्थेन <hi rend="bold">सम्प्रयोगः</hi> सन्निकर्षः इन्द्रि<gap reason="illegible" agent="scan" extent="2 akṣaras"/> <hi rend="bold">तज्जत्वे न</hi> ज्ञानस्य <hi rend="bold">विरुद्धा<lb ed="mkj"/>
+        <p>तत्र <hi rend="bold">सता</hi> अर्थेन <hi rend="bold">सम्प्रयोगः</hi> सन्निकर्षः इन्द्रियाणां तज्<hi rend="bold">जत्वे न</hi> ज्ञानस्य <hi rend="bold">विरुद्धा<lb ed="mkj"/>
 सकलज्ञाता</hi> कु मा रि लो क्ताऽशेषदोषापरिहारात् इति भावः । दूषणान्तरमाह--<hi rend="bold">नित्यस्य</hi><lb ed="mkj"/>
-आत्मनः <hi rend="bold">सर्वज्ञता कुतः</hi> कारणात् ? न कुतश्चित्, नित्यत्वविरोधात् । स्वभाविकी सा<note n="561-20"><p>स<gap reason="illegible" agent="scan" extent="4 akṣaras"/> ।</p></note><lb ed="mkj"/> <pb ed="mkj" n="562"/>
+आत्मनः <hi rend="bold">सर्वज्ञता कुतः</hi> कारणात् ? न कुतश्चित्, नित्यत्वविरोधात् । स्वभाविकी सा<note n="561-20"><p>सकलज्ञता ।</p></note><lb ed="mkj"/> <pb ed="mkj" n="562"/>
 इति चेत्; अत्राह--<hi rend="bold">कुतः</hi> प्रमाणात् <q>अवगम्यते</q> इत्यध्याहारः । आत्मस्वभावस्य उत्कर्षवतः<lb ed="mkj"/>
 तथा दर्शनात् ।</p>
         <lb ed="mkj"/>
@@ -19636,10 +19636,10 @@
         <lb ed="mkj"/>
         <p>अथ एकपदार्थः बहुभिरयुगपद्भाविभिरस्थिरैर्घकारटकारविसर्जनीयैः प्रतियादयितुमसद्य<lb ed="mkj"/> <pb ed="mkj" n="592"/>
 इत्येवेत <note type="correction" resp="#siviṭ-mkj-corr">मशक्य इति एकेन<note n="592-1"><p>स्फोटेन ।</p></note></note>भाव्यमिति<note n="592-2"><p><quote>वर्णानां प्रत्येकं वाचकत्वे द्वितीयादिवर्णोच्चारणानर्थक्यप्रसङ्गात् । आनर्थक्ये तु<lb ed="mkj"/>
-प्रत्येकमुत्पत्तिपक्षे यौगपद्येनात्पत्त्यभावात् । अभिव्यक्तिपक्षे तु क्रमेणैवाभिव्यक्त्या समु<gap reason="illegible" agent="scan" extent="2 akṣaras"/>भावात् ।<lb ed="mkj"/>
+प्रत्येकमुत्पत्तिपक्षे यौगपद्येनात्पत्त्यभावात् । अभिव्यक्तिपक्षे तु क्रमेणैवाभिव्यक्त्या समुदायाभावात् ।<lb ed="mkj"/>
 एकस्मृत्युपारूढानां वाचकत्वे सरो रस इत्यादौ अर्थप्रतिपत्त्यविशेषप्रसङ्गात्, तद्व्यतिरिक्तः स्फोटो नादा<lb break="no" ed="mkj"/>भिव्यङ्ग्यो वाचकः ।</quote>--पा॰ महाभा॰ प्र॰ पृ॰ १६ । स्फोट॰ न्या॰ पृ॰ २ । सर्वद॰ पृ॰ २९९ ।</p></note>; तदपि न सूक्तम्; यतस्तदपि एकमनभिव्यक्तं चेदत्र<lb ed="mkj"/>
-प्रतीतिहेतुः; सर्वदा स्यात् इति घकाराद्युच्चारणमनर्थकम् । अभिव्यक्तं चेत्; य<gap reason="illegible" agent="scan" extent="1 akṣara"/>न्येन<note n="592-3"><p>अभिव्यक्तं भवति तथा ।</p></note> स; एवं<lb ed="mkj"/>
-दोषः घकारादिवैफल्यमिति । घकारादिभिरिति चेत्; तर्हि यया प्रत्यासत्त्या <gap reason="illegible" agent="scan" extent="1 akṣara"/>कंप्रकां<note type="correction" resp="#siviṭ-mkj-corr">एकं<note n="592-4"><p>स्फोटम् ।</p></note></note>
+प्रतीतिहेतुः; सर्वदा स्यात् इति घकाराद्युच्चारणमनर्थकम् । अभिव्यक्तं चेत्; यद्यन्येन<note n="592-3"><p>अभिव्यक्तं भवति तथा ।</p></note> स; एवं<lb ed="mkj"/>
+दोषः घकारादिवैफल्यमिति । घकारादिभिरिति चेत्; तर्हि यया प्रत्यासत्त्या एकंप्रकां<note type="correction" resp="#siviṭ-mkj-corr">एकं<note n="592-4"><p>स्फोटम् ।</p></note></note>
 प्रकाशयन्ति वाचकम्, तया अर्थम् इति किमपरेण ? न च नित्यस्य कस्यचिद्वस्तुत्वमिति निरूप<lb break="no" ed="mkj"/>यिष्यतेऽनन्तरम् ।</p>
         <lb ed="mkj"/>
         <p>किंच, एवं परम्परापरिश्रमश्च घकारादिभ्यो वा<note n="592-5"><p>स्फोटस्य ।</p></note>चकस्याभिव्यक्तिः, ततोऽर्थप्रतिपत्तिः<lb ed="mkj"/>
@@ -19648,7 +19648,7 @@
 प्रत्यक्षेऽपि वाच्यम् । ततः <hi rend="bold">तद्भेदोऽभिलापः स्वतः ।</hi> तदाह--<hi rend="bold">स्वतः</hi> अव्यवधानेन ।</p>
         <lb ed="mkj"/>
         <p>ननु तद्भेदेन किञ्चिदभिलप्यते ? न तावत् सामान्यम्; तदभावात्, प्रयोजनाभावाच्च ।<lb ed="mkj"/>
-नहि सामान्यं वाद<note type="correction" resp="#siviṭ-mkj-corr">ह</note>दोहादावुपयुज्यते, विशेषाणामेव तत्रोपयोगात् <q>लक्षितलक्षणया<note n="592-10"><p>शब्देन लक्षितं सामान्यम्, तेन लक्ष्यते विशेष इति <gap reason="illegible" agent="scan" extent="1 akṣara"/>क्षितलक्षणा ।</p></note> प्रवृत्तिः</q><lb ed="mkj"/>
+नहि सामान्यं वाद<note type="correction" resp="#siviṭ-mkj-corr">ह</note>दोहादावुपयुज्यते, विशेषाणामेव तत्रोपयोगात् <q>लक्षितलक्षणया<note n="592-10"><p>शब्देन लक्षितं सामान्यम्, तेन लक्ष्यते विशेष इति लक्षितलक्षणा ।</p></note> प्रवृत्तिः</q><lb ed="mkj"/>
 इति न युक्तम्; तया<note type="correction" resp="#siviṭ-mkj-corr">तथा</note>सामान्यप्रतीतौ स एव प्रसङ्गः<note n="592-11"><p>प्रयोजनाभावादिरूपः ।</p></note> । विशेषगतौ, सात्तद्भवतिरस्तु<note type="correction" resp="#siviṭ-mkj-corr">सा<lb ed="mkj"/>
 तैरस्तु</note>, न चैवम्, अक्षसंहतेर्वैफल्यप्रसङ्गात् । ततः तद्भेदोऽनर्थक इति चेत्; अत्राह--<hi rend="bold">सिद्धार्थ<lb ed="mkj"/>
 मति</hi> <note type="correction" resp="#siviṭ-mkj-corr">इति</note> । सिद्धोऽर्थो यस्य स तथोक्तः <hi rend="bold">तद्भेदः ।</hi> तथाहि--यथा चक्षुरादिव्यापारात्<lb ed="mkj"/>
@@ -21290,7 +21290,7 @@
 प्रत्यक्षविषयः स्यात् । संविदां तदाकारानुकारित्वात् ।</p>
         </quote>
         <lb ed="mkj"/>
-        <p><hi rend="bold">वा</hi> इत्यवधारणे <hi rend="bold"><q>नीले<unclear reason="illegible" agent="print">न</unclear></q></hi> इत्यस्यानन्तरं द्रष्टव्यः । <hi rend="bold">नीलेनैव</hi> साक्षात् कारणेनैव <hi rend="bold">ज्ञानं<lb ed="mkj"/>
+        <p><hi rend="bold">वा</hi> इत्यवधारणे <hi rend="bold"><q>नीलेन</q></hi> इत्यस्यानन्तरं द्रष्टव्यः । <hi rend="bold">नीलेनैव</hi> साक्षात् कारणेनैव <hi rend="bold">ज्ञानं<lb ed="mkj"/>
 सारूप्यं स्वस्य रूपस्य</hi> स्वभावस्य <hi rend="bold">दर्शयेत् सर्वथा</hi> नीलत्वमात्रेणेव क्षणक्षयादिनापि<lb ed="mkj"/>
 <hi rend="bold">नो</hi> न <hi rend="bold">चेत्</hi> यदि <hi rend="bold">नीलान्तराणं<note type="correction" resp="#siviṭ-mkj-corr">णां</note></hi>रूपस्य नीलेन सारूप्यं स्वस्य वा दर्शयेत् <hi rend="bold">अयं पर<lb break="no" ed="mkj"/>स्यासंग्रहः<note type="correction" resp="#siviṭ-mkj-corr">सद्ग्रहः</note></hi>विरूपाभिनिवेशः ।</p>
         <lb ed="mkj"/>
