@@ -2472,8 +2472,7 @@
 	  iti cet |<note xml:id="RNA-n-0" xml:lang="en">Cf. <ref
 	  target="#note-2objects-neither-real"/>.</note> <anchor
 	  xml:id="thakur75-73.9"/> na | adhyavasāyasvarūpāparijñānāt | agṛhī<lb edRef="#RNAms" n="40b3"/>te
-	  'pi vastuni <choice><corr source="Patil 2003, p. 247,
-	  fn. 17">mānasādi</corr><sic>mānasyādi</sic></choice>pravṛttikārakatvaṃ
+	  'pi vastuni <choice><corr source="?citedRange=p247n17#patil03">mānasādi</corr><sic>mānasyādi</sic></choice>pravṛttikārakatvaṃ
 	  vikalpasyādhyavasāyitvam | apratibhāse 'pi pravṛttiviṣayīkṛtatvam
 	  adhyavaseyatvam | etac cādhyavaseyatvaṃ svalakṣaṇasyaiva yujyate,
 	  nānyasya, arthakriyārthitvād arthipravṛtteḥ | <anchor
@@ -3600,7 +3599,7 @@
 	  ityādinā pūrvam eva nīlādīnāṃ sākāravijñānatvaprasādhanāt | ata eva
 	  sarvatrāpi vimatir asaṅgatā, sākāravijñānasiddhāv eva
 	  citrādvaitavādāvatārāt | tasmāc citrateyam advaitavirodhinīti vyāmohād
-	  ekatva eva <choice><corr source="RNAms_69b1">vipratipatir</corr><sic>vipratipratir</sic></choice>
+	  ekatva eva <choice><corr source="#RNAms">vipratipatir</corr><sic>vipratipratir</sic></choice>
 	  iti tatra prasādhanaṃ sādhanam idam ucyate ||
 	</p>
 
@@ -3630,7 +3629,7 @@
 	sthūlapratibhāsaḥ saṅgataḥ syāt, grāhyagrāhakalakṣaṇayoḥ purastād
 	apakartavyatvāt |</p>
 
-	<p>na caivaṃ vaktavyam paramāṇūnāṃ <choice><corr source="RNAms_69b6">sva</corr></choice>svarūpanimagnatve 'py
+	<p>na caivaṃ vaktavyam paramāṇūnāṃ <choice><corr source="#RNAms">sva</corr><sic/></choice>svarūpanimagnatve 'py
 	ekopādānatayā puñjātmaiva sthūlaḥ sthūlam ātmanaṃ jñāsyatīti, saty apy
 	ekopādānatve svasvarūpanimagnatvād eva sthūlavyavasthāpakasya
 	bhinnasyātmano 'nyonyam vā grāhyagrāhakabhāvasyāyogāt | tādātmyena
@@ -3698,7 +3697,7 @@
 	atha samanantarapratyayabalāyātabuddhigatabāhyasadṛśākārapratibhāsaḥ,
 	āhosvid buddher ātmabhūtavipakṣasadṛśālīkākāraparisphūrtiḥ | <anchor xml:id="thakur75-131.24"/> na tāvad ādyaḥ pakṣo yuktaḥ, deśakā<anchor resp="#pma" xml:id="capv-np-4a-end"/><pb facs="../work/capv-ngmpp-b21_31-transcript.xml#tef-1346fVj" edRef="#capv-np" n="4b" xml:id="capv-np-4b-start"/>lasvabhāvaviprakṛṣṭānāṃ padārthānām arvācīne
 	jane nirākāre ca jñāne sphuraṇāyogād ity asyārthasya śāstre eva
-	vistareṇa prasādhānāt | sphuraṇe <choice><sic>cā</sic><corr source="RNAms_70b4">vā</corr></choice><note resp="#pma" xml:lang="en" type="public"><foreign xml:lang="sa">vā</foreign> is not well distinguishable from <foreign xml:lang="sa">cā</foreign> in the script of <bibl><ref target="#RNAms"/></bibl>, and on <bibl><ref target="#thakur75"/><citedRange>131,8</citedRange></bibl> there is <foreign xml:lang="sa">sādhyātmāpi</foreign>, which one would also expect here.  Also, <foreign xml:lang="sa">vā</foreign> makes good sense, since this is an alternative to the non-appearance in the previous sentence. But <foreign xml:lang="sa">ca</foreign> in an adversative sense cannot be excluded.</note> sādhyasyāpi
+	vistareṇa prasādhānāt | sphuraṇe <choice><sic>cā</sic><corr source="#RNAms">vā</corr></choice><note resp="#pma" xml:lang="en" type="public"><foreign xml:lang="sa">vā</foreign> is not well distinguishable from <foreign xml:lang="sa">cā</foreign> in the script of <bibl><ref target="#RNAms"/></bibl>, and on <bibl><ref target="#thakur75"/><citedRange>131,8</citedRange></bibl> there is <foreign xml:lang="sa">sādhyātmāpi</foreign>, which one would also expect here.  Also, <foreign xml:lang="sa">vā</foreign> makes good sense, since this is an alternative to the non-appearance in the previous sentence. But <foreign xml:lang="sa">ca</foreign> in an adversative sense cannot be excluded.</note> sādhyasyāpi
 	prakāśanaprasaṅge 'numānavaiyarthyasya pratipādanāt | <anchor xml:id="thakur75-131.27"/> nāpi dvitīyaḥ pakṣaḥ, deśādiviprakṛṣṭatvād
 	eva sākṣātsvākārasamarpaṇasāmarthyābhāvāt | <anchor xml:id="thakur75-131.29"/> na ca tṛtīyaḥ saṅgataḥ, sādṛśyasambhave
 	'pi samanantarabalād evāyātasya bāhyena saha pratyāsatter abhāvāt |
@@ -3997,7 +3996,7 @@
 	pratyākhyānāt | yad āhur <persName
 	sameAs="Jñānaśrīmitra">guruvaḥ</persName>
 
-	<quote source="../../jJAnazri/texts/jna-sarit.xml#jna__36r1RUA4KWUJH68G3XOKPJVVW6T ../../jJAnazri/texts/jna-sarit.xml#jna__36r1RUAACYAU1EYFF4J7C6CTNNB">
+	<quote>
 	  <lg>
 	    <l>yasya svarūpanirbhāso bādhakād yadi tan na sat |</l>
 	    <l>bādhake 'pi ka āśvāsaḥ svarūpāntarabhāsini ||</l>
@@ -4658,7 +4657,10 @@
 	  Pramāṇanayatattvālokālaṅkāraḥ Tadvyākhyā ca Syādvādaratnākaraḥ,
 	  ed. by Motīlāl Lādhājī. Puṇyapattana: Lakṣmaṇ Bhāurāv Kokāṭe, 1926--30
 	</bibl>
-	
+	<bibl xml:id="patil03">Patil, Parimal G. 2003. “On what it is that buddhists
+	think about: apoha in the ratnakīrti-nibandhāvali.” Journal of
+	Indian Philosophy 31 (1–3): 229–56.
+	</bibl>
 
       </listBibl>
 

@@ -96,7 +96,7 @@
 <editorialDecl>
 <p>The print edition has two types of footnotes: notes to the texts (labelled with special symbols such as crosses and asterisks) and notes for the critical apparatus (labelled with arabic numbers). The footnote references to the critical apparatus were encoded as anchor-elements. The critical notes were encoded as app-elements and are located in the back-element of this file. The notes that do not belong to the critical apparatus were encoded as <gi>note</gi> and are located were the footnote reference appears in the print edition. In vol. 2 the Nyāyasaurabhaṭippaṇī by K. S. Varadacharya is shorter and appeared in footnotes. Therefore it was also wrapped in note-elements.</p>
 <p xml:id="nyāma-fn-corr">In many cases the symbol (or number) used in the footnote reference does not match the symbol with which the note is labelled. These instances have been corrected.</p>
-<p xml:id="nyāma-fn-noref">Some notes have no corresponding footnote reference in the print edition. These notes were either manually relocated or left at the end of the page were they appear. If this is the case of a critical note, the from- and to- attributes of the app-element were left empty.</p>
+<p xml:id="nyāma-fn-noref">Some notes have no corresponding footnote reference in the print edition. These notes were either manually relocated or left at the end of the page were they appear. If this is the case of a critical note, the from- and to- attributes of the app-element are missing.</p>
 <p xml:id="nyāma-no-note">Footnote references (i.e. superscript numbers) that had no corresponding note were enclosed in <gi>sic</gi>.</p>
 <p xml:id="nyāma-anchor">A few anchor elements were supplied by the encoder.</p>
 <correction xml:id="nyāma-corr">
@@ -130,6 +130,9 @@
       <!-- ... -->
     </profileDesc>
     <revisionDesc>
+      <change who="#pma" when="2025-06-24">Deleted empty from and to
+      attributes on app entries (updated schema forbids empty
+      values).  They have been linked to <ref target="#nyāma-fn-noref">the corresponding interpretation</ref>.</change>
       <change who="#pma" when="2017-04-07">Replaced critical notes with app- and anchor elements.</change>
       <change who="#sarit-encoder-nyāma" when="2017-04-11">For a complete history of the changes in this file go to <ref target="https://github.com/sarit/SARIT-corpus/commits/master/nyayamanjari.xml">SARIT GitHub Repository</ref>.</change>
       <change who="#sarit-encoder-nyāma" when="2020-09-18">Input corrections from the <ref target="#nyāma-corr">list of errata</ref>.</change>
@@ -21563,7 +21566,7 @@
               <l>व्यावृत्तं वस्तुनो रूपं नानुगामीति का प्रमा ?</l>
             </lg><lb ed="KSV"/>
             <p>तथाहि—<anchor xml:id="NM-2-29-3__1"/>निर्विकल्पक<anchor xml:id="NM-2-29-3__2"/>कालस्यातिसूक्ष्मत्वात् किं प्रतिभासते ? किं<lb ed="KSV"/>
-न प्रतिभासते ? इति कथमेष <note n="2-29-c" resp="#nyāma-fn-noref"><p>कालिः—<q>कालिस्स्त्री कलिकायां, ना शूराजिकलहे युगे</q> 
+न प्रतिभासते ? इति कथमेष <note n="2-29-c" ana="#nyāma-fn-noref"><p>कालिः—<q>कालिस्स्त्री कलिकायां, ना शूराजिकलहे युगे</q> 
       <ref cRef="">मेदिनी</ref> ॥</p></note>कलिरावयोरुपशाम्यतु ! भवान् ब्रूते—<lb ed="KSV"/>
 
 
@@ -23044,7 +23047,7 @@
             <label type="head">पुरुषस्यापि वाक्यर्थत्वासंभवः</label>
             <lb ed="KSV"/>
             <p>उच्यते—पुरुषस्तावन्न वाक्यार्थः; आख्यातवाच्यत्व एव तस्य<lb ed="KSV"/>
-<note n="2-81-a" resp="#nyāma-fn-noref"><p>विवदन्ते—भावना, कृतिर्वा आख्यातार्थ इति किल मन्यन्ते ॥</p></note>विवदन्ते, का कथा वाक्यार्थत्वस्य ?</p>
+<note n="2-81-a" ana="#nyāma-fn-noref"><p>विवदन्ते—भावना, कृतिर्वा आख्यातार्थ इति किल मन्यन्ते ॥</p></note>विवदन्ते, का कथा वाक्यार्थत्वस्य ?</p>
             <lb ed="KSV"/>
             <p>ननु <q>कर्तरि लकारः</q> इति स्मरणात् कथं नाख्यातवाच्यः कर्ता ?<lb ed="KSV"/>
 कोऽयं लकारो नाम ? <note n="2-81-b"><p>स हीति—एभिस्सर्वैर्मिलित्वैव लकारस्वरूपं ज्ञातव्यम् ॥</p></note>स हि <q>वर्तमाने लट्—</q>इति विधाय, <q>कर्तरि शप्</q><lb ed="KSV"/>
@@ -23221,7 +23224,7 @@
 भावनेत्युच्यते । तस्मिंश्च पक्षे धातुवाच्यत्वमपि भावनाया वक्तुं<lb ed="KSV"/>
 शक्यते ॥</p>
             <lb ed="KSV"/>
-            <p>पाकादिशब्देभ्यो <note n="2-87-b" resp="#nyāma-fn-noref"><p>धातौ सत्यपि—धात्वर्थे प्रतीयमानेऽपि । <q>भवत्यादौ</q> इत्यत्र आदिना करोत्यादिपरिग्रहः ॥</p></note>धातौ सत्यपि तदप्रतीतेः न धातुवाच्यत्वं भावनाया<lb ed="KSV"/>
+            <p>पाकादिशब्देभ्यो <note n="2-87-b" ana="#nyāma-fn-noref"><p>धातौ सत्यपि—धात्वर्थे प्रतीयमानेऽपि । <q>भवत्यादौ</q> इत्यत्र आदिना करोत्यादिपरिग्रहः ॥</p></note>धातौ सत्यपि तदप्रतीतेः न धातुवाच्यत्वं भावनाया<lb ed="KSV"/>
 इति चेत्, भवत्यादौ तर्हि सत्यति प्रत्यये तदप्रतीतेः प्रत्ययवाच्यत्वमपि<lb ed="KSV"/>
 न स्यात् । तदलमनेन <anchor xml:id="NM-2-87-2__1"/>निर्धारण<anchor xml:id="NM-2-87-2__2"/>प्रयत्नेत । सर्वथा धातोर्वा प्रत्ययाद्वा<lb ed="KSV"/>
 भावनाऽवगम्यत इति सिद्धम् ॥</p>
@@ -23456,7 +23459,7 @@
 श्रवणपरवशः प्रवर्तेत, न चैवमस्ति । तस्मादर्थप्रतीतिमुपजनयतः<lb ed="KSV"/>
 शब्दस्य प्रवर्तकत्वम् ॥</p>
             <lb ed="KSV"/>
-        <note n="2-96-c" resp="#nyāma-fn-noref"><p>लडाख्यातादेः ॥</p></note>
+        <note n="2-96-c" ana="#nyāma-fn-noref"><p>लडाख्यातादेः ॥</p></note>
             <pb ed="KSV" n="II.97"/>
             <label type="head">लिङादेः प्रवर्तकत्वप्रकारः</label>
             <lb ed="KSV"/>
@@ -23957,7 +23960,7 @@
 स्वतः प्रवृत्तत्वेन विधिवैफल्यात् नञश्च श्रूयमाणस्यानर्थक्यप्रसङ्गात्<lb ed="KSV"/>
 विधायिका शक्तिः नञर्थमेव स्पृशतीति किं नेष्यते ?</p>
             <lb ed="KSV"/>
-<note n="2-116-b" resp="#nyāma-fn-noref"><p>हननस्य साक्षाद्विधिनैवान्वयात् ॥</p></note>
+<note n="2-116-b" ana="#nyāma-fn-noref"><p>हननस्य साक्षाद्विधिनैवान्वयात् ॥</p></note>
             <pb ed="KSV" n="II.117"/>
             <p>ननु ! उक्तमत्प्र <q>भावार्थाः कर्मशब्दाः</q> इति । तत्र दध्यनुरक्तो<lb ed="KSV"/>
 होम एव विधीयत इति फलतो दधि विहितं भवति, न प्रमाणतः । इह<lb ed="KSV"/>
@@ -24485,7 +24488,7 @@
             <p>वाक्यार्थस्तु न क्वचिदपि सूत्रकारभाष्यकाराभ्यां सूचित <anchor xml:id="NM-2-135-1__1"/>इति कुतः<lb ed="KSV"/>
 शिक्षित्वा वाक्यार्थस्वरूपं वयमाचक्ष्महे । किमिति ताभ्यामसौ न सूचितः<lb ed="KSV"/>
 
-<note n="2-135-a" resp="#nyāma-fn-noref"><p>उपलंभः—ज्ञानं, न तु प्रत्यक्षम् ।</p></note>
+<note n="2-135-a" ana="#nyāma-fn-noref"><p>उपलंभः—ज्ञानं, न तु प्रत्यक्षम् ।</p></note>
 
 <pb ed="KSV" n="II.136"/>
 इति चेत्<anchor xml:id="NM-2-135-1__2"/>, <note n="2-136-a"><p>गोपदं गोत्वावच्छिन्नवाचकम् । परन्तु <q>गामानय</q> इति वाक्यस्थं न यत्किञ्चिद्गोवाचकम् । किन्तु विशिष्य किञ्चिद्व्यक्तिवाचकम् ॥</p></note>पृथक्प्रस्थाना हीमा विद्याः । प्रमाणविद्या चेयमान्वीक्षकी,<lb ed="KSV"/>
@@ -25937,7 +25940,7 @@
 पदार्थज्ञानोपजननात् पुनरपि ज्ञानयौगपद्यम् । न च तदा पदार्थज्ञानं नोदे<lb break="no" ed="KSV"/>तीति शक्यते वक्तुम्, अविकलतदुपजननकारण<note n="2-193-c"><p>शक्तिज्ञानादिरूपसामग्यां सत्यां, पदे श्रुतेऽपि पदार्थस्मृतिर्न भवतीति कथज्यते ?</p></note>सामग्रीसन्निधानात्,<lb ed="KSV"/>
 प्रतिनायकस्य च तदानीमभावात् । पदार्थज्ञानोत्तरकालं तर्हि पूर्वपद<lb break="no" ed="KSV"/>स्मरणमस्त्विति चेत्; एवं तर्हि चरमपदज्ञानप्रत्यस्तमयात् अन्त्यपद<lb break="no" ed="KSV"/>
 
-<note n="2-193-a" resp="#nyāma-fn-noref"><p>वेदग्रहणादौ, लङ्घनाभ्यासादौ वा ॥</p></note>
+<note n="2-193-a" ana="#nyāma-fn-noref"><p>वेदग्रहणादौ, लङ्घनाभ्यासादौ वा ॥</p></note>
 
 
 <pb ed="KSV" n="II.194"/>
@@ -26081,7 +26084,7 @@
             <p>तत्र चेयं कल्पना—वर्णक्रमेण तावत् प्रथमपदज्ञानम् । ततः<lb ed="KSV"/>
 सङ्केतस्मरणं, संस्कारश्च युगपद्भवतः । ज्ञानयोर्हि यौगपद्यं शास्त्रे<lb ed="KSV"/>
 
-<note n="2-199-a" resp="#nyāma-fn-noref"><p>कश्मीरे अरण्ये राज्ञा शङ्करवर्मणा चिरमसौ निक्षिप्त इति वार्तेति चक्रधरः ॥</p></note>
+<note n="2-199-a" ana="#nyāma-fn-noref"><p>कश्मीरे अरण्ये राज्ञा शङ्करवर्मणा चिरमसौ निक्षिप्त इति वार्तेति चक्रधरः ॥</p></note>
 
 <pb ed="KSV" n="II.200"/>
 प्रतिषिद्धं, न संस्कारज्ञानयोः । ततः पदार्थज्ञानम् । तेनापि संस्कारः ।<lb ed="KSV"/>
@@ -26297,7 +26300,7 @@
             <lb ed="KSV"/>
             <p>यदपि पदान्तरोच्चारणमफलमिति, तदपि परिहृतम्—पदान्त<lb break="no" ed="KSV"/>रसन्निधाने हि सर्वाणि पदानि कृत्स्नकारीणि भवन्तीत्युक्तत्वात् ।<lb ed="KSV"/>
 
-<note n="2-208-a" resp="#nyāma-fn-noref"><p>कार्यान्विते शक्तिः, इतरान्विते शक्तिः, अन्विते शक्तिः इति अन्विताभिधानवादे कक्ष्यात्रयं वर्तते ॥</p></note>
+<note n="2-208-a" ana="#nyāma-fn-noref"><p>कार्यान्विते शक्तिः, इतरान्विते शक्तिः, अन्विते शक्तिः इति अन्विताभिधानवादे कक्ष्यात्रयं वर्तते ॥</p></note>
 
 
 <pb ed="KSV" n="II.209"/>
@@ -26635,7 +26638,7 @@
 भवतीति तस्यापि तथैव व्युत्पत्त्यभाव इति तेनाप्यन्यः कश्चिदभिगन्तव्यः ।<lb ed="KSV"/>
 सोऽप्यन्यमित्यन्धपरम्परा प्राप्नोति । न च वेद एव, <q>वृद्धिरादैच्</q> इति<lb ed="KSV"/>
 
-<note n="2-219-a" resp="#nyāma-fn-noref">सान्द्रे—संसर्गज्ञानवति ॥</note>
+<note n="2-219-a" ana="#nyāma-fn-noref">सान्द्रे—संसर्गज्ञानवति ॥</note>
 
 
 <pb ed="KSV" n="II.220"/>
@@ -27242,7 +27245,7 @@
 यदुपेया क्रिया, तदुपायः कारकमिसि । विपर्यये तु कीदृशः कारक<lb ed="KSV"/>
 <unclear reason="illegible"/>वः ?</p>
             <lb ed="KSV"/>
-<note n="2-242-a" resp="#nyāma-fn-noref"><p>अतिशायने खलु तमप् ॥</p></note>
+<note n="2-242-a" ana="#nyāma-fn-noref"><p>अतिशायने खलु तमप् ॥</p></note>
             <pb ed="KSV" n="II.243"/>
             <label type="head">कर्मत्वविशेषः</label>
             <lb ed="KSV"/>
@@ -29684,7 +29687,7 @@
             <lb ed="KSV"/>
             <p>आयुष्मन् ! सोऽप्युच्यताम् ॥</p>
             <lb ed="KSV"/>
-<note n="2-333-a" resp="#nyāma-fn-noref"><p>तथाचार्थजन्यत्वात्तस्य प्रत्यक्षत्वम् ॥</p></note>
+<note n="2-333-a" ana="#nyāma-fn-noref"><p>तथाचार्थजन्यत्वात्तस्य प्रत्यक्षत्वम् ॥</p></note>
             <pb ed="KSV" n="II.334"/>
             <p>उक्त एवेन्द्रियस्यातीतग्रहणविषये सामर्थ्यविरहः । वत्स ! <anchor xml:id="NM-2-334-1__1"/>न<lb ed="KSV"/>
 स<anchor xml:id="NM-2-334-1__2"/>म्यगुक्तवानसि । नायमिन्द्रियस्य तिमिरादिरिव दोषः । अतीते<lb ed="KSV"/>
@@ -30931,8 +30934,8 @@
             <p>उपस्थेन्द्रियं च कथमेकं गण्यते, तेनानन्दवत् मूत्रोत्सर्गस्यापि<lb ed="KSV"/>
 साधनात् ॥</p>
             <lb ed="KSV"/>
-<note n="2-379-a" resp="#nyāma-fn-noref"><p>किं बहुना । वृश्चिकासनाद्यभ्यासवन्तो हि पाणिभ्यामपीषद्विहरन्ति ॥</p></note>
-<note n="2-379-b" resp="#nyāma-fn-noref"><p>अखण्डगेय—गानविशेषः, आनाभेरुत्थप्यमानस्वरैर्गेयः ॥</p></note>
+<note n="2-379-a" ana="#nyāma-fn-noref"><p>किं बहुना । वृश्चिकासनाद्यभ्यासवन्तो हि पाणिभ्यामपीषद्विहरन्ति ॥</p></note>
+<note n="2-379-b" ana="#nyāma-fn-noref"><p>अखण्डगेय—गानविशेषः, आनाभेरुत्थप्यमानस्वरैर्गेयः ॥</p></note>
             <pb ed="KSV" n="II.380"/>
             <label type="head">वाचः इन्द्रियत्वानुपपत्तिः</label>
             <lb ed="KSV"/>
@@ -31110,7 +31113,7 @@
 लक्ष्यं व्यवच्छिद्यते । व्यवच्छिद्यते च बुद्धिः बुद्ध्यादिपर्यायवाच्यतयैव<lb ed="KSV"/>
 तेभ्य<note n="2-386-a"><p>तेभ्यः—समानेतरजातीयेभ्यः ॥</p></note> इति नाभिधानमालामात्रमिदम् ॥</p>
             <lb ed="KSV"/>
-<note n="2-386-b" resp="#nyāma-fn-noref">बुध्युपलब्धिज्ञानानां भिन्नत्वं सांख्या मन्यन्ते । तन्निराकरणार्थं एषामर्थान्तरत्वं निरस्यते सूत्रे । इतरदार्थिकम् ॥</note>
+<note n="2-386-b" ana="#nyāma-fn-noref">बुध्युपलब्धिज्ञानानां भिन्नत्वं सांख्या मन्यन्ते । तन्निराकरणार्थं एषामर्थान्तरत्वं निरस्यते सूत्रे । इतरदार्थिकम् ॥</note>
             <pb ed="KSV" n="II.387"/>
             <label type="head">सूत्रस्य लक्षणपरत्वम्</label>
             <lb ed="KSV"/>
@@ -31308,7 +31311,7 @@
               <l>प्राप्ते शरीरभेदे चरितार्थत्वात्प्रधानविनिवृत्तौ ।</l><lb ed="KSV"/>
               <l>ऐकान्तिकमात्यन्तिकमुभयं कैवल्यमाप्नोति—इति ॥</l>
             </lg><lb ed="KSV"/>
-<note  n="2-393-a" resp="#nyāma-fn-noref"><q>स्वभावो दुरतिक्रमः</q> इति हि न्यायः ॥</note>
+<note  n="2-393-a" ana="#nyāma-fn-noref"><q>स्वभावो दुरतिक्रमः</q> इति हि न्यायः ॥</note>
             <pb ed="KSV" n="II.394"/>
             <label type="head">बुद्धि-ज्ञान-उपलब्धिपदानामपर्यायत्वम्</label>
             <lb ed="KSV"/>
@@ -31355,7 +31358,7 @@
             <p>नित्यमन्तःकरणमन्तरेण पुंसः उपलब्धिर्न भवेदिति बुद्धेः कल्पना<lb ed="KSV"/>
 चेत्—अस्त्येव नित्यमन्तःकरणं मनः । तेन करणेन कर्तुरात्मनः विषयो<lb ed="KSV"/>
 
-<note n="2-395-a" resp="#nyāma-fn-noref"><p>यतः पुरुषः अपरिणामी अप्रतिसंक्रमश्च ॥</p></note>
+<note n="2-395-a" ana="#nyāma-fn-noref"><p>यतः पुरुषः अपरिणामी अप्रतिसंक्रमश्च ॥</p></note>
 
 
 <pb ed="KSV" n="II.396"/>
@@ -31452,7 +31455,7 @@
             <lb ed="KSV"/>
             <p>अनुभयात्मकं तु वस्तु नास्त्येवेति तत्पारिशेष्यात् सदेव कार्यम् ॥</p>
             <lb ed="KSV"/>
-<note n="2-399-a" resp="#nyāma-fn-noref">तिलेष्विति शेषः ॥</note>
+<note n="2-399-a" ana="#nyāma-fn-noref">तिलेष्विति शेषः ॥</note>
             <pb ed="KSV" n="II.400"/>
             <p>किमिति <anchor xml:id="NM-2-400-1__1"/>च तदा<anchor xml:id="NM-2-400-1__2"/> नोपलभ्यत इति चेत्—अनुमानेनापि यदुपलब्धं<lb ed="KSV"/>
 तत् किमनुपलब्धं भवति ? प्रत्यक्षेण तु तदनीमनुपलम्भोऽनभिव्यक्त<lb break="no" ed="KSV"/>त्वात् । अभिव्यतिसम्पादन एव च कारकप्रयत्नसाफल्यम् । कार्यं तु<lb ed="KSV"/>
@@ -33418,7 +33421,7 @@
               <l>व्यावृत्तिरनुवृत्तिर्वा परापेक्षाऽस्तु वस्तुषु ।</l><lb ed="KSV"/>
               <l><note n="2-470-d-3">स्वरूपेण भासमाना इति यावत् ॥</note>असङ्कीर्णस्वभावास्तु भावा भान्त्यक्षबुद्धिषु ॥</l>
             </lg><lb ed="KSV"/>
-<note n="2-470-c" resp="#nyāma-fn-noref"><p>देशान्तरकालान्तरव्यक्तीनां भानस्यावश्यकत्वात् ॥</p></note>
+<note n="2-470-c" ana="#nyāma-fn-noref"><p>देशान्तरकालान्तरव्यक्तीनां भानस्यावश्यकत्वात् ॥</p></note>
             <pb ed="KSV" n="II.471"/>
             <label type="head">प्रत्यक्षं भेदाभेदोभयविषयकम्</label>
             <lb ed="KSV"/>
@@ -33675,7 +33678,7 @@
 शिष्टोऽर्थः । तस्य हि न नेत्रेण, न श्रोत्रेण, नोभाभ्यां, न केवलं मनसा<lb ed="KSV"/>
 वा ग्रहणमुपपद्यते, अतिप्रसङ्गात् । शब्दो हि अनेकधर्मके धर्मिणि एक<lb ed="KSV"/>
 
-<note n="2-479-a" resp="#nyāma-fn-noref"><q>अनादिनिधनं</q><q>न सोऽस्ति प्रत्ययः</q><q>वाग्रूपता चेत्</q> इति श्लोकैरुक्तम्, शब्दस्य तत्त्वरूपत्वम्, सर्वप्रत्ययानां शब्दानुविद्धत्वम्, अर्थस्य शब्दविवर्तत्वं च ॥</note>
+<note n="2-479-a" ana="#nyāma-fn-noref"><q>अनादिनिधनं</q><q>न सोऽस्ति प्रत्ययः</q><q>वाग्रूपता चेत्</q> इति श्लोकैरुक्तम्, शब्दस्य तत्त्वरूपत्वम्, सर्वप्रत्ययानां शब्दानुविद्धत्वम्, अर्थस्य शब्दविवर्तत्वं च ॥</note>
 
 <pb ed="KSV" n="II.480"/>
 तरधर्मावधारणाभ्युपायो भवति । न तत्रात्मानमारोपयति । न हि<lb ed="KSV"/>
@@ -34716,7 +34719,7 @@
             <lb ed="KSV"/>
             <p>अपि च गजवाजिपदातिपीलुपलाशशिंशपादिदर्शनस्य तत्र घटमान<lb break="no" ed="KSV"/>त्वात्, तत्समवाये सेना<anchor xml:id="NM-2-517-4__1"/>वनादि<anchor xml:id="NM-2-517-4__2"/>प्रतीतिरुपपद्येतापि । इह तु किंसमुदाय<lb break="no" ed="KSV"/>विषयः पटप्रत्यय इति चिन्त्यम् । तन्तुससुदायालम्बन इति चेत्, तन्तु<lb break="no" ed="KSV"/>
 
-<note n="2-517-a" resp="#nyāma-fn-noref"><p>व्यक्तिषु जातिवत् ॥</p></note>
+<note n="2-517-a" ana="#nyāma-fn-noref"><p>व्यक्तिषु जातिवत् ॥</p></note>
 
 
 <pb ed="KSV" n="II.518"/>
@@ -35830,7 +35833,7 @@
             <lb ed="KSV"/>
             <p>एवमपि प्रमेयत्वादेरनैकान्तिकहेतोः तथा भागासिद्धस्यानित्यत्व<lb break="no" ed="KSV"/>सिद्धये <note n="2-560-b"><p>पृथिव्यप्तेजोवायुपरमाणवः चतुर्विधाः ॥</p></note>चतुर्विधपरमाणुपक्षीकरणे गन्धवत्त्वादेः प्रकरणसमकालात्ययाप<lb break="no" ed="KSV"/>
 
-<note n="2-560-a" resp="#nyāma-fn-noref"><p>अर्थः—धूमादिः । लिङ्गमेवानुभितिकरणमिति प्राचीनाः ॥</p></note>
+<note n="2-560-a" ana="#nyāma-fn-noref"><p>अर्थः—धूमादिः । लिङ्गमेवानुभितिकरणमिति प्राचीनाः ॥</p></note>
 
 <pb ed="KSV" n="II.561"/>
 दिष्टयोश्च उदाहरणसाधर्म्यसंभवात् हेतुत्वं भवेदिति तद्व्यवच्छेदाय साध्य<lb ed="KSV"/>
@@ -37031,7 +37034,7 @@
 व्याख्यायेते ॥</p>
             <lb ed="KSV"/>
 
-<note n="2-607-b" resp="#nyāma-fn-noref"><p>व्यतिरेकः—विपक्षावृत्तित्वम् ॥</p></note>
+<note n="2-607-b" ana="#nyāma-fn-noref"><p>व्यतिरेकः—विपक्षावृत्तित्वम् ॥</p></note>
 
             <pb ed="KSV" n="II.608"/>
             <label type="head">असाधारणानैकन्तिको नातिरिक्तः</label>
@@ -38241,7 +38244,7 @@
             <p>ख्यापनीयः—वर्ण्यः<note n="2-653-b"><p>वर्ण्यः—प्रकृत इति यावत् ॥</p></note>—प्रतिपिपादयिषितः साध्यधर्मः । तद्विपर्य<lb break="no" ed="KSV"/>यात् अवर्ण्यः—सिद्धः दृष्टान्तधर्मः । तावेतौ <unclear resp="#nyāma-q">'</unclear>वर्ण्यावण्यौ विपर्यस्यन्—<lb ed="KSV"/>
 इतरमितरेण समीकुर्वन् प्रत्यवस्थानं यत् करोति, तौ व<anchor xml:id="NM-2-653-4__1"/>र्ण्यावर्ण्यसमौ<lb ed="KSV"/>
 
-<note n="2-653-a" resp="#nyāma-fn-noref"><p>साधर्म्यमात्राद्वस्तुसिद्धिश्चेत्, सत्तासाधर्म्यात् गौरप्यश्वो भवेत् ॥</p></note>
+<note n="2-653-a" ana="#nyāma-fn-noref"><p>साधर्म्यमात्राद्वस्तुसिद्धिश्चेत्, सत्तासाधर्म्यात् गौरप्यश्वो भवेत् ॥</p></note>
 
 
 
@@ -46470,7 +46473,7 @@
         <app from="#NM-2-156-5__1" to="#NM-2-156-5__2" n="2-156-5">
           <rdg wit="#nyāma-wit__gha" type="variant">शास्त्रे—</rdg>
         </app>
-        <app from="" to="" n="2-157-1" resp="#nyāma-fn-noref">
+        <app n="2-157-1" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__gha" type="variant">धृं—</rdg>
         </app>
         <app from="#NM-2-158-1__1" to="#NM-2-158-1__2" n="2-158-1">
@@ -46569,7 +46572,7 @@
         <app from="#NM-2-174-1__1" to="#NM-2-174-1__2" n="2-174-1">
           <rdg wit="#nyāma-wit__kha" type="variant">भ्युप—</rdg>
         </app>
-        <app from="" to="" n="2-175-1" resp="#nyāma-fn-noref">
+        <app n="2-175-1" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">तत्त्व—</rdg>
         </app>
         <app from="#NM-2-176-1__1" to="#NM-2-176-1__2" n="2-176-1">
@@ -46674,7 +46677,7 @@
         <app from="#NM-2-192-2__1" to="#NM-2-192-2__2" n="2-192-2">
           <rdg wit="#nyāma-wit__kha" type="variant">युक्त—</rdg>
         </app>
-        <app from="" to="" n="2-193-1" resp="#nyāma-fn-noref">
+        <app n="2-193-1" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">स्य—</rdg>
         </app>
         <app from="#NM-2-193-2__1" to="#NM-2-193-2__2" n="2-193-2">
@@ -46908,7 +46911,7 @@
         <app from="#NM-2-233-1__1" to="#NM-2-233-1__2" n="2-233-1">
           <rdg wit="#nyāma-wit__kha" type="variant">यौक्तिक—</rdg>
         </app>
-        <app n="2-233-2" from="" to="" resp="#nyāma-fn-noref">
+        <app n="2-233-2" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__ca" type="variant">कल्पा—</rdg>
         </app>
         <app from="#NM-2-234-1__1" to="#NM-2-234-1__2" n="2-234-1">
@@ -47023,7 +47026,7 @@
         <app from="#NM-2-248-2__1" to="#NM-2-248-2__2" n="2-248-2">
           <rdg wit="#nyāma-wit__kha" type="variant">दा—</rdg>
         </app>
-        <app from="" to="" n="2-249-1" resp="#nyāma-fn-noref">
+        <app n="2-249-1" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">न—</rdg>
         </app>
         <app from="#NM-2-249-2__1" to="#NM-2-249-2__2" n="2-249-2">
@@ -47374,7 +47377,7 @@
         <app from="#NM-2-286-2__1" to="#NM-2-286-2__2" n="2-286-2">
           <rdg wit="#nyāma-wit__ka" type="variant">रुद्ध्य—</rdg>
         </app>
-        <app from="" to="" n="2-286-3" resp="#nyāma-fn-noref">
+        <app n="2-286-3" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__ga" type="variant">मथ्य—</rdg>
         </app>
         <app from="#NM-2-286-4__1" to="#NM-2-286-4__2" n="2-286-4">
@@ -47401,7 +47404,7 @@
         <app from="#NM-2-288-3__1" to="#NM-2-288-3__2" n="2-288-3">
           <rdg wit="#nyāma-wit__kha" type="variant">न—</rdg>
         </app>
-        <app from="" to="" n="2-288-4" resp="#nyāma-fn-noref">
+        <app n="2-288-4" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">त्—</rdg>
         </app>
         <app from="#NM-2-289-1__1" to="#NM-2-289-1__2" n="2-289-1">
@@ -48208,7 +48211,7 @@
         <app from="#NM-2-366-3__1" to="#NM-2-366-3__2" n="2-366-3">
           <rdg wit="#nyāma-wit__ca" type="variant">व—</rdg>
         </app>
-        <app from="" to="" n="2-366-4" resp="#nyāma-fn-noref">
+        <app n="2-366-4" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">सकलत्व—</rdg>
         </app>
         <app from="#NM-2-367-1__1" to="#NM-2-367-1__2" n="2-367-1">
@@ -48313,7 +48316,7 @@
         <app from="#NM-2-379-2__1" to="#NM-2-379-2__2" n="2-379-2">
           <rdg wit="#nyāma-wit__kha #nyāma-wit__gha" type="variant">पि—</rdg>
         </app>
-        <app from="" to="" n="2-379-3" resp="#nyāma-fn-noref">
+        <app n="2-379-3" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha #nyāma-wit__gha" type="variant">त्व—</rdg>
         </app>
         <app from="#NM-2-379-4__1" to="#NM-2-379-4__2" n="2-379-4">
@@ -49232,7 +49235,7 @@
         <app from="#NM-2-481-3__1" to="#NM-2-481-3__2" n="2-481-3">
           <rdg wit="#nyāma-wit__ca" type="variant">सा—</rdg>
         </app>
-        <app from="" to="" n="2-481-4" resp="#nyāma-fn-noref">
+        <app n="2-481-4" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__ca" type="variant">भवन्ति—</rdg>
         </app>
         <app from="#NM-2-482-1__1" to="#NM-2-482-1__2" n="2-482-1">
@@ -49484,7 +49487,7 @@
         <app from="#NM-2-503-3__1" to="#NM-2-503-3__2" n="2-503-3">
           <rdg wit="#nyāma-wit__kha" type="variant">न तत्—</rdg>
         </app>
-        <app from="" to="" n="2-503-4" resp="#nyāma-fn-noref">
+        <app n="2-503-4" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__ca" type="variant">न न—</rdg>
         </app>
         <app from="#NM-2-504-1__1" to="#NM-2-504-1__2" n="2-504-1">
@@ -49958,7 +49961,7 @@
         <app from="#NM-2-551-2__1" to="#NM-2-551-2__2" n="2-551-2">
           <rdg wit="#nyāma-wit__ca" type="variant">वास्या—</rdg>
         </app>
-        <app from="" to="" n="2-551-3" resp="#nyāma-fn-noref">
+        <app n="2-551-3" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__ca" type="variant">ततः प्र—</rdg>
         </app>
         <app from="#NM-2-551-4__1" to="#NM-2-551-4__2" n="2-551-4">
@@ -50189,10 +50192,10 @@
         <app from="#NM-2-573-2__1" to="#NM-2-573-2__2" n="2-573-2">
           <rdg wit="#nyāma-wit__kha" type="variant">त्वे—</rdg>
         </app>
-        <app from="" to="" n="2-574-1" resp="#nyāma-fn-noref">
+        <app n="2-574-1" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">त्र—</rdg>
         </app>
-        <app from="" to="" n="2-574-2" resp="#nyāma-fn-noref">
+        <app n="2-574-2" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">वु—</rdg>
         </app>
         <app from="#NM-2-574-3__1" to="#NM-2-574-3__2" n="2-574-3">
@@ -50231,10 +50234,10 @@
         <app from="#NM-2-577-4__1" to="#NM-2-577-4__2" n="2-577-4">
           <rdg wit="#nyāma-wit__ca" type="variant">च्छिन्न—</rdg>
         </app>
-        <app from="" to="" n="2-577-5" resp="#nyāma-fn-noref">
+        <app n="2-577-5" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">परं प्रति—</rdg>
         </app>
-        <app from="" to="" n="2-578-1" resp="#nyāma-fn-noref">
+        <app n="2-578-1" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">परं प्रति—</rdg>
         </app>
         <app from="#NM-2-578-2__1" to="#NM-2-578-2__2" n="2-578-2">
@@ -50570,7 +50573,7 @@
         <app from="#NM-2-614-1__1" to="#NM-2-614-1__2" n="2-614-1">
           <rdg wit="#nyāma-wit__ca" type="variant">त—</rdg>
         </app>
-        <app from="" to="" n="2-614-2" resp="#nyāma-fn-noref">
+        <app n="2-614-2" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">म—</rdg>
         </app>
         <app from="#NM-2-615-1__1" to="#NM-2-615-1__2" n="2-615-1">
@@ -50603,7 +50606,7 @@
         <app from="#NM-2-617-3__1" to="#NM-2-617-3__2" n="2-617-3">
           <rdg wit="#nyāma-wit__kha" type="variant">स—</rdg>
         </app>
-        <app from="" to="" n="2-617-4" resp="#nyāma-fn-noref">
+        <app n="2-617-4" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">क्ष—</rdg>
         </app>
         <app from="#NM-2-618-1__1" to="#NM-2-618-1__2" n="2-618-1">
@@ -50761,7 +50764,7 @@
         <app from="#NM-2-635-1__1" to="#NM-2-635-1__2" n="2-635-1">
           <rdg wit="#nyāma-wit__kha" type="variant"><unclear reason="illegible"/>—</rdg>
         </app>
-        <app from="" to="" n="2-635-2" resp="#nyāma-fn-noref">
+        <app n="2-635-2" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant"><unclear reason="illegible"/>—</rdg>
         </app>
         <app from="#NM-2-636-1__1" to="#NM-2-636-1__2" n="2-636-1">
@@ -51287,7 +51290,7 @@
         <app from="#NM-2-691-6__1" to="#NM-2-691-6__2" n="2-691-6">
           <rdg wit="#nyāma-wit__kha" type="variant">किं—</rdg>
         </app>
-        <app from="" to="" n="2-692-1" resp="#nyāma-fn-noref">
+        <app n="2-692-1" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__ca #nyāma-wit__ja" type="variant">प—</rdg>
         </app>
         <app from="#NM-2-692-2__1" to="#NM-2-692-2__2" n="2-692-2">
@@ -51425,7 +51428,7 @@
         <app from="#NM-2-707-1__1" to="#NM-2-707-1__2" n="2-707-1">
           <rdg wit="#nyāma-wit__kha" type="variant">वर्णि—</rdg>
         </app>
-        <app from="" to="" n="2-708-1" resp="#nyāma-fn-noref">
+        <app n="2-708-1" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__ca" type="variant">कायां—</rdg>
         </app>
         <app from="#NM-2-709-1__1" to="#NM-2-709-1__2" n="2-709-1">
@@ -51458,7 +51461,7 @@
         <app from="#NM-2-711-1__1" to="#NM-2-711-1__2" n="2-711-1">
           <rdg wit="#nyāma-wit__kha" type="variant">प्या—</rdg>
         </app>
-        <app from="" to="" n="2-711-2" resp="#nyāma-fn-noref">
+        <app n="2-711-2" ana="#nyāma-fn-noref">
           <rdg wit="#nyāma-wit__kha" type="variant">दू—</rdg>
         </app>
         <app from="#NM-2-712-1__1" to="#NM-2-712-1__2" n="2-712-1">
